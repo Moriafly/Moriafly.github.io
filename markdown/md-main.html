@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html manifest="index.appcache">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="none">
+<title>Markdown 编辑器</title>
+</head>
+<body data-mode="edit">
+	<a href="../index.html">首页</a>
+	<p>老陈，md 编辑器</p>
+    <div class="ui-layout-toggler" id="north-toggler"></div>
+  <div class="ui-layout-south">
+    <div class="ui-layout-center">
+        <div id="editor"></div> <!-- 编辑器 -->
+    </div>
+      <div class="ui-layout-toggler" id="east-toggler"></div>
+      <div class="ui-layout-east">
+        <article class="markdown-body" id="preview" data-open-title="Hide Preview" data-closed-title="Show Preview">
+        </article> <!-- 实时预览 -->
+      </div>
+</div>
+    <div class="theme-list"></div>
+    <script src="https://note.youdao.com/md/vendor-c7413287a3.js"></script>
+    <script src="https://note.youdao.com/md/index-3abeeca70a.js"></script>
+</body>
+</html>
