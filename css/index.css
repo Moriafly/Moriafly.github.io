@@ -1,54 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
-
-*{
-	margin: 0;
-	padding: 0;
-}
-body{
-	background: #000;
-		
-}
-a{
-	text-decoration: none;
+.titlebg {
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
-	font-size: 40px;
-	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
-	background-size: 400%;
-	width: 400px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0;
+	
+	width: 1000px;
 	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	color:#fff;
 	
-	border-radius: 50px;
-	
-	z-index: 1;
 }
-a::before{
-	content: "";
+
+.titletext {
 	position: absolute;
-	left:-5px;
-	right:-5px;
-	top: -5px;
-	bottom: -5px;
-	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
-	background-size: 400%;
-	border-radius: 50px;
-	filter: blur(20px);
-	z-index: -1;
-}
-a:hover::before{
-	animation: sun 8s infinite;
-}
-a:hover{
-	animation: sun 8s infinite;
-}
-@keyframes sun{
-	100%{
-		background-position: -400% 0;
-	}
+	left: 50px;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: left;
+	font-size: 40px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
