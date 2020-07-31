@@ -1,0 +1,6 @@
+<image></image>
+<title></title>
+<author></author>
+<sentence></sentence>
+
+<main></main>
