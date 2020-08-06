@@ -319,10 +319,14 @@ textarea{overflow:auto}
     margin-top:22px
 }
 
-@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2),(-o-min-device-pixel-ratio:2/1),(min-resolution:2dppx),(min-resolution:192dpi){
-    .list .item:before{
-        background-image:url(https://weread-1258476243.file.myqcloud.com/wrpagenjlogic/node/wr/wrpage/style/images/independent/arrow_right_2x$3fd95eb5.png)
-    }
+@media  (-webkit-min-device-pixel-ratio:2),
+        (min-device-pixel-ratio:2),
+        (-o-min-device-pixel-ratio:2/1),
+        (min-resolution:2dppx),
+        (min-resolution:192dpi){
+            .list .item:before{
+            background-image:url(https://weread-1258476243.file.myqcloud.com/wrpagenjlogic/node/wr/wrpage/style/images/independent/arrow_right_2x$3fd95eb5.png)
+        }
 }
     
 @media (-webkit-min-device-pixel-ratio:3),(min-device-pixel-ratio:3),(-o-min-device-pixel-ratio:3/1),(min-resolution:3dppx),(min-resolution:288dpi){
