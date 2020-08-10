@@ -317,7 +317,7 @@ textarea{overflow:auto}
     display:block;
     height:64px; /* 高度 */
     line-height:64px;
-    padding:0 22px;
+    padding:0 16px;
     font-size:16px;
     color:#212832;
     overflow:hidden;
