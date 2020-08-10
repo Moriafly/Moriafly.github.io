@@ -60,7 +60,13 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
     display:block
 }
     
-audio,canvas,video{display:inline-block}.qui_txtNormal{font-weight:400!important}
+audio,canvas,video{
+    display:inline-block
+}
+
+.qui_txtNormal{
+    font-weight:400!important
+}
 
 .qui_txtBold{
     font-weight:700!important
@@ -116,8 +122,24 @@ audio,canvas,video{display:inline-block}.qui_txtNormal{font-weight:400!important
     display:none!important
 }
 
-@-webkit-keyframes iconBreathe{0%{-webkit-transform:scale(1);transform:scale(1)}40%{-webkit-transform:scale(1.3);
-    transform:scale(1.3)}60%{-webkit-transform:scale(1);transform:scale(1)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+@-webkit-keyframes iconBreathe{
+    0%{
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    } 
+    40%{
+        -webkit-transform:scale(1.3);
+        transform:scale(1.3)
+    }
+    60%{
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    }
+    100%{
+        -webkit-transform:scale(1);
+        transform:scale(1)
+    }
+}
     
 @keyframes iconBreathe{
     0%{
@@ -287,14 +309,23 @@ textarea{overflow:auto}
     margin-top:35px
 }
 
-.list{padding-bottom:52px}
+.list{
+    padding-bottom:52px
+}
 
 .list .item{
     display:block;
     height:64px; /* 高度 */
-    line-height:51px;
+    line-height:64px;
     padding:0 22px;
-    font-size:16px;color:#212832;overflow:hidden;white-space:nowrap;-o-text-overflow:ellipsis;text-overflow:ellipsis;word-break:break-all;word-wrap:normal}
+    font-size:16px;
+    color:#212832;
+    overflow:hidden;
+    white-space:nowrap;
+    -o-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    word-break:break-all;
+    word-wrap:normal}
     
 .wr_darkTheme .list .item{
     color:#f0f0f2
@@ -336,9 +367,9 @@ textarea{overflow:auto}
 
 }
 
-/* 高度 */
+/* 第一项高度 */
 .list li:first-child .item{
-    line-height:56px
+    line-height:64px
 }
 
 .detail{padding:0 16px}
