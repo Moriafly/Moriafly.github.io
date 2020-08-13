@@ -727,7 +727,7 @@
     font-size: 20px;
     line-height: 1.45;
     overflow: auto;
-    padding: 16px;
+    padding: 0px;
   }
   
   .markdown-body pre code {
