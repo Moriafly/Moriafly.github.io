@@ -1,53 +1,2958 @@
 <!DOCTYPE html>
 <html manifest="index.appcache">
+
 <head>
-<meta charset="utf-8">
-<title>Moria 学习网站</title>
-<style>
-	article{font:16px/1.5 微软雅黑 sans-serif;width: 800px;margin: auto;padding: 50px;
-		text-align: center; }
-</style>
-<link href="css/main.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<title>Moria 学习网站</title>
 
-
-	<script>
-		var _hmt = _hmt || [];
-		(function() {
-		var hm = document.createElement("script");
-		hm.src = "https://hm.baidu.com/hm.js?9518b2fee3451a2799320d6550b9bc9e";
-		var s = document.getElementsByTagName("script")[0]; 
-		s.parentNode.insertBefore(hm, s);
-		})();
-	</script>
+	<link href="moria/css/app.css" rel="stylesheet" type="text/css">
 
 </head>
-	
-<body>
-	<div class="titlebg">
-		<div class="titletext">
-			Moria 学习网站
-		</div>
-	</div>
-	
-	<div class="mainbg">
-		<p>学习呀~</p>
-  
-  <p><a href="vb6/visual-basic-6.0.html"><img src="images/vb6.jpg" width="228" height="180" alt=""/></a></p>
-  <p><a href="vb6/visual-basic-6.0.html">VB6 学习</a></p>
-  <p><img width="128" height="128" alt="#" src="https://www.runoob.com/wp-content/uploads/2017/05/kotlin_250x250.png"></p>
-  <p><a href="kotlin/welcome.html">Kotlin 学习</a></p>
-  <p><a href="kubi/kubi-main.html">酷比软件下载</a>  </p>
-  <p><a href="html/match.html">时钟</a></p>
-	<div><a href="markdown/md-main.html">Markdown 编辑器</a></div>
-  <p>&nbsp;</p>
-  
-	</div>
 
-	<div class="footbg">
-		<div class="foottext">
-			<p>© 2020 Moria 保留所以权利</p>
-  			<p>Chen Keheng &amp; Wu Shihao</p>
-		</div>	
-	</div>
+<body type="reference" theme="android-theme" class="" layout="docs" block-apix="" ready="">
+	<devsite-progress id="app-progress"></devsite-progress>
+	<section class="devsite-wrapper">
+		<devsite-header top-row--height="48" bottom-row--height="104" bottom-tabs--height="48" fixed="" offset="56"
+			bottom-row--hidden="">
+
+			<div class="devsite-header--inner">
+				<div class="devsite-top-logo-row-wrapper-wrapper">
+					<div class="devsite-top-logo-row-wrapper">
+						<div class="devsite-top-logo-row">
+							<button type="button" id="devsite-hamburger-menu"
+								class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+								data-category="Site-Wide Custom Events" data-label="Navigation menu button"
+								aria-label="Open menu" _msthidden="A" _msthiddenattr="2415933" _mstaria-label="116181">
+							</button>
+							<div class="devsite-product-name-wrapper">
+								<a href="/" class="devsite-site-logo-link gc-analytics-event"
+									data-category="Site-Wide Custom Events" data-label="Site logo"
+									track-type="globalNav" track-name="androidDevelopers" track-metadata-position="nav"
+									track-metadata-eventdetail="nav">
+									<img src="https://www.gstatic.cn/devrel-devsite/prod/v1241c04ebcb2127897d6c18221acbd64e7ed5c46e5217fd83dd808e592c47bf6/android/images/lockup.svg"
+										class="devsite-site-logo" alt="Android Developers">
+								</a>
+
+								<span class="devsite-product-name">
+									<ul class="devsite-breadcrumb-list">
+										<li class="devsite-breadcrumb-item
+             ">
+										</li>
+									</ul>
+								</span>
+							</div>
+							<div class="devsite-top-logo-row-middle">
+								<div class="devsite-header-upper-tabs">
+									<devsite-tabs class="upper-tabs" connected="">
+
+										<nav class="devsite-tabs-wrapper" aria-label="上部导航" _mstaria-label="12762958">
+											<tab>
+												<a href="/about" class="gc-analytics-event " track-type="globalNav"
+													track-metadata-position="nav" track-metadata-eventdetail="nav"
+													track-name="platform" data-category="Site-Wide Custom Events"
+													data-label="Tab: Platform" _msthash="118228201"
+													_msttexthash="4435041">平台</a>
+
+											</tab>
+											<tab>
+												<a href="/studio" class="gc-analytics-event " track-type="globalNav"
+													track-metadata-position="nav" track-metadata-eventdetail="nav"
+													track-name="androidStudio" data-category="Site-Wide Custom Events"
+													data-label="Tab: Android Studio" _msthash="118234272"
+													_msttexthash="13159016">安卓工作室</a>
+
+											</tab>
+
+
+
+
+											<tab active="">
+												<a href="/docs" class="gc-analytics-event " track-type="globalNav"
+													track-metadata-position="nav" track-metadata-eventdetail="nav"
+													track-name="docs" aria-label="已选择的文档"
+													data-category="Site-Wide Custom Events" data-label="Tab: Docs"
+													_mstaria-label="20815600" _msthash="118258556"
+													_msttexthash="5144373">文档</a>
+
+											</tab>
+										</nav>
+									</devsite-tabs>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="devsite-collapsible-section
+    " style="transform: translate3d(0px, -56px, 0px);">
+					<div class="devsite-header-background">
+						<div class="devsite-product-id-row">
+							<div class="devsite-product-description-row">
+								<ul class="devsite-breadcrumb-list">
+									<li class="devsite-breadcrumb-item
+             ">
+										<a href="/docs" class="devsite-breadcrumb-link gc-analytics-event"
+											data-category="Site-Wide Custom Events" data-label="Lower Header"
+											data-value="1" _msthash="136361004" _msttexthash="5144373">文档</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="devsite-doc-set-nav-row">
+							<devsite-tabs class="lower-tabs" connected="">
+
+								<nav class="devsite-tabs-wrapper" aria-label="下部导航" _mstaria-label="12763049">
+									<tab>
+										<a href="/docs" class="gc-analytics-event " track-type="globalNav"
+											track-metadata-position="nav" track-metadata-eventdetail="nav"
+											track-name="overview" data-category="Site-Wide Custom Events"
+											data-label="Tab: Overview" _msthash="127720567"
+											_msttexthash="6290102">概述</a>
+
+									</tab>
+									<tab>
+										<a href="/guide" class="gc-analytics-event " track-type="globalNav"
+											track-metadata-position="nav" track-metadata-eventdetail="nav"
+											track-name="guides" data-category="Site-Wide Custom Events"
+											data-label="Tab: Guides" _msthash="127726872" _msttexthash="4525781">指南</a>
+
+									</tab>
+
+
+									<tab active="">
+										<a href="/reference" class="gc-analytics-event " track-type="globalNav"
+											track-metadata-position="nav" track-metadata-eventdetail="nav"
+											track-name="reference" aria-label="编号，已选定"
+											data-category="Site-Wide Custom Events" data-label="Tab: Reference"
+											_mstaria-label="24892777" _msthash="127733177" _msttexthash="5359406">参考</a>
+
+									</tab>
+									<tab>
+										<a href="/samples" class="gc-analytics-event " track-type="globalNav"
+											track-metadata-position="nav" track-metadata-eventdetail="nav"
+											track-name="samples" data-category="Site-Wide Custom Events"
+											data-label="Tab: Samples" _msthash="127739482" _msttexthash="4684277">样品</a>
+
+									</tab>
+									<tab>
+										<a href="/design" class="gc-analytics-event " track-type="globalNav"
+											track-metadata-position="nav" track-metadata-eventdetail="nav"
+											track-name="design&amp;Quality" data-category="Site-Wide Custom Events"
+											data-label="Tab: Design &amp; Quality" _msthash="127745787"
+											_msttexthash="19346249">设计与质量</a>
+
+									</tab>
+
+
+
+								</nav>
+							</devsite-tabs>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</devsite-header>
+
+		<section id="gc-wrapper" style="margin-top: 152px;">
+			<main role="main" class="devsite-main-content" has-book-nav="" has-toc="">
+				
+				<devsite-content>
+
+
+
+					<article class="devsite-article">
+						<article class="devsite-article-inner">
+							<style>
+								/* Styles inlined from /assets/css/reference-docs.css */
+								/* Style the top-level left nav links to match the accordion */
+
+								devsite-book-nav .devsite-nav-list>.devsite-nav-item:not(.devsite-nav-accordion) .devsite-nav-title {
+									border-bottom: 1px solid #ddd;
+									color: #757575;
+									font-weight: bold;
+									padding-bottom: 15px;
+									padding-top: 16px;
+								}
+
+								devsite-book-nav .devsite-nav-list>.devsite-nav-item:not(.devsite-nav-active) .devsite-nav-title:hover,
+								devsite-book-nav .devsite-nav-list>.devsite-nav-item:not(.devsite-nav-active) .devsite-nav-title:focus {
+									color: #424242;
+								}
+
+								devsite-book-nav .devsite-nav-list>.devsite-nav-item:not(.devsite-nav-accordion):not(.devsite-nav-divider):first-child {
+									margin-top: 0 !important;
+								}
+
+								devsite-book-nav .devsite-nav-accordion+.devsite-nav-item:not(.devsite-nav-accordion):not(.devsite-nav-divider),
+								devsite-book-nav .devsite-nav-divider+.devsite-nav-item:not(.devsite-nav-accordion):not(.devsite-nav-divider),
+								devsite-book-nav .devsite-nav-item:not(.devsite-nav-accordion):not(.devsite-nav-divider)+.devsite-nav-accordion,
+								devsite-book-nav .devsite-nav-item:not(.devsite-nav-accordion):not(.devsite-nav-divider)+.devsite-nav-divider {
+									margin-top: -1px;
+								}
+
+								/* Style for left nav "heading" to distinguish from accordions */
+
+								devsite-book-nav .devsite-nav-list>.devsite-nav-item.devsite-nav-heading:not(.devsite-nav-accordion) .devsite-nav-title {
+									background: #f8f9fa;
+									color: #444;
+									margin-top: -23px;
+									padding-top: 32px;
+								}
+
+								devsite-book-nav .devsite-nav-list>.devsite-nav-heading:not(.devsite-nav-divider) {
+									border-top: 0;
+								}
+
+								/* class signature at the top of the page */
+
+								.api-signature,
+								devsite-code[dark-code] .api-signature {
+									background: transparent;
+									border: 0;
+									color: inherit;
+									font-weight: normal;
+									margin: 1em 0;
+									padding: 0 0 8px;
+								}
+
+								devsite-code[dark-code] .api-signature::-webkit-scrollbar-thumb {
+									background: rgba(128, 134, 139, .26);
+								}
+
+								.api-signature~.devsite-code-buttons-container {
+									display: none;
+								}
+
+								/* the "added in" info on all APIs */
+								.api-level {
+									float: right;
+									font-size: smaller;
+									margin-top: -40px;
+								}
+
+								/* the "added in" block at the top of the page */
+								#api-info-block .api-level {
+									margin-top: 0;
+								}
+
+								@media screen and (max-width: 1000px) {
+									.api-level {
+										float: none;
+										margin-top: 0;
+									}
+
+									#api-info-block .api-level {
+										margin-bottom: 20px;
+									}
+								}
+
+								.api-level a,
+								.api-level a:active,
+								.api-level a:visited {
+									color: #222;
+								}
+
+								.api-level a:hover {
+									color: #888;
+								}
+
+								/* This element is obsolete now that devsite provides TOC */
+								#api-info-block .sum-details-links {
+									display: none;
+								}
+
+
+								/* The table that shows this class's inheritance tree */
+
+								.jd-inheritance-table tr,
+								.jd-inheritance-table tr td {
+									background-color: transparent;
+									border: none;
+									margin: 0;
+									padding: 0;
+								}
+
+								.jd-inheritance-table .jd-inheritance-space {
+									width: 2em;
+								}
+
+								/* The devsite expandable widget */
+
+								.expand-control:not(button):not(.button) {
+									color: inherit;
+									cursor: pointer;
+									padding-left: 24px;
+									position: relative;
+								}
+
+								.expand-control::before {
+									background: url(/images/styles/disclosure_down.png) no-repeat center center;
+									background-size: 34px 34px;
+									color: transparent;
+									content: '';
+									display: block;
+									height: 20px;
+									left: 0;
+									position: absolute;
+									width: 20px;
+								}
+
+								.expand-control.exw-expanded::before {
+									background: url(/images/styles/disclosure_up.png) no-repeat center center;
+								}
+
+								/* Known subclasses list */
+
+								.jd-sumtable-subclasses #subclasses-direct,
+								.jd-sumtable-subclasses #subclasses-indirect {
+									/* left margin matches width of the toggle image,
+     so this section aligns with the text above */
+									margin: 0 0 0 24px;
+								}
+
+								.jd-sumtable-subclasses .expand-control.exw-expanded+.showalways {
+									/* Hide the comma list when expanded to show the table */
+									display: none;
+								}
+
+								.jd-sumtable-subclasses tr,
+								.jd-sumtable-subclasses td {
+									background-color: transparent;
+									border: none;
+									margin: 0;
+									padding: 0;
+								}
+
+								#subclasses-direct-summary,
+								#subclasses-indirect-summary {
+									padding-left: 24px;
+								}
+
+								.jd-sumtable-expando td {
+									border: solid 1px #ddd;
+									padding: 4px;
+								}
+
+								.jd-inherited-apis .exw-expanded-content {
+									/* Force override for some lengthy devsite style selectors */
+									padding-left: 24px !important;
+									margin-top: 12px !important;
+								}
+
+
+								/* Styles for legacy doclava HTML that uses custom expando.
+ * The list of direct/indirect subclasses does not expand at all,
+ * and the list of inherited members/methods is expanded by default. */
+
+								.jd-sumtable-subclasses #subclasses-direct-list,
+								.jd-sumtable-subclasses #subclasses-indirect-list {
+									/* Force line-wraps for CSVs with no spaces */
+									word-break: break-word;
+								}
+
+								:not(devsite-expandable)>#subclasses-direct-summary,
+								:not(devsite-expandable)>#subclasses-indirect-summary {
+									display: none !important;
+								}
+
+								.jd-sumtable #subclasses-direct.jd-expando-trigger,
+								.jd-sumtable #subclasses-indirect.jd-expando-trigger {
+									margin: 0;
+								}
+
+
+								/* Force the broken legacy expandos into something that looks WAI */
+
+								.jd-expando-trigger {
+									display: inline-block;
+									height: 0;
+									margin: 0;
+									padding-top: 10px;
+									width: 24px;
+								}
+
+								.jd-expando-trigger img {
+									/* display: none; */
+									height: inherit;
+								}
+
+								.jd-expando-trigger~div>div {
+									display: block !important;
+									/* Force all inline-hidden divs to appear */
+								}
+
+								table.responsive td td:first-child,
+								table.responsive td tr:last-child td,
+								table.responsive td tr:first-child td {
+									padding: 7px 8px 8px;
+								}
+
+								.data-reference-resources-wrapper {
+									display: none;
+								}
+
+								#lattrs td:first-child,
+								.inhtable td:first-child {
+									white-space: nowrap;
+								}
+
+								#lattrs td+td,
+								.inhtable td+td {
+									white-space: normal;
+								}
+
+
+								/* Styles to highlight the preview APIs */
+
+
+								/* Must be updated with each letter-appropriate preview */
+								body.apilevel .api-title,
+								#jd-content:not(.devsite-future-version) .apilevel-P:not(.devsite-future-version) h3,
+
+								[data-version-added="R"] .api-title,
+								#jd-content:not(.devsite-future-version) [data-version-added="R"]:not(.devsite-future-version) h3 {
+									color: #f5ba15;
+								}
+
+								/* Must be updated with each letter-appropriate preview */
+								#jd-content:not(.devsite-future-version) .apilevel-P:not(.devsite-future-version) .api-level a,
+								body.apilevel-P #api-info-block .api-level a,
+
+								#jd-content[data-version-added="R"]:not(.devsite-future-version) .api-level a,
+								#api-info-block .api-level a[data-version-added="R"] {
+									color: #f5ba15 !important;
+									font-size: 14px;
+									font-weight: 900;
+								}
+
+								/* Must be updated with each letter-appropriate preview */
+								#jd-content:not(.devsite-future-version) tr.apilevel-P:not(.devsite-future-version),
+								#jd-content:not(.devsite-future-version) .apilevel-P:not(.devsite-future-version) tr,
+								table:not(.jd-inheritance-table):not(.jd-sumtable-subclasses) tr.apilevel-P:not(.devsite-future-version),
+								body.apilevel-P #jd-content table:not(.jd-inheritance-table):not(.jd-sumtable-subclasses) tr,
+
+								#jd-content:not(.devsite-future-version) tr[data-version-added="R"]:not(.devsite-future-version),
+								#jd-content:not(.devsite-future-version) [data-version-added="R"]:not(.devsite-future-version) tr,
+								table:not(.jd-inheritance-table):not(.jd-sumtable-subclasses) tr[data-version-added="R"]:not(.devsite-future-version),
+								#jd-content[data-version-added="R"] table:not(.jd-inheritance-table):not(.jd-sumtable-subclasses) tr {
+									background: none;
+								}
+
+								/* Must be updated with each letter-appropriate preview */
+								#jd-content:not(.devsite-future-version) .apilevel-P:not(.devsite-future-version) td,
+								#jd-content:not(.devsite-future-version) .apilevel-P:not(.devsite-future-version) th,
+								body.apilevel-P #jd-content:not(.devsite-future-version) table:not(.jd-inheritance-table):not(.jd-sumtable-subclasses) tr:not(.devsite-future-version) td,
+								body.apilevel-P #jd-content:not(.devsite-future-version) th,
+
+								#jd-content:not(.devsite-future-version) [data-version-added="R"]:not(.devsite-future-version) td,
+								#jd-content:not(.devsite-future-version) [data-version-added="R"]:not(.devsite-future-version) th,
+								#jd-content[data-version-added="R"]:not(.devsite-future-version) table:not(.jd-inheritance-table):not(.jd-sumtable-subclasses) tr:not(.devsite-future-version) td,
+								#jd-content[data-version-added="R"]:not(.devsite-future-version) th {
+									background: rgba(245, 185, 16, .2);
+								}
+
+								/* Must be updated with each letter-appropriate preview */
+								#jd-content:not(.devsite-future-version) tr.apilevel-P:not(.devsite-future-version) td,
+								table:not(.jd-inheritance-table):not(.jd-sumtable-subclasses) .apilevel-P:not(.devsite-future-version) td,
+
+								#jd-content:not(.devsite-future-version) tr[data-version-added="P"]:not(.devsite-future-version) td,
+								table:not(.jd-inheritance-table):not(.jd-sumtable-subclasses) [data-version-added="R"]:not(.devsite-future-version) td {
+									background: rgba(245, 185, 16, .2);
+								}
+
+								/* Must be updated with each letter-appropriate preview */
+								#jd-content:not(.devsite-future-version) .apilevel-P:not(.devsite-future-version) th,
+								body.apilevel-P #jd-content:not(.devsite-future-version) th,
+
+								#jd-content:not(.devsite-future-version) [data-version-added="R"]:not(.devsite-future-version) th,
+								#jd-content[data-version-added="R"]:not(.devsite-future-version) th {
+									background: #f5ba15;
+								}
+
+
+
+								/* Misc styles used in the reference */
+
+								h1.api-title {
+									margin-bottom: 0;
+								}
+
+								h2.api-section:not(#summary) {
+									margin-top: 60px;
+									margin-bottom: -20px;
+								}
+
+								h3.api-name {
+									margin-top: 60px;
+								}
+
+								.nolist,
+								.nolist ul,
+								.nolist ol {
+									list-style: none;
+									padding-left: 0;
+								}
+
+								table.inhtable>tbody>tr>td {
+									padding-left: 0;
+								}
+
+								table.inhtable>tbody>tr>td div:first-of-type {
+									padding-left: 12px;
+								}
+							</style>
+							<div class="devsite-banner devsite-banner-announcement">
+								<div class="devsite-banner-message">
+									<div class="devsite-banner-message-text">
+										<style>
+											.devsite-banner-announcement {
+												background: #202124;
+												color: white;
+												font-weight: 500;
+											}
+
+											.devsite-banner-announcement a {
+												color: white;
+												font-weight: 700;
+											}
+
+											.devsite-banner-announcement a:link,
+											.devsite-banner-announcement a:visited {
+												background: 0;
+											}
+
+											.devsite-banner-announcement a:hover,
+											.devsite-banner-announcement a:focus {
+												text-decoration: none;
+											}
+
+											.devsite-banner-announcement .devsite-banner-message-text {
+												margin: 0 auto;
+											}
+										</style>
+										<font _mstmutation="1" _msthash="178338615" _msttexthash="3580395"> Google is
+											committed to advancing racial equity for Black communities. <a
+												href="https://google.com/racialequity" class="gc-analytics-event"
+												data-category="Announcement" data-label="Racial Equity"
+												data-title="您所在的区域可能无法访问此链接。" _mstmutation="1">See how.</a></font>
+
+									</div>
+								</div>
+							</div>
+
+							<div class="devsite-article-meta">
+								<ul class="devsite-breadcrumb-list" role="navigation" aria-label="Breadcrumb"
+									_mstaria-label="154232">
+									<li class="devsite-breadcrumb-item
+             ">
+										<a href="/" class="devsite-breadcrumb-link gc-analytics-event"
+											data-category="Site-Wide Custom Events" data-label="Breadcrumbs"
+											data-value="1" _msthash="178928139" _msttexthash="348335">
+											Android Developers
+
+										</a>
+									</li>
+									<li class="devsite-breadcrumb-item
+             ">
+										<div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true">
+										</div>
+										<a href="/docs" class="devsite-breadcrumb-link gc-analytics-event"
+											data-category="Site-Wide Custom Events" data-label="Breadcrumbs"
+											data-value="2" _msthash="178942933" _msttexthash="44265">
+											Docs
+
+										</a>
+									</li>
+									<li class="devsite-breadcrumb-item
+             ">
+										<div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true">
+										</div>
+										<a href="/reference" class="devsite-breadcrumb-link gc-analytics-event"
+											data-category="Site-Wide Custom Events" data-label="Breadcrumbs"
+											data-value="3" _msthash="178950304" _msttexthash="131391">
+											Reference
+
+										</a>
+									</li>
+								</ul>
+								<devsite-page-rating position="header" selected-rating="0" hover-rating-star="0">
+									<div class="devsite-rating-stars">
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="1" track-metadata-score="1" track-type="feedback"
+											track-name="rating" track-metadata-position="header" role="button"
+											tabindex="0" data-title="文档根本没法用" aria-label="文档根本没用，评分为 1（最高为 5）"
+											_mstaria-label="103272559"></div>
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="2" track-metadata-score="2" track-type="feedback"
+											track-name="rating" track-metadata-position="header" role="button"
+											tabindex="0" data-title="文档水平很差" aria-label="文档质量很差，评分为 2（最高为 5）"
+											_mstaria-label="104390910"></div>
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="3" track-metadata-score="3" track-type="feedback"
+											track-name="rating" track-metadata-position="header" role="button"
+											tabindex="0" data-title="文档水平一般" aria-label="文档质量一般，评分为 3（最高为 5）"
+											_mstaria-label="105196715"></div>
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="4" track-metadata-score="4" track-type="feedback"
+											track-name="rating" track-metadata-position="header" role="button"
+											tabindex="0" data-title="文档不错" aria-label="文档不错，评分为 4（最高为 5）"
+											_mstaria-label="86033181"></div>
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="5" track-metadata-score="5" track-type="feedback"
+											track-name="rating" track-metadata-position="header" role="button"
+											tabindex="0" data-title="文档写得很好" aria-label="文档非常好，评分为 5（最高为 5）"
+											_mstaria-label="94343535"></div>
+									</div>
+								</devsite-page-rating>
+
+							</div>
+
+
+							<devsite-toc class="devsite-nav devsite-toc-embedded" devsite-toc-embedded="" expandable=""
+								visible="">
+								<ul class="devsite-nav-list" scrollbars="" _msthidden="21">
+									<li class="devsite-nav-item devsite-nav-heading devsite-toc-toggle" _msthidden="1">
+										<a href="#top_of_page" class="devsite-nav-title" _msthidden="1"><span
+												class="devsite-nav-text" tooltip="" _msthash="345037"
+												_msttexthash="5308706" _msthidden="1">目录</span></a><button type="button"
+											title="展开/收起内容"
+											class="devsite-nav-show-all button-transparent material-icons"></button>
+									</li>
+									<li class="devsite-nav-item" _msthidden="4"><a href="#summary"
+											class="devsite-nav-title" _msthidden="1"><span class="devsite-nav-text"
+												tooltip="" _msthash="345039" _msttexthash="98748"
+												_msthidden="1">Summary</span></a>
+										<ul class="devsite-nav-list" _msthidden="3">
+											<li class="devsite-nav-item" _msthidden="1"><a href="#nested-classes"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="0.0" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675299"
+														_msttexthash="232856" _msthidden="1">Nested classes</span></a>
+											</li>
+											<li class="devsite-nav-item" _msthidden="1"><a href="#constants"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="0.1" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675301"
+														_msttexthash="139308" _msthidden="1">Constants</span></a></li>
+											<li class="devsite-nav-item" _msthidden="1"><a href="#public-methods"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="0.2" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675303"
+														_msttexthash="232804" _msthidden="1">Public methods</span></a>
+											</li>
+										</ul>
+									</li>
+									<li class="devsite-nav-item" hidden="" _msthidden="6"><a href="#constants_1"
+											class="devsite-nav-title" _msthidden="1"><span class="devsite-nav-text"
+												tooltip="" _msthash="345041" _msttexthash="139308"
+												_msthidden="1">Constants</span></a>
+										<ul class="devsite-nav-list" _msthidden="5">
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#APPEARANCE_LIGHT_NAVIGATION_BARS"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="1.0" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675305"
+														_msttexthash="716495"
+														_msthidden="1">APPEARANCE_LIGHT_NAVIGATION_BARS</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#APPEARANCE_LIGHT_STATUS_BARS"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="1.1" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675307"
+														_msttexthash="584038"
+														_msthidden="1">APPEARANCE_LIGHT_STATUS_BARS</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#BEHAVIOR_SHOW_BARS_BY_SWIPE"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="1.2" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675309"
+														_msttexthash="561938"
+														_msthidden="1">BEHAVIOR_SHOW_BARS_BY_SWIPE</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#BEHAVIOR_SHOW_BARS_BY_TOUCH"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="1.3" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675311"
+														_msttexthash="559910"
+														_msthidden="1">BEHAVIOR_SHOW_BARS_BY_TOUCH</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="1.4" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675313"
+														_msttexthash="959361"
+														_msthidden="1">BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE</span></a>
+											</li>
+										</ul>
+									</li>
+									<li class="devsite-nav-item" hidden="" _msthidden="10"><a href="#public-methods_1"
+											class="devsite-nav-title" _msthidden="1"><span class="devsite-nav-text"
+												tooltip="" _msthash="345043" _msttexthash="232804" _msthidden="1">Public
+												methods</span></a>
+										<ul class="devsite-nav-list" _msthidden="9">
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#addOnControllableInsetsChangedListener(android.view.WindowInsetsController.OnControllableInsetsChangedListener)"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.0" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675315"
+														_msttexthash="1296932"
+														_msthidden="1">addOnControllableInsetsChangedListener</span></a>
+											</li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#controlWindowInsetsAnimation(int,%20long,%20android.view.animation.Interpolator,%20android.os.CancellationSignal,%20android.view.WindowInsetsAnimationControlListener)"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.1" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675317"
+														_msttexthash="787085"
+														_msthidden="1">controlWindowInsetsAnimation</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#getSystemBarsAppearance()"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.2" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675319"
+														_msttexthash="551499"
+														_msthidden="1">getSystemBarsAppearance</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#getSystemBarsBehavior()"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.3" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675321"
+														_msttexthash="480922"
+														_msthidden="1">getSystemBarsBehavior</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a href="#hide(int)"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.4" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675323"
+														_msttexthash="45214" _msthidden="1">hide</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#removeOnControllableInsetsChangedListener(android.view.WindowInsetsController.OnControllableInsetsChangedListener)"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.5" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675325"
+														_msttexthash="1486628"
+														_msthidden="1">removeOnControllableInsetsChangedListener</span></a>
+											</li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#setSystemBarsAppearance(int,%20int)"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.6" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675327"
+														_msttexthash="552591"
+														_msthidden="1">setSystemBarsAppearance</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a
+													href="#setSystemBarsBehavior(int)"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.7" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675329"
+														_msttexthash="482014"
+														_msthidden="1">setSystemBarsBehavior</span></a></li>
+											<li class="devsite-nav-item" hidden="" _msthidden="1"><a href="#show(int)"
+													class="devsite-nav-title gc-analytics-event"
+													data-category="Site-Wide Custom Events" data-action="click"
+													data-label="Embedded nav" data-value="2.8" _msthidden="1"><span
+														class="devsite-nav-text" tooltip="" _msthash="675331"
+														_msttexthash="49738" _msthidden="1">show</span></a></li>
+										</ul>
+									</li>
+									<li class="devsite-toc-toggle"><button type="button"
+											class="button-flat devsite-nav-more-items material-icons" title="展开/收起内容"
+											aria-hidden="true"></button></li>
+								</ul>
+							</devsite-toc>
+
+							<div class="devsite-article-body clearfix
+      devsite-no-page-title">
+
+
+
+
+								<div itemscope="" itemtype="http://developers.google.com/ReferenceObject">
+									<!-- This DIV closes at the end of the BODY -->
+									<meta itemprop="name" content="android.view.WindowInsetsController">
+									<meta itemprop="path" content="API level 30">
+
+
+
+									<div id="naMessage"></div>
+
+									<div id="api-info-block">
+										<div class="api-level">
+											<font _mstmutation="1" _msthash="393436" _msttexthash="294359">
+
+												Added in <a href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+													_mstmutation="1">API level 30</a></font>
+
+
+
+
+
+										</div>
+
+
+
+
+										<div class="sum-details-links">
+
+										</div><!-- end sum-details-links -->
+									</div><!-- end api-info-block -->
+
+									<div id="jd-content" data-version-added="30">
+
+										<!-- ======== START OF CLASS DATA ======== -->
+
+										<h1 class="api-title" id="windowinsetscontroller"
+											data-text="WindowInsetsController" tabindex="0" _msthash="549589"
+											_msttexthash="533364">WindowInsetsController</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										<div style="font-size:medium; margin-bottom:40px; border-top:1px solid black;"
+											class="nocontent">
+											<div style="float:right">
+
+
+
+												<font _mstmutation="1" _msthash="449908" _msttexthash="177476"><a
+														href="/reference/kotlin/android/view/WindowInsetsController"
+														data-title="View this page in Kotlin"
+														_mstmutation="1">Kotlin</a>
+													<span style="color: #ddd; padding: 0em .5em;"
+														_mstmutation="1">|</span><span
+														style="color: black; font-weight:bold"
+														_mstmutation="1">Java</span></font>
+
+
+											</div>
+										</div>
+
+										<p>
+											<code class="api-signature" translate="no" dir="ltr">
+  public
+  
+  
+  
+  interface
+  WindowInsetsController
+</code>
+											<br>
+
+
+											<code class="api-signature" translate="no" dir="ltr">
+
+
+
+</code>
+
+										</p>
+										<div class="devsite-table-wrapper">
+											<table class="jd-inheritance-table">
+
+
+												<tbody>
+													<tr>
+
+														<td colspan="1" class="jd-inheritance-class-cell"
+															_msthash="210621437" _msttexthash="1136473">
+															android.view.WindowInsetsController
+														</td>
+													</tr>
+
+
+												</tbody>
+											</table>
+										</div>
+
+
+
+
+										<br>
+										<hr>
+
+
+										<p _msthash="227664" _msttexthash="8971963">Interface to control windows that
+											generate insets.
+
+											TODO(118118435): Needs more information and examples once the API is more
+											baked.</p>
+
+
+
+
+
+
+
+
+
+										<h2 class="api-section" id="summary" data-text="Summary" tabindex="0"
+											_msthash="101664" _msttexthash="98748">Summary</h2>
+
+
+
+										<!-- ======== NESTED CLASS SUMMARY ======== -->
+										<div class="devsite-table-wrapper">
+											<table id="nestedclasses" class="responsive">
+												<tbody>
+													<tr>
+														<th colspan="2">
+															<h3 id="nested-classes" data-text="Nested classes"
+																tabindex="0" _msthash="253125" _msttexthash="232856">
+																Nested classes</h3>
+														</th>
+													</tr>
+
+
+
+													<tr data-version-added="30">
+														<td class="jd-typecol"><code translate="no" dir="ltr">
+
+
+
+
+        interface</code></td>
+														<td class="jd-descrcol" width="100%">
+															<code translate="no"
+																dir="ltr"><a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">WindowInsetsController.<wbr>OnControllableInsetsChangedListener</a></code>
+															<p>
+																<font _mstmutation="1" _msthash="953981"
+																	_msttexthash="3452787">Listener to be notified when
+																	the set of controllable controlled by a
+																	changes.&nbsp;
+
+
+																</font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsets.Type.InsetsType">InsetsType</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController">WindowInsetsController</a></code>
+															</p>
+														</td>
+													</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+													<!-- =========== ENUM CONSTANT SUMMARY =========== -->
+												</tbody>
+											</table>
+										</div>
+										<div class="devsite-table-wrapper">
+											<table id="constants" class="responsive constants">
+												<tbody>
+													<tr>
+														<th colspan="2">
+															<h3 id="constants" data-text="Constants" tabindex="0"
+																_msthash="142221" _msttexthash="139308">Constants</h3>
+														</th>
+													</tr>
+
+
+
+													<tr data-version-added="30">
+														<td><code translate="no" dir="ltr">int</code></td>
+														<td width="100%">
+															<code translate="no"
+																dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_NAVIGATION_BARS">APPEARANCE_<wbr>LIGHT_<wbr>NAVIGATION_<wbr>BARS</a></code>
+															<p _msthash="763608" _msttexthash="5821608">Changes the
+																foreground color for light navigation bars so that the
+																items on the bar can be
+																read clearly.
+
+
+															</p>
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+														<td><code translate="no" dir="ltr">int</code></td>
+														<td width="100%">
+															<code translate="no"
+																dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_STATUS_BARS">APPEARANCE_<wbr>LIGHT_<wbr>STATUS_<wbr>BARS</a></code>
+															<p _msthash="763972" _msttexthash="5340075">Changes the
+																foreground color for light status bars so that the items
+																on the bar can be read
+																clearly.
+
+
+															</p>
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+														<td><code translate="no" dir="ltr">int</code></td>
+														<td width="100%">
+															<code translate="no"
+																dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_BARS_BY_SWIPE">BEHAVIOR_<wbr>SHOW_<wbr>BARS_<wbr>BY_<wbr>SWIPE</a></code>
+															<p>
+																<font _mstmutation="1" _msthash="764336"
+																	_msttexthash="5093634">Option for : Window would
+																	like to remain interactive when
+																	hiding navigation bars by calling or
+																	.
+
+
+																</font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#setSystemBarsBehavior(int)">setSystemBarsBehavior(int)</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#hide(int)">hide(int)</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsAnimationController#setInsetsAndAlpha(android.graphics.Insets,%20float,%20float)">WindowInsetsAnimationController#setInsetsAndAlpha(Insets, float, float)</a></code>
+															</p>
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+														<td><code translate="no" dir="ltr">int</code></td>
+														<td width="100%">
+															<code translate="no"
+																dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_BARS_BY_TOUCH">BEHAVIOR_<wbr>SHOW_<wbr>BARS_<wbr>BY_<wbr>TOUCH</a></code>
+															<p>
+																<font _mstmutation="1" _msthash="764700"
+																	_msttexthash="442689">The default option for .
+
+
+																</font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#setSystemBarsBehavior(int)">setSystemBarsBehavior(int)</a></code>
+															</p>
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+														<td><code translate="no" dir="ltr">int</code></td>
+														<td width="100%">
+															<code translate="no"
+																dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE">BEHAVIOR_<wbr>SHOW_<wbr>TRANSIENT_<wbr>BARS_<wbr>BY_<wbr>SWIPE</a></code>
+															<p>
+																<font _mstmutation="1" _msthash="765064"
+																	_msttexthash="5093634">Option for : Window would
+																	like to remain interactive when
+																	hiding navigation bars by calling or
+																	.
+
+
+																</font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#setSystemBarsBehavior(int)">setSystemBarsBehavior(int)</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#hide(int)">hide(int)</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsAnimationController#setInsetsAndAlpha(android.graphics.Insets,%20float,%20float)">WindowInsetsAnimationController#setInsetsAndAlpha(Insets, float, float)</a></code>
+															</p>
+														</td>
+													</tr>
+
+
+
+												</tbody>
+											</table>
+										</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+										<!-- ========== METHOD SUMMARY =========== -->
+										<div class="devsite-table-wrapper">
+											<table id="pubmethods" class="responsive methods">
+												<tbody>
+													<tr>
+														<th colspan="2">
+															<h3 id="public-methods" data-text="Public methods"
+																tabindex="0" _msthash="253152" _msttexthash="232804">
+																Public methods</h3>
+														</th>
+													</tr>
+
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        void</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#addOnControllableInsetsChangedListener(android.view.WindowInsetsController.OnControllableInsetsChangedListener)">addOnControllableInsetsChangedListener</a>(<a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">WindowInsetsController.<wbr>OnControllableInsetsChangedListener</a> listener)
+      </code>
+
+															<p>
+																<font _mstmutation="1" _msthash="807329"
+																	_msttexthash="1043341">Adds a to the window insets
+																	controller.
+
+
+																</font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">OnControllableInsetsChangedListener</a></code>
+															</p>
+
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        void</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#controlWindowInsetsAnimation(int,%20long,%20android.view.animation.Interpolator,%20android.os.CancellationSignal,%20android.view.WindowInsetsAnimationControlListener)">controlWindowInsetsAnimation</a>(int types,<wbr> long durationMillis,<wbr> <a href="/reference/android/view/animation/Interpolator">Interpolator</a> interpolator,<wbr> <a href="/reference/android/os/CancellationSignal">CancellationSignal</a> cancellationSignal,<wbr> <a href="/reference/android/view/WindowInsetsAnimationControlListener">WindowInsetsAnimationControlListener</a> listener)
+      </code>
+
+															<p _msthash="807705" _msttexthash="14066390">Lets the
+																application control window inset animations in a
+																frame-by-frame manner by modifying
+																the position of the windows in the system causing insets
+																directly.
+
+
+															</p>
+
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        int</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#getSystemBarsAppearance()">getSystemBarsAppearance</a>()
+      </code>
+
+															<p _msthash="808082" _msttexthash="1711554">Retrieves the
+																requested appearance of system bars.
+
+
+															</p>
+
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        int</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#getSystemBarsBehavior()">getSystemBarsBehavior</a>()
+      </code>
+
+															<p _msthash="808459" _msttexthash="1585649">Retrieves the
+																requested behavior of system bars.
+
+
+															</p>
+
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        void</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#hide(int)">hide</a>(int types)
+      </code>
+
+															<p _msthash="808835" _msttexthash="1511107">Makes a set of
+																windows causing insets disappear.
+
+
+															</p>
+
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        void</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#removeOnControllableInsetsChangedListener(android.view.WindowInsetsController.OnControllableInsetsChangedListener)">removeOnControllableInsetsChangedListener</a>(<a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">WindowInsetsController.<wbr>OnControllableInsetsChangedListener</a> listener)
+      </code>
+
+															<p>
+																<font _mstmutation="1" _msthash="809212"
+																	_msttexthash="1339182">Removes a from the window
+																	insets controller.
+
+
+																</font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">OnControllableInsetsChangedListener</a></code>
+															</p>
+
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        void</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#setSystemBarsAppearance(int,%20int)">setSystemBarsAppearance</a>(int appearance,<wbr> int mask)
+      </code>
+
+															<p _msthash="809589" _msttexthash="1084148">Controls the
+																appearance of system bars.
+
+
+															</p>
+
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        void</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#setSystemBarsBehavior(int)">setSystemBarsBehavior</a>(int behavior)
+      </code>
+
+															<p _msthash="809966" _msttexthash="983203">Controls the
+																behavior of system bars.
+
+
+															</p>
+
+														</td>
+													</tr>
+
+
+													<tr data-version-added="30">
+
+
+														<td><code translate="no" dir="ltr">
+        abstract
+        
+        
+        
+        
+        void</code>
+														</td>
+
+														<td width="100%">
+															<code translate="no" dir="ltr">
+      <a href="/reference/android/view/WindowInsetsController#show(int)">show</a>(int types)
+      </code>
+
+															<p _msthash="810343" _msttexthash="2006095">Makes a set of
+																windows that cause insets appear on screen.
+
+
+															</p>
+
+														</td>
+													</tr>
+
+
+
+												</tbody>
+											</table>
+										</div>
+
+
+
+
+
+
+
+
+										<!-- XML Attributes -->
+
+
+										<!-- Enum Values -->
+
+
+										<!-- Constants -->
+
+
+										<!-- ========= ENUM CONSTANTS DETAIL ======== -->
+										<h2 class="api-section" id="constants_1" data-text="Constants" tabindex="0"
+											_msthash="172810" _msttexthash="139308">Constants</h2>
+
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="APPEARANCE_LIGHT_NAVIGATION_BARS"
+												data-text="APPEARANCE_LIGHT_NAVIGATION_BARS" tabindex="0"
+												_msthash="716496" _msttexthash="716495">APPEARANCE_LIGHT_NAVIGATION_BARS
+											</h3>
+											<div class="api-level">
+												<font _mstmutation="1" _msthash="473409" _msttexthash="294359">
+
+													Added in <a href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+														_mstmutation="1">API level 30</a></font>
+
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public static final int APPEARANCE_LIGHT_NAVIGATION_BARS</pre>
+											</devsite-code>
+
+
+
+
+											<p _msthash="398633" _msttexthash="5821608">Changes the foreground color for
+												light navigation bars so that the items on the bar can be
+												read clearly.</p>
+											<p></p>
+
+
+											<p _msthash="398984" _msttexthash="505661">Constant Value:
+
+												16
+												(0x00000010)
+
+
+											</p>
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="APPEARANCE_LIGHT_STATUS_BARS"
+												data-text="APPEARANCE_LIGHT_STATUS_BARS" tabindex="0" _msthash="584039"
+												_msttexthash="584038">APPEARANCE_LIGHT_STATUS_BARS</h3>
+											<div class="api-level">
+												<font _mstmutation="1" _msthash="471004" _msttexthash="294359">
+
+													Added in <a href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+														_mstmutation="1">API level 30</a></font>
+
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public static final int APPEARANCE_LIGHT_STATUS_BARS</pre>
+											</devsite-code>
+
+
+
+
+											<p _msthash="396228" _msttexthash="192188711" style="text-align: left;">
+												更改光状态条的前景颜色，以便可以清楚地读取条上的项目。</p>
+											<p></p>
+
+
+											<p _msthash="396579" _msttexthash="486811">Constant Value:
+
+												8
+												(0x00000008)
+
+
+											</p>
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="BEHAVIOR_SHOW_BARS_BY_SWIPE"
+												data-text="BEHAVIOR_SHOW_BARS_BY_SWIPE" tabindex="0" _msthash="561939"
+												_msttexthash="561938">BEHAVIOR_SHOW_BARS_BY_SWIPE</h3>
+											<div class="api-level">
+												<font _mstmutation="1" _msthash="471303" _msttexthash="294359">
+
+													Added in <a href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+														_mstmutation="1">API level 30</a></font>
+
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public static final int BEHAVIOR_SHOW_BARS_BY_SWIPE</pre>
+												<div class="devsite-code-buttons-container" _msthidden="2"><button
+														type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-dark devsite-toggle-dark"
+														data-category="Site-Wide Custom Events"
+														data-label="Dark Code Toggle" track-type="exampleCode"
+														track-name="darkCodeToggle" aria-label="深色代码主题背景"
+														data-title="深色代码主题背景" _msthidden="A" _msthiddenattr="71216"
+														_mstaria-label="31693415"></button><button type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-light devsite-toggle-light"
+														data-category="Site-Wide Custom Events"
+														data-label="Light Code Toggle" track-type="exampleCode"
+														track-name="lightCodeToggle" aria-label="浅色代码主题背景"
+														data-title="浅色代码主题背景" _msthidden="A" _msthiddenattr="71215"
+														_mstaria-label="31677763"></button></div>
+											</devsite-code>
+
+
+
+
+											<p style="text-align: left;">
+												<font _mstmutation="1" _msthash="396528" _msttexthash="158439931">
+													选项：窗口希望通过调用 或 隐藏导航栏时保持交互性。</font><code translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController#setSystemBarsBehavior(int)">setSystemBarsBehavior(int)</a></code><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController#hide(int)">hide(int)</a></code><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsAnimationController#setInsetsAndAlpha(android.graphics.Insets,%20float,%20float)">WindowInsetsAnimationController#setInsetsAndAlpha(Insets, float, float)</a></code>
+											</p>
+											<p _msthash="396529" _msttexthash="396676098" style="text-align: left;">
+												当系统条在此模式下隐藏时，可以使用系统手势显示它们，例如从隐藏栏的屏幕边缘轻扫。</p>
+											<p></p>
+											<p></p>
+
+
+											<p _msthash="396878" _msttexthash="481988">Constant Value:
+
+												1
+												(0x00000001)
+
+
+											</p>
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="BEHAVIOR_SHOW_BARS_BY_TOUCH"
+												data-text="BEHAVIOR_SHOW_BARS_BY_TOUCH" tabindex="0" _msthash="559911"
+												_msttexthash="559910">BEHAVIOR_SHOW_BARS_BY_TOUCH<button role="button"
+													class="devsite-heading-link button-flat material-icons"
+													aria-label="复制指向此部分的链接: BEHAVIOR_SHOW_BARS_BY_TOUCH"
+													data-title="复制指向此部分的链接: BEHAVIOR_SHOW_BARS_BY_TOUCH"
+													_mstaria-label="42437005"
+													style="direction: ltr; text-align: left;"></button></h3>
+											<div class="api-level">
+												<font _mstmutation="1" _msthash="471602" _msttexthash="294359">
+
+													Added in <a href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+														_mstmutation="1">API level 30</a></font>
+
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public static final int BEHAVIOR_SHOW_BARS_BY_TOUCH</pre>
+												<div class="devsite-code-buttons-container" _msthidden="2"><button
+														type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-dark devsite-toggle-dark"
+														data-category="Site-Wide Custom Events"
+														data-label="Dark Code Toggle" track-type="exampleCode"
+														track-name="darkCodeToggle" aria-label="深色代码主题背景"
+														data-title="深色代码主题背景" _msthidden="A" _msthiddenattr="71214"
+														_mstaria-label="31693415"></button><button type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-light devsite-toggle-light"
+														data-category="Site-Wide Custom Events"
+														data-label="Light Code Toggle" track-type="exampleCode"
+														track-name="lightCodeToggle" aria-label="浅色代码主题背景"
+														data-title="浅色代码主题背景" _msthidden="A" _msthiddenattr="71213"
+														_mstaria-label="31677763"></button></div>
+											</devsite-code>
+
+
+
+
+											<p style="text-align: left;">
+												<font _mstmutation="1" _msthash="396826" _msttexthash="361527426">
+													的默认选项。如果 导航栏被 或 隐藏，系统栏将强制显示在相应显示器上的任何用户交互上。</font><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController#setSystemBarsBehavior(int)">setSystemBarsBehavior(int)</a></code><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController#hide(int)">hide(int)</a></code><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsAnimationController#setInsetsAndAlpha(android.graphics.Insets,%20float,%20float)">WindowInsetsAnimationController#setInsetsAndAlpha(Insets, float, float)</a></code>
+											</p>
+											<p></p>
+
+
+											<p _msthash="397177" _msttexthash="481299">Constant Value:
+
+												0
+												(0x00000000)
+
+
+											</p>
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE"
+												data-text="BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE" tabindex="0"
+												_msthash="959362" _msttexthash="959361">
+												BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE</h3>
+											<div class="api-level">
+												<font _mstmutation="1" _msthash="471901" _msttexthash="294359">
+
+													Added in <a href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+														_mstmutation="1">API level 30</a></font>
+
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public static final int BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE</pre>
+												<div class="devsite-code-buttons-container" _msthidden="2"><button
+														type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-dark devsite-toggle-dark"
+														data-category="Site-Wide Custom Events"
+														data-label="Dark Code Toggle" track-type="exampleCode"
+														track-name="darkCodeToggle" aria-label="深色代码主题背景"
+														data-title="深色代码主题背景" _msthidden="A" _msthiddenattr="71212"
+														_mstaria-label="31693415"></button><button type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-light devsite-toggle-light"
+														data-category="Site-Wide Custom Events"
+														data-label="Light Code Toggle" track-type="exampleCode"
+														track-name="lightCodeToggle" aria-label="浅色代码主题背景"
+														data-title="浅色代码主题背景" _msthidden="A" _msthiddenattr="71211"
+														_mstaria-label="31677763"></button></div>
+											</devsite-code>
+
+
+
+
+											<p style="text-align: left;">
+												<font _mstmutation="1" _msthash="397127" _msttexthash="158439931">
+													选项：窗口希望通过调用 或 隐藏导航栏时保持交互性。</font><code translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController#setSystemBarsBehavior(int)">setSystemBarsBehavior(int)</a></code><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController#hide(int)">hide(int)</a></code><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsAnimationController#setInsetsAndAlpha(android.graphics.Insets,%20float,%20float)">WindowInsetsAnimationController#setInsetsAndAlpha(Insets, float, float)</a></code>
+											</p>
+											<p _msthash="397128" _msttexthash="1469229060" style="text-align: left;">
+												当系统条在此模式下隐藏时，可以通过系统手势（如从隐藏栏的屏幕边缘轻扫）暂时显示它们。这些瞬态系统栏将覆盖应用的内容，可能有一定程度的透明度，并在短超时后自动隐藏。
+											</p>
+											<p></p>
+											<p></p>
+
+
+											<p _msthash="397476" _msttexthash="482677">Constant Value:
+
+												2
+												(0x00000002)
+
+
+											</p>
+										</div>
+
+
+
+
+										<!-- Fields -->
+
+
+										<!-- Public ctors -->
+
+
+
+										<!-- ========= CONSTRUCTOR DETAIL ======== -->
+										<!-- Protected ctors -->
+
+
+
+										<!-- ========= METHOD DETAIL ======== -->
+										<!-- Public methdos -->
+
+										<h2 class="api-section" id="public-methods_1" data-text="Public methods"
+											tabindex="0" _msthash="293101" _msttexthash="10733827">公共方法</h2>
+
+
+										<div data-version-added="30">
+											<h3 class="api-name"
+												id="addOnControllableInsetsChangedListener(android.view.WindowInsetsController.OnControllableInsetsChangedListener)"
+												data-text="addOnControllableInsetsChangedListener" tabindex="0"
+												_msthash="9014136" _msttexthash="1237054">
+												addOnControlableInsetsChangedListener</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="685426" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="" _msthidden="2">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract void addOnControllableInsetsChangedListener (<a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">WindowInsetsController.OnControllableInsetsChangedListener</a> listener)</pre>
+												<div class="devsite-code-buttons-container" _msthidden="2"><button
+														type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-dark devsite-toggle-dark"
+														data-category="Site-Wide Custom Events"
+														data-label="Dark Code Toggle" track-type="exampleCode"
+														track-name="darkCodeToggle" aria-label="深色代码主题背景"
+														data-title="深色代码主题背景" _msthidden="A" _msthiddenattr="1230009"
+														_mstaria-label="31693415"></button><button type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-light devsite-toggle-light"
+														data-category="Site-Wide Custom Events"
+														data-label="Light Code Toggle" track-type="exampleCode"
+														track-name="lightCodeToggle" aria-label="浅色代码主题背景"
+														data-title="浅色代码主题背景" _msthidden="A" _msthiddenattr="1230008"
+														_mstaria-label="31677763"></button></div>
+											</devsite-code>
+
+
+
+
+											<p>
+												<font _mstmutation="1" _msthash="396813" _msttexthash="40135563">
+													向窗口内集控制器添加 。</font><code translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">OnControllableInsetsChangedListener</a></code>
+											</p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="1316473" _msttexthash="4651894">参数
+															</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">listener</code></td>
+															<td width="100%">
+																<code translate="no"
+																	dir="ltr">WindowInsetsController.<wbr>OnControllableInsetsChangedListener</code>
+																<font _mstmutation="1" _msthash="1315887"
+																	_msttexthash="64882454">：要添加的侦听器。此值不能为 。</font><code
+																	translate="no" dir="ltr">null</code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div>
+												<p><b _msthash="595024" _msttexthash="22521044">另请参阅：</b></p>
+												<ul class="nolist">
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">WindowInsetsController.OnControllableInsetsChangedListener</a></code>
+													</li>
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsController#removeOnControllableInsetsChangedListener(android.view.WindowInsetsController.OnControllableInsetsChangedListener)">removeOnControllableInsetsChangedListener(OnControllableInsetsChangedListener)</a></code>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name"
+												id="controlWindowInsetsAnimation(int,%20long,%20android.view.animation.Interpolator,%20android.os.CancellationSignal,%20android.view.WindowInsetsAnimationControlListener)"
+												data-text="controlWindowInsetsAnimation" tabindex="0"
+												_msthash="18722354" _msttexthash="18681442">控制窗口动画</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="685725" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="" _msthidden="2">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract void controlWindowInsetsAnimation (int types, 
+                long durationMillis, 
+                <a href="/reference/android/view/animation/Interpolator">Interpolator</a> interpolator, 
+                <a href="/reference/android/os/CancellationSignal">CancellationSignal</a> cancellationSignal, 
+                <a href="/reference/android/view/WindowInsetsAnimationControlListener">WindowInsetsAnimationControlListener</a> listener)</pre>
+												<div class="devsite-code-buttons-container" _msthidden="2"><button
+														type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-dark devsite-toggle-dark"
+														data-category="Site-Wide Custom Events"
+														data-label="Dark Code Toggle" track-type="exampleCode"
+														track-name="darkCodeToggle" aria-label="深色代码主题背景"
+														data-title="深色代码主题背景" _msthidden="A" _msthiddenattr="1230334"
+														_mstaria-label="31693415"></button><button type="button"
+														class="gc-analytics-event material-icons devsite-icon-code-light devsite-toggle-light"
+														data-category="Site-Wide Custom Events"
+														data-label="Light Code Toggle" track-type="exampleCode"
+														track-name="lightCodeToggle" aria-label="浅色代码主题背景"
+														data-title="浅色代码主题背景" _msthidden="A" _msthiddenattr="1230333"
+														_mstaria-label="31677763"></button></div>
+											</devsite-code>
+
+
+
+
+											<p _msthash="397112" _msttexthash="364319501" style="text-align: left;">
+												允许应用程序通过修改系统中窗口的位置直接导致插入，从而以帧方式控制窗口插入动画。</p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="2189058" _msttexthash="4651894">参数
+															</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">types</code></td>
+															<td width="100%">
+																<code translate="no" dir="ltr">int</code>
+																<font _mstmutation="1" _msthash="2188291"
+																	_msttexthash="1030597347">：应用程序已请求控制。值要么是 android.
+																	view. windowinsets. type. STATUS_BARS. android.
+																	view. Windowinsets. Type. NAVIGATION_BARS的组合，
+																	android. view. Windowinsets. type. CAPTION_BAR，
+																	android. view. windowinsets. type. android. view.
+																	WINDOW_DECOR， android. view. windowinsets. type.
+																	SYSTEM_GESTURES type. MANDATORY_SYSTEM_GESTURES，
+																	android. view. windowinsets. type. TAPPABLE_ELEMENT
+																	和 android. windowinsets. DISPLAY_CUTOUT</font><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsets.Type.InsetsType">InsetsType</a></code><code
+																	translate="no" dir="ltr">0</code>
+																<p></p>
+															</td>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">durationMillis</code>
+															</td>
+															<td width="100%">
+																<code translate="no" dir="ltr">long</code>
+																<font _mstmutation="1" _msthash="2189032"
+																	_msttexthash="414501451">：如果动画没有预定的持续时间，则 在
+																	中的动画持续时间或 -1 中的动画持续时间。此值将传递给</font><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/java/util/concurrent/TimeUnit#MILLISECONDS">TimeUnit.<wbr>MILLISECONDS</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsAnimation#getDurationMillis()">WindowInsetsAnimation#getDurationMillis()</a></code>
+																<p></p>
+															</td>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">interpolator</code></td>
+															<td width="100%">
+																<code translate="no" dir="ltr">Interpolator</code>
+																<font _mstmutation="1" _msthash="2189773"
+																	_msttexthash="386127482">
+																	：用于此动画的插值器，或者此动画不遵循插值曲线。此值将传递到 并用于计算 。此值可能是 。</font>
+																<code translate="no" dir="ltr">null</code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsAnimation#getInterpolator()">WindowInsetsAnimation#getInterpolator()</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsAnimation#getInterpolatedFraction()">WindowInsetsAnimation#getInterpolatedFraction()</a></code><code
+																	translate="no" dir="ltr">null</code>
+																<p></p>
+															</td>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">cancellationSignal</code>
+															</td>
+															<td width="100%">
+																<code translate="no" dir="ltr">CancellationSignal</code>
+																<font _mstmutation="1" _msthash="2190514"
+																	_msttexthash="447544630">
+																	：一个取消信号，呼叫者可以使用取消请求来获取控制，或一旦他们控制了，取消控制。此值可能是 。
+																</font><code translate="no" dir="ltr">null</code>
+																<p></p>
+															</td>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">listener</code></td>
+															<td width="100%">
+																<code translate="no"
+																	dir="ltr">WindowInsetsAnimationControlListener</code>
+																<font _mstmutation="1" _msthash="2191255"
+																	_msttexthash="189696741">： 在窗口准备好受控制时调用的 ，
+																	以及其他回调。此值不能为 。</font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsAnimationControlListener">WindowInsetsAnimationControlListener</a></code><code
+																	translate="no" dir="ltr">null</code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div>
+												<p><b _msthash="595323" _msttexthash="22521044">另请参阅：</b></p>
+												<ul class="nolist">
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsAnimation#getFraction()">WindowInsetsAnimation.getFraction()</a></code>
+													</li>
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsAnimation#getInterpolatedFraction()">WindowInsetsAnimation.getInterpolatedFraction()</a></code>
+													</li>
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsAnimation#getInterpolator()">WindowInsetsAnimation.getInterpolator()</a></code>
+													</li>
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsAnimation#getDurationMillis()">WindowInsetsAnimation.getDurationMillis()</a></code>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="getSystemBarsAppearance()"
+												data-text="getSystemBarsAppearance" tabindex="0" _msthash="583623"
+												_msttexthash="35210097">获取系统巴恩斯应用</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="686024" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract int getSystemBarsAppearance ()</pre>
+											</devsite-code>
+
+
+
+
+											<p _msthash="397411" _msttexthash="53685606">检索系统条的应请求外观。</p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="3283502" _msttexthash="5663372">返回
+															</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">int</code></td>
+															<td width="100%">
+																<font _mstmutation="1" _msthash="3282553"
+																	_msttexthash="786364774">此窗口控制的系统栏外观的请求位掩。值是
+																	android. view. WindowInsetsController.
+																	APPEARANCE_OPAQUE_STATUS_BARS， android. view.
+																	windowInsetsController.
+																	APPEARANCE_OPAQUE_NAVIGATION_BARS， android. view.
+																	WindowInsetsController. APPEARANCE_LOW_PROFILE_BARS
+																	的组合，</font><code translate="no"
+																	dir="ltr">0</code><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_STATUS_BARS">APPEARANCE_<wbr>LIGHT_<wbr>STATUS_<wbr>BARS</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_NAVIGATION_BARS">APPEARANCE_<wbr>LIGHT_<wbr>NAVIGATION_<wbr>BARS</a></code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div>
+												<p><b _msthash="595622" _msttexthash="22521044">另请参阅：</b></p>
+												<ul class="nolist">
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsController#setSystemBarsAppearance(int,%20int)">setSystemBarsAppearance(int, int)</a></code>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="getSystemBarsBehavior()"
+												data-text="getSystemBarsBehavior" tabindex="0" _msthash="510940"
+												_msttexthash="31488236">获取系统酒吧行为</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="686323" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract int getSystemBarsBehavior ()</pre>
+											</devsite-code>
+
+
+
+
+											<p _msthash="397710" _msttexthash="52804076">检索系统条的已请求行为。</p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="4599804" _msttexthash="5663372">返回
+															</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">int</code></td>
+															<td width="100%">
+																<font _mstmutation="1" _msthash="4598673"
+																	_msttexthash="94230682">由此窗口控制的系统栏行为。值为 ， 或</font>
+																<code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_BARS_BY_TOUCH">BEHAVIOR_<wbr>SHOW_<wbr>BARS_<wbr>BY_<wbr>TOUCH</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_BARS_BY_SWIPE">BEHAVIOR_<wbr>SHOW_<wbr>BARS_<wbr>BY_<wbr>SWIPE</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE">BEHAVIOR_<wbr>SHOW_<wbr>TRANSIENT_<wbr>BARS_<wbr>BY_<wbr>SWIPE</a></code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div>
+												<p><b _msthash="595921" _msttexthash="105183">See also:</b></p>
+												<ul class="nolist">
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsController#setSystemBarsBehavior(int)">setSystemBarsBehavior(int)</a></code>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="hide(int)" data-text="hide" tabindex="0"
+												_msthash="115012" _msttexthash="45214">hide</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="686622" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract void hide (int types)</pre>
+											</devsite-code>
+
+
+
+
+											<p _msthash="398010" _msttexthash="1511107">Makes a set of windows causing
+												insets disappear.
+											</p>
+											<p>
+												<font _mstmutation="1" _msthash="398011" _msttexthash="22708933">
+													Note that if the window currently doesn't have control over a
+													certain type, it will apply the
+													change as soon as the window gains control. The app can listen to
+													the event by observing
+													and checking visibility with .</font><code translate="no"
+													dir="ltr"><a href="/reference/android/view/View#onApplyWindowInsets(android.view.WindowInsets)">View#onApplyWindowInsets</a></code><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsets#isVisible(int)">WindowInsets#isVisible</a></code>
+											</p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="6137964" _msttexthash="158795">
+																Parameters</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">types</code></td>
+															<td width="100%">
+																<code translate="no" dir="ltr">int</code>
+																<font _mstmutation="1" _msthash="6136651"
+																	_msttexthash="154493196">: A bitmask of specifying
+																	what windows the app
+																	would like to make disappear.
+
+																	Value is either or a combination of
+																	android.view.WindowInsets.Type.STATUS_BARS,
+																	android.view.WindowInsets.Type.NAVIGATION_BARS,
+																	android.view.WindowInsets.Type.CAPTION_BAR,
+																	android.view.WindowInsets.Type.IME,
+																	android.view.WindowInsets.Type.WINDOW_DECOR,
+																	android.view.WindowInsets.Type.SYSTEM_GESTURES,
+																	android.view.WindowInsets.Type.MANDATORY_SYSTEM_GESTURES,
+																	android.view.WindowInsets.Type.TAPPABLE_ELEMENT, and
+																	android.view.WindowInsets.Type.DISPLAY_CUTOUT</font>
+																<code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsets.Type.InsetsType">InsetsType</a></code><code
+																	translate="no" dir="ltr">0</code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name"
+												id="removeOnControllableInsetsChangedListener(android.view.WindowInsetsController.OnControllableInsetsChangedListener)"
+												data-text="removeOnControllableInsetsChangedListener" tabindex="0"
+												_msthash="9488883" _msttexthash="1486628">
+												removeOnControllableInsetsChangedListener</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="686921" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract void removeOnControllableInsetsChangedListener (<a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">WindowInsetsController.OnControllableInsetsChangedListener</a> listener)</pre>
+											</devsite-code>
+
+
+
+
+											<p>
+												<font _mstmutation="1" _msthash="398308" _msttexthash="1339182">Removes
+													a from the window insets controller.</font><code translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">OnControllableInsetsChangedListener</a></code>
+											</p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="7897982" _msttexthash="158795">
+																Parameters</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">listener</code></td>
+															<td width="100%">
+																<code translate="no"
+																	dir="ltr">WindowInsetsController.<wbr>OnControllableInsetsChangedListener</code>
+																<font _mstmutation="1" _msthash="7896487"
+																	_msttexthash="1343121">: The listener to remove.
+
+																	This value cannot be .</font><code translate="no"
+																	dir="ltr">null</code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div>
+												<p><b _msthash="596519" _msttexthash="105183">See also:</b></p>
+												<ul class="nolist">
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsController.OnControllableInsetsChangedListener">WindowInsetsController.OnControllableInsetsChangedListener</a></code>
+													</li>
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsController#addOnControllableInsetsChangedListener(android.view.WindowInsetsController.OnControllableInsetsChangedListener)">addOnControllableInsetsChangedListener(OnControllableInsetsChangedListener)</a></code>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="setSystemBarsAppearance(int,%20int)"
+												data-text="setSystemBarsAppearance" tabindex="0" _msthash="978615"
+												_msttexthash="552591">setSystemBarsAppearance</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="687220" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract void setSystemBarsAppearance (int appearance, 
+                int mask)</pre>
+											</devsite-code>
+
+
+
+
+											<p _msthash="398608" _msttexthash="1084148">Controls the appearance of
+												system bars.
+											</p>
+											<p>
+												<font _mstmutation="1" _msthash="398609" _msttexthash="1247090">
+													For example, the following statement adds :
+												</font><code translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_STATUS_BARS">APPEARANCE_LIGHT_STATUS_BARS</a></code>
+											</p>
+											<devsite-code no-copy="">
+												<pre translate="no" dir="ltr" is-upgraded=""> setSystemBarsAppearance(APPEARANCE_LIGHT_STATUS_BARS, APPEARANCE_LIGHT_STATUS_BARS)
+ </pre>
+											</devsite-code>
+											<font _mstmutation="1" _msthash="299105" _msttexthash="1036100">
+												And the following statement clears it:
+											</font>
+											<devsite-code no-copy="">
+												<pre translate="no" dir="ltr" is-upgraded=""> setSystemBarsAppearance(0, APPEARANCE_LIGHT_STATUS_BARS)
+ </pre>
+											</devsite-code>
+											<p></p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="9879858" _msttexthash="158795">
+																Parameters</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">appearance</code></td>
+															<td width="100%">
+																<code translate="no" dir="ltr">int</code>
+																<font _mstmutation="1" _msthash="9878181"
+																	_msttexthash="37615045">: Bitmask of flags.
+																	Value is either or a combination of
+																	android.view.WindowInsetsController.APPEARANCE_OPAQUE_STATUS_BARS,
+																	android.view.WindowInsetsController.APPEARANCE_OPAQUE_NAVIGATION_BARS,
+																	android.view.WindowInsetsController.APPEARANCE_LOW_PROFILE_BARS,
+																	, and </font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController.Appearance">Appearance</a></code><code
+																	translate="no" dir="ltr">0</code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_STATUS_BARS">APPEARANCE_<wbr>LIGHT_<wbr>STATUS_<wbr>BARS</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_NAVIGATION_BARS">APPEARANCE_<wbr>LIGHT_<wbr>NAVIGATION_<wbr>BARS</a></code>
+																<p></p>
+															</td>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">mask</code></td>
+															<td width="100%">
+																<code translate="no" dir="ltr">int</code>
+																<font _mstmutation="1" _msthash="9879832"
+																	_msttexthash="48124856">: Specifies which flags of
+																	appearance should be changed.
+																	Value is either or a combination of
+																	android.view.WindowInsetsController.APPEARANCE_OPAQUE_STATUS_BARS,
+																	android.view.WindowInsetsController.APPEARANCE_OPAQUE_NAVIGATION_BARS,
+																	android.view.WindowInsetsController.APPEARANCE_LOW_PROFILE_BARS,
+																	, and </font><code translate="no"
+																	dir="ltr">0</code><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_STATUS_BARS">APPEARANCE_<wbr>LIGHT_<wbr>STATUS_<wbr>BARS</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#APPEARANCE_LIGHT_NAVIGATION_BARS">APPEARANCE_<wbr>LIGHT_<wbr>NAVIGATION_<wbr>BARS</a></code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div>
+												<p><b _msthash="597195" _msttexthash="105183">See also:</b></p>
+												<ul class="nolist">
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsController#getSystemBarsAppearance()">getSystemBarsAppearance()</a></code>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="setSystemBarsBehavior(int)"
+												data-text="setSystemBarsBehavior" tabindex="0" _msthash="642864"
+												_msttexthash="482014">setSystemBarsBehavior</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="687519" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract void setSystemBarsBehavior (int behavior)</pre>
+											</devsite-code>
+
+
+
+
+											<p _msthash="398906" _msttexthash="983203">Controls the behavior of system
+												bars.</p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="12083592" _msttexthash="158795">
+																Parameters</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">behavior</code></td>
+															<td width="100%">
+																<code translate="no" dir="ltr">int</code>
+																<font _mstmutation="1" _msthash="12081733"
+																	_msttexthash="3830424">: Determines how the bars
+																	behave when being hidden by the application.
+																	Value is , , or </font><code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_BARS_BY_TOUCH">BEHAVIOR_<wbr>SHOW_<wbr>BARS_<wbr>BY_<wbr>TOUCH</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_BARS_BY_SWIPE">BEHAVIOR_<wbr>SHOW_<wbr>BARS_<wbr>BY_<wbr>SWIPE</a></code><code
+																	translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsetsController#BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE">BEHAVIOR_<wbr>SHOW_<wbr>TRANSIENT_<wbr>BARS_<wbr>BY_<wbr>SWIPE</a></code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+											<div>
+												<p><b _msthash="597117" _msttexthash="105183">See also:</b></p>
+												<ul class="nolist">
+													<li><code translate="no"
+															dir="ltr"><a href="/reference/android/view/WindowInsetsController#getSystemBarsBehavior()">getSystemBarsBehavior()</a></code>
+													</li>
+												</ul>
+											</div>
+
+										</div>
+
+										<div data-version-added="30">
+											<h3 class="api-name" id="show(int)" data-text="show" tabindex="0"
+												_msthash="119536" _msttexthash="49738">show</h3>
+											<div class="api-level">
+												<div>
+													<font _mstmutation="1" _msthash="687818" _msttexthash="294359">
+														Added in <a
+															href="/guide/topics/manifest/uses-sdk-element#ApiLevels"
+															_mstmutation="1">API level 30</a></font>
+												</div>
+
+
+
+											</div>
+											<devsite-code no-copy="">
+												<pre class="api-signature no-pretty-print" translate="no" dir="ltr"
+													is-upgraded="">public abstract void show (int types)</pre>
+											</devsite-code>
+
+
+
+
+											<p _msthash="399206" _msttexthash="2006095">Makes a set of windows that
+												cause insets appear on screen.
+											</p>
+											<p>
+												<font _mstmutation="1" _msthash="399207" _msttexthash="22708933">
+													Note that if the window currently doesn't have control over a
+													certain type, it will apply the
+													change as soon as the window gains control. The app can listen to
+													the event by observing
+													and checking visibility with .</font><code translate="no"
+													dir="ltr"><a href="/reference/android/view/View#onApplyWindowInsets(android.view.WindowInsets)">View#onApplyWindowInsets</a></code><code
+													translate="no"
+													dir="ltr"><a href="/reference/android/view/WindowInsets#isVisible(int)">WindowInsets#isVisible</a></code>
+											</p>
+											<p></p>
+											<div class="devsite-table-wrapper">
+												<table class="responsive">
+													<tbody>
+														<tr>
+															<th colspan="2" _msthash="14509184" _msttexthash="158795">
+																Parameters</th>
+														</tr>
+														<tr>
+															<td><code translate="no" dir="ltr">types</code></td>
+															<td width="100%">
+																<code translate="no" dir="ltr">int</code>
+																<font _mstmutation="1" _msthash="14507143"
+																	_msttexthash="157636739">: A bitmask of specifying
+																	what windows the app
+																	would like to make appear on screen.
+
+																	Value is either or a combination of
+																	android.view.WindowInsets.Type.STATUS_BARS,
+																	android.view.WindowInsets.Type.NAVIGATION_BARS,
+																	android.view.WindowInsets.Type.CAPTION_BAR,
+																	android.view.WindowInsets.Type.IME,
+																	android.view.WindowInsets.Type.WINDOW_DECOR,
+																	android.view.WindowInsets.Type.SYSTEM_GESTURES,
+																	android.view.WindowInsets.Type.MANDATORY_SYSTEM_GESTURES,
+																	android.view.WindowInsets.Type.TAPPABLE_ELEMENT, and
+																	android.view.WindowInsets.Type.DISPLAY_CUTOUT</font>
+																<code translate="no"
+																	dir="ltr"><a href="/reference/android/view/WindowInsets.Type.InsetsType">InsetsType</a></code><code
+																	translate="no" dir="ltr">0</code>
+																<p></p>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+										</div>
+
+
+
+
+
+										<!-- ========= METHOD DETAIL ======== -->
+
+
+
+										<!-- ========= END OF CLASS DATA ========= -->
+
+									</div><!-- end jd-content -->
+
+
+								</div><!-- end devsite ReferenceObject -->
+
+
+							</div>
+
+
+							<devsite-page-rating position="footer" selected-rating="0" hover-rating-star="0">
+								<div>
+									<div class="devsite-rating-caption" _msthash="174540184" _msttexthash="51165465">
+										此页内容对您有帮助吗？</div>
+									<div class="devsite-rating-stars">
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="1" track-metadata-score="1" track-type="feedback"
+											track-name="rating" track-metadata-position="footer" role="button"
+											tabindex="0" data-title="文档根本没法用" aria-label="文档根本没用，评分为 1（最高为 5）"
+											_mstaria-label="103272559"></div>
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="2" track-metadata-score="2" track-type="feedback"
+											track-name="rating" track-metadata-position="footer" role="button"
+											tabindex="0" data-title="文档水平很差" aria-label="文档质量很差，评分为 2（最高为 5）"
+											_mstaria-label="104390910"></div>
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="3" track-metadata-score="3" track-type="feedback"
+											track-name="rating" track-metadata-position="footer" role="button"
+											tabindex="0" data-title="文档水平一般" aria-label="文档质量一般，评分为 3（最高为 5）"
+											_mstaria-label="105196715"></div>
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="4" track-metadata-score="4" track-type="feedback"
+											track-name="rating" track-metadata-position="footer" role="button"
+											tabindex="0" data-title="文档不错" aria-label="文档不错，评分为 4（最高为 5）"
+											_mstaria-label="86033181"></div>
+										<div class="devsite-rating-star devsite-rating-star-outline gc-analytics-event material-icons"
+											data-rating-val="5" track-metadata-score="5" track-type="feedback"
+											track-name="rating" track-metadata-position="footer" role="button"
+											tabindex="0" data-title="文档写得很好" aria-label="文档非常好，评分为 5（最高为 5）"
+											_mstaria-label="94343535"></div>
+									</div>
+								</div>
+							</devsite-page-rating>
+
+
+						</article>
+					</article>
+
+
+
+
+					<devsite-content-footer class="nocontent">
+						<p _msthash="191288929" _msttexthash="13769067">Content and code samples on this page are
+							subject to the licenses described in the <a href="/license">Content License</a>. Java is a
+							registered trademark of Oracle and/or its affiliates.</p>
+						<p _msthash="191296560" _msttexthash="430755">Last updated 2020-08-04 UTC.</p>
+					</devsite-content-footer>
+				</devsite-content>
+			</main>
+			<devsite-footer-promos class="devsite-footer">
+				<nav class="devsite-footer-promos nocontent" aria-label="Promotions" _mstaria-label="163579">
+					<ul class="devsite-footer-promos-list">
+						<li class="devsite-footer-promo">
+							<a href="//developers.google.cn/china/#follow-google-developers-on-wechat"
+								class="devsite-footer-promo-title gc-analytics-event"
+								data-category="Site-Wide Custom Events" data-modal-toggle="wechat"
+								data-label="Footer WeChat Promo">
+								<img class="devsite-footer-promo-icon" src="/_static/android/images/logo-wechat.png"
+									loading="lazy" alt="WeChat">
+								<font _mstmutation="1" _msthash="42548701" _msttexthash="71747">
+									WeChat
+								</font>
+							</a>
+							<div class="devsite-footer-promo-description" _msthash="43364204" _msttexthash="860249">
+								Follow Google Developers on WeChat</div>
+						</li>
+						<li class="devsite-footer-promo">
+							<a href="//twitter.com/AndroidDev" class="devsite-footer-promo-title gc-analytics-event"
+								data-category="Site-Wide Custom Events" data-label="Footer Twitter Promo">
+								<img class="devsite-footer-promo-icon" src="/_static/android/images/logo-twitter.svg"
+									loading="lazy" alt="Twitter">
+								<font _mstmutation="1" _msthash="42552237" _msttexthash="98995">
+									Twitter
+								</font>
+							</a>
+							<div class="devsite-footer-promo-description" _msthash="43367740" _msttexthash="685620">
+								Follow @AndroidDev on Twitter</div>
+						</li>
+						<li class="devsite-footer-promo">
+							<a href="//www.youtube.com/user/androiddevelopers"
+								class="devsite-footer-promo-title gc-analytics-event"
+								data-category="Site-Wide Custom Events" data-label="Footer YouTube Promo"
+								data-title="您所在的区域可能无法访问此链接。">
+								<img class="devsite-footer-promo-icon"
+									src="//www.gstatic.com/images/icons/material/product/2x/youtube_48dp.png"
+									loading="lazy" alt="YouTube">
+								<font _mstmutation="1" _msthash="42555773" _msttexthash="93340">
+									YouTube
+								</font>
+							</a>
+							<div class="devsite-footer-promo-description" _msthash="43371276" _msttexthash="1084226">
+								Check out Android Developers on YouTube</div>
+						</li>
+					</ul>
+				</nav>
+
+			</devsite-footer-promos>
+			<devsite-footer-linkboxes class="devsite-footer">
+				<nav class="devsite-footer-linkboxes nocontent" aria-label="Footer links" _mstaria-label="184691">
+					<ul class="devsite-footer-linkboxes-list">
+						<li class="devsite-footer-linkbox ">
+							<h3 class="devsite-footer-linkbox-heading no-link" _msthash="44615623"
+								_msttexthash="174707">More Android</h3>
+							<ul class="devsite-footer-linkbox-list">
+								<li class="devsite-footer-linkbox-item">
+									<a href="//www.android.com/" class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 1)"
+										data-title="您所在的区域可能无法访问此链接。" _msthash="47446308" _msttexthash="93028">
+										Android
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="//www.android.com/enterprise/"
+										class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 2)"
+										data-title="您所在的区域可能无法访问此链接。" _msthash="47450052" _msttexthash="160004">
+										Enterprise
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="//www.android.com/security-center/"
+										class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 3)"
+										data-title="您所在的区域可能无法访问此链接。" _msthash="47453796" _msttexthash="119158">
+										Security
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="//source.android.com/"
+										class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 4)"
+										data-title="您所在的区域可能无法访问此链接。" _msthash="47457540" _msttexthash="77519">
+										Source
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="devsite-footer-linkbox ">
+							<h3 class="devsite-footer-linkbox-heading no-link" _msthash="44619237"
+								_msttexthash="100646">Support</h3>
+							<ul class="devsite-footer-linkbox-list">
+								<li class="devsite-footer-linkbox-item">
+									<a href="//issuetracker.google.com/issues/new?component=190923&amp;template=841312"
+										class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 1)"
+										data-title="您所在的区域可能无法访问此链接。" _msthash="47449922" _msttexthash="357552">
+										Report platform bug
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="//issuetracker.google.com/issues/new?component=192697"
+										class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 2)"
+										data-title="您所在的区域可能无法访问此链接。" _msthash="47453666" _msttexthash="538811">
+										Report documentation bug
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="//support.google.com/googleplay/android-developer"
+										class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 3)"
+										data-title="您所在的区域可能无法访问此链接。" _msthash="47457410" _msttexthash="360009">
+										Google Play support
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="https://google.qualtrics.com/jfe/form/SV_ewWXIoEVLBcyp7f??reserved=1&amp;utm_source=FooterLink&amp;Q_Language=en&amp;utm_medium=own_srch&amp;utm_campaign=developer.android.com&amp;utm_term=0&amp;utm_content=0&amp;productTag=reg&amp;campaignDate=may19&amp;pType=devel&amp;referral_code=gV420370"
+										class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 4)"
+										_msthash="47461154" _msttexthash="422968">
+										Join research studies
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="devsite-footer-linkbox ">
+							<h3 class="devsite-footer-linkbox-heading no-link" _msthash="44622851"
+								_msttexthash="234962">Documentation</h3>
+							<ul class="devsite-footer-linkbox-list">
+								<li class="devsite-footer-linkbox-item">
+									<a href="/guide" class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 1)"
+										_msthash="47453536" _msttexthash="290134">
+										Developer guides
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="/design" class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 2)"
+										_msthash="47457280" _msttexthash="204893">
+										Design guides
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="/reference" class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 3)"
+										_msthash="47461024" _msttexthash="193856">
+										API reference
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="/samples" class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 4)"
+										_msthash="47464768" _msttexthash="95589">
+										Samples
+									</a>
+								</li>
+								<li class="devsite-footer-linkbox-item">
+									<a href="/studio/intro" class="devsite-footer-linkbox-link gc-analytics-event"
+										data-category="Site-Wide Custom Events" data-label="Footer Link (index 5)"
+										_msthash="47468512" _msttexthash="229177">
+										Android Studio
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</devsite-footer-linkboxes>
+			<devsite-footer-utility class="devsite-footer">
+
+				<div class="devsite-footer-utility nocontent">
+					<nav class="devsite-footer-sites" aria-label="Other Google Developers websites"
+						_mstaria-label="841984">
+						<a href="https://developers.google.cn/"
+							class="devsite-footer-sites-logo-link gc-analytics-event"
+							data-category="Site-Wide Custom Events" data-label="Footer Google Developers Link">
+							<img class="devsite-footer-sites-logo"
+								src="https://www.gstatic.cn/devrel-devsite/prod/v1241c04ebcb2127897d6c18221acbd64e7ed5c46e5217fd83dd808e592c47bf6/android/images/lockup-developers.svg"
+								loading="lazy" alt="Google Developers">
+						</a>
+						<ul class="devsite-footer-sites-list">
+							<li class="devsite-footer-sites-item">
+								<a href="//developer.android.google.cn" class="devsite-footer-sites-link
+                  gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Android Link"
+									_msthash="48230923" _msttexthash="93028">
+									Android
+								</a>
+							</li>
+							<li class="devsite-footer-sites-item">
+								<a href="//developer.chrome.com/home" class="devsite-footer-sites-link
+                  gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Chrome Link"
+									data-title="您所在的区域可能无法访问此链接。" _msthash="48234693" _msttexthash="76024">
+									Chrome
+								</a>
+							</li>
+							<li class="devsite-footer-sites-item">
+								<a href="//firebase.google.cn" class="devsite-footer-sites-link
+                  gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer Firebase Link"
+									_msthash="48238463" _msttexthash="110721">
+									Firebase
+								</a>
+							</li>
+							<li class="devsite-footer-sites-item">
+								<a href="//cloud.google.com" class="devsite-footer-sites-link
+                  gc-analytics-event" data-category="Site-Wide Custom Events"
+									data-label="Footer Google Cloud Platform Link" data-title="您所在的区域可能无法访问此链接。"
+									_msthash="48242233" _msttexthash="410280">
+									Google Cloud Platform
+								</a>
+							</li>
+							<li class="devsite-footer-sites-item">
+								<a href="//developers.google.cn/products/" class="devsite-footer-sites-link
+                  gc-analytics-event" data-category="Site-Wide Custom Events" data-label="Footer All products Link"
+									_msthash="48246003" _msttexthash="185003">
+									All products
+								</a>
+							</li>
+						</ul>
+					</nav>
+
+					<nav class="devsite-footer-utility-links" aria-label="Utility links" _mstaria-label="213252">
+						<ul class="devsite-footer-utility-list">
+							<li class="devsite-footer-utility-item
+                 ">
+								<a class="devsite-footer-utility-link gc-analytics-event"
+									href="//policies.google.cn/privacy" data-category="Site-Wide Custom Events"
+									data-label="Footer Privacy link"
+									data-cookie-policy="//policies.google.cn/technologies/cookies" _msthash="48230858"
+									_msttexthash="96525">
+									Privacy
+								</a>
+							</li>
+							<li class="devsite-footer-utility-item
+                 ">
+								<a class="devsite-footer-utility-link gc-analytics-event" href="/license"
+									data-category="Site-Wide Custom Events" data-label="Footer License link"
+									_msthash="48234628" _msttexthash="93288">
+									License
+								</a>
+							</li>
+							<li class="devsite-footer-utility-item
+                 ">
+								<a class="devsite-footer-utility-link gc-analytics-event"
+									href="/distribute/marketing-tools/brand-guidelines"
+									data-category="Site-Wide Custom Events" data-label="Footer Brand guidelines link"
+									_msthash="48238398" _msttexthash="286533">
+									Brand guidelines
+								</a>
+							</li>
+							<li class="devsite-footer-utility-item
+                 devsite-footer-utility-button">
+								<span class="devsite-footer-utility-description" _msthash="49533354"
+									_msttexthash="495443">Get news and tips by email</span>
+								<a class="devsite-footer-utility-link gc-analytics-event" href="/newsletter/#subscribe"
+									data-category="Site-Wide Custom Events" data-label="Footer Subscribe link"
+									_msthash="48245990" _msttexthash="133354">
+									Subscribe
+								</a>
+							</li>
+						</ul>
+
+						<devsite-language-selector _msthidden="18">
+							<devsite-select class="devsite-language-selector-menu" _msthidden="18">
+								<select aria-label="Select your language preference."
+									class="devsite-language-selector-select" name="language" track-name="click"
+									track-type="languageSelector" _msthidden="1" _msthiddenattr="62040563"
+									_mstaria-label="810316" _msthash="64841621" _msttexthash="854247017">
+									<option value="en" track-metadata-original-language="en"
+										track-metadata-selected-language="en" track-name="changed"
+										track-type="languageSelector" selected="selected">
+										English
+									</option>
+									<option value="id" track-metadata-original-language="en"
+										track-metadata-selected-language="id" track-name="changed"
+										track-type="languageSelector">
+										Bahasa Indonesia
+									</option>
+									<option value="de" track-metadata-original-language="en"
+										track-metadata-selected-language="de" track-name="changed"
+										track-type="languageSelector">
+										Deutsch
+									</option>
+									<option value="es" track-metadata-original-language="en"
+										track-metadata-selected-language="es" track-name="changed"
+										track-type="languageSelector">
+										Español
+									</option>
+									<option value="es_419" track-metadata-original-language="en"
+										track-metadata-selected-language="es_419" track-name="changed"
+										track-type="languageSelector">
+										Español – América Latina
+									</option>
+									<option value="fr" track-metadata-original-language="en"
+										track-metadata-selected-language="fr" track-name="changed"
+										track-type="languageSelector">
+										Français
+									</option>
+									<option value="pt_br" track-metadata-original-language="en"
+										track-metadata-selected-language="pt_br" track-name="changed"
+										track-type="languageSelector">
+										Português – Brasil
+									</option>
+									<option value="vi" track-metadata-original-language="en"
+										track-metadata-selected-language="vi" track-name="changed"
+										track-type="languageSelector">
+										Tiếng Việt
+									</option>
+									<option value="tr" track-metadata-original-language="en"
+										track-metadata-selected-language="tr" track-name="changed"
+										track-type="languageSelector">
+										Türkçe
+									</option>
+									<option value="ru" track-metadata-original-language="en"
+										track-metadata-selected-language="ru" track-name="changed"
+										track-type="languageSelector">
+										Русский
+									</option>
+									<option value="th" track-metadata-original-language="en"
+										track-metadata-selected-language="th" track-name="changed"
+										track-type="languageSelector">
+										ภาษาไทย
+									</option>
+									<option value="zh_cn" track-metadata-original-language="en"
+										track-metadata-selected-language="zh_cn" track-name="changed"
+										track-type="languageSelector">
+										中文 – 简体
+									</option>
+									<option value="zh_tw" track-metadata-original-language="en"
+										track-metadata-selected-language="zh_tw" track-name="changed"
+										track-type="languageSelector">
+										中文 – 繁體
+									</option>
+									<option value="ja" track-metadata-original-language="en"
+										track-metadata-selected-language="ja" track-name="changed"
+										track-type="languageSelector">
+										日本語
+									</option>
+									<option value="ko" track-metadata-original-language="en"
+										track-metadata-selected-language="ko" track-name="changed"
+										track-type="languageSelector">
+										한국어
+									</option>
+								</select>
+								<div class="devsite-select" _msthidden="16"><label
+										id="devsite-select-2023766266375536627-label" style="display:none;"
+										aria-label="Select your language preference." _msthidden="A"
+										_msthiddenattr="64242217" _mstaria-label="810316" _msthash="983984"
+										_msttexthash="263653">Select an option</label><button type="button"
+										class="devsite-select-toggle" id="devsite-select-2023766266375536627-button"
+										aria-haspopup="listbox"
+										aria-labelledby="devsite-select-2023766266375536627-label devsite-select-2023766266375536627-button"
+										_msthash="1077779" _msttexthash="94341">English</button>
+									<ul class="devsite-select-list" tabindex="-1" role="listbox" aria-expanded="false"
+										scrollbars="" aria-labelledby="devsite-select-2023766266375536627-button"
+										_msthidden="15">
+										<li role="option" id="devsite-select-2023766266375536627-0"
+											class="devsite-select-item" data-index="0" data-selected=""
+											aria-selected="true" aria-label="English, selected" _msthidden="A"
+											_msthiddenattr="66044043" _mstaria-label="304070" _msthash="717276"
+											_msttexthash="94341">English</li>
+										<li role="option" id="devsite-select-2023766266375536627-1"
+											class="devsite-select-item" data-index="1" aria-selected="false"
+											aria-label="Bahasa Indonesia" _msthidden="A" _msthiddenattr="66044044"
+											_mstaria-label="277524" _msthash="717822" _msttexthash="277524">Bahasa
+											Indonesia</li>
+										<li role="option" id="devsite-select-2023766266375536627-2"
+											class="devsite-select-item" data-index="2" aria-selected="false"
+											aria-label="Deutsch" _msthidden="A" _msthiddenattr="66044045"
+											_mstaria-label="94926" _msthash="718368" _msttexthash="94926">Deutsch</li>
+										<li role="option" id="devsite-select-2023766266375536627-3"
+											class="devsite-select-item" data-index="3" aria-selected="false"
+											aria-label="Español" _msthidden="A" _msthiddenattr="66044046"
+											_mstaria-label="113984" _msthash="718914" _msttexthash="113984">Español</li>
+										<li role="option" id="devsite-select-2023766266375536627-4"
+											class="devsite-select-item" data-index="4" aria-selected="false"
+											aria-label="Español – América Latina" _msthidden="A"
+											_msthiddenattr="66044047" _mstaria-label="1992341" _msthash="719460"
+											_msttexthash="1992341">Español – América Latina</li>
+										<li role="option" id="devsite-select-2023766266375536627-5"
+											class="devsite-select-item" data-index="5" aria-selected="false"
+											aria-label="Français" _msthidden="A" _msthiddenattr="66044048"
+											_mstaria-label="130715" _msthash="720006" _msttexthash="130715">Français
+										</li>
+										<li role="option" id="devsite-select-2023766266375536627-6"
+											class="devsite-select-item" data-index="6" aria-selected="false"
+											aria-label="Português – Brasil" _msthidden="A" _msthiddenattr="66044049"
+											_mstaria-label="2027389" _msthash="720552" _msttexthash="2027389">Português
+											– Brasil</li>
+										<li role="option" id="devsite-select-2023766266375536627-7"
+											class="devsite-select-item" data-index="7" aria-selected="false"
+											aria-label="Tiếng Việt" _msthidden="A" _msthiddenattr="66044050"
+											_mstaria-label="449644" _msthash="721098" _msttexthash="449644">Tiếng Việt
+										</li>
+										<li role="option" id="devsite-select-2023766266375536627-8"
+											class="devsite-select-item" data-index="8" aria-selected="false"
+											aria-label="Türkçe" _msthidden="A" _msthiddenattr="66044051"
+											_mstaria-label="109889" _msthash="721644" _msttexthash="109889">Türkçe</li>
+										<li role="option" id="devsite-select-2023766266375536627-9"
+											class="devsite-select-item" data-index="9" aria-selected="false"
+											aria-label="Русский" _msthidden="A" _msthiddenattr="66044052"
+											_mstaria-label="984438" _msthash="722190" _msttexthash="984438">Русский</li>
+										<li role="option" id="devsite-select-2023766266375536627-10"
+											class="devsite-select-item" data-index="10" aria-selected="false"
+											aria-label="ภาษาไทย" _msthidden="A" _msthiddenattr="66044053"
+											_mstaria-label="3299907" _msthash="744654" _msttexthash="3299907">ภาษาไทย
+										</li>
+										<li role="option" id="devsite-select-2023766266375536627-11"
+											class="devsite-select-item" data-index="11" aria-selected="false"
+											aria-label="中文 – 简体" _msthidden="A" _msthiddenattr="66044054"
+											_mstaria-label="12498915" _msthash="745213" _msttexthash="12498915">中文 – 简体
+										</li>
+										<li role="option" id="devsite-select-2023766266375536627-12"
+											class="devsite-select-item" data-index="12" aria-selected="false"
+											aria-label="中文 – 繁體" _msthidden="A" _msthiddenattr="66044055"
+											_mstaria-label="15354612" _msthash="745772" _msttexthash="15354612">中文 – 繁體
+										</li>
+										<li role="option" id="devsite-select-2023766266375536627-13"
+											class="devsite-select-item" data-index="13" aria-selected="false"
+											aria-label="日本語" _msthidden="A" _msthiddenattr="66044056"
+											_mstaria-label="9272445" _msthash="746331" _msttexthash="9272445">日本語</li>
+										<li role="option" id="devsite-select-2023766266375536627-14"
+											class="devsite-select-item" data-index="14" aria-selected="false"
+											aria-label="한국어" _msthidden="A" _msthiddenattr="66044057"
+											_mstaria-label="15509312" _msthash="746890" _msttexthash="15509312">한국어</li>
+									</ul>
+								</div>
+							</devsite-select>
+						</devsite-language-selector>
+
+					</nav>
+				</div>
+			</devsite-footer-utility>
+		</section>
+	</section>
+	<devsite-sitemask></devsite-sitemask>
+	<devsite-snackbar data-cookie-policy="//policies.google.cn/technologies/cookies"></devsite-snackbar>
+	<devsite-tooltip blocked-link=""></devsite-tooltip>
+	<devsite-heading-link></devsite-heading-link>
+	<devsite-analytics _msthash="61815" _msttexthash="143268619" _msthidden="1">
+		<script type="application/json"
+			analytics="">[{"metrics": {"ratings_value": "metric1", "ratings_count": "metric2"}, "dimensions": {"dimension6": "en", "dimension4": "Android Developers", "dimension5": "en", "dimension3": false, "dimension1": "Signed out", "dimension8": false}, "gaid": "UA-5831155-3"}]</script>
+		<script type="application/json"
+			gtm="">{"parameters": {"freeTrialEligibleUser": "False", "language": {"machineTranslated": "False", "requested": "en", "served": "en"}, "projectName": "Android Developers", "scriptsafe": null, "signedIn": "False", "internalUser": "False", "tenant": "android_china"}, "tags": ["GTM-KMSWPCJ"]}</script>
+	</devsite-analytics>
+	<script>
+		(function (d, e, v, s, i, t, E) {
+			d['GoogleDevelopersObject'] = i;
+			t = e.createElement(v); t.async = 1; t.src = s; E = e.getElementsByTagName(v)[0];
+			E.parentNode.insertBefore(t, E);
+		})(window, document, 'script',
+			'https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/js/app_loader.js', '[3,"zh_cn",null,"/js/devsite_app.js","https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68","https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/android","https://android-dot-google-developers.gonglchuangl.net",1,null,["/_pwa/android/manifest.json","/_static/images/video-placeholder.svg","https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/android/images/favicon.png","https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/android/images/lockup.svg","https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"],1]')
+	</script>
 </body>
+
 </html>
