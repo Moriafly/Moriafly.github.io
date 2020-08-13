@@ -1105,7 +1105,7 @@ body[layout=docs] .devsite-main-content[has-book-nav][has-toc] {
 .devsite-main-content[has-book-nav]~.devsite-footer,
 .devsite-main-content[has-book-nav]~devsite-footer-promos,
 .devsite-main-content[has-book-nav]~devsite-footer-utility {
-    margin: 0 0 0 268px
+    margin: 0 0 0 0px
 }
 
 [dir=rtl] .devsite-main-content[has-book-nav]~.devsite-footer,
@@ -1138,7 +1138,7 @@ body[layout=docs] .devsite-main-content[has-book-nav][has-toc] {
     body[layout=docs] .devsite-main-content[has-book-nav],
     body[layout=docs] .devsite-main-content[has-book-nav][has-toc] {
         -ms-grid-columns: 268px 24px 1fr 24px;
-        grid-template-columns: 268px 1fr 0
+        /* grid-template-columns: 268px 1fr 0 */
     }
 }
 
@@ -1182,10 +1182,6 @@ body[layout=docs] .devsite-main-content[has-book-nav][has-toc] {
     text-rendering: optimizeLegibility;
     text-transform: none;
     word-wrap: normal
-}
-
-.devsite-icon-arrow-drop-down:before {
-    content: "arrow_drop_down"
 }
 
 .devsite-icon-close:before {
@@ -19273,29 +19269,6 @@ devsite-header .devsite-collapsible-section {
     background-color: #fff
 }
 
-@media screen and (max-width:840px) {
-    devsite-header {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0)
-    }
-
-    devsite-header .devsite-top-logo-row {
-        padding: 0 16px
-    }
-
-    devsite-header .devsite-header-upper-tabs devsite-tabs {
-        margin: 0 0 0 16px
-    }
-
-    [dir=rtl] devsite-header .devsite-header-upper-tabs devsite-tabs {
-        margin: 0 16px 0 0
-    }
-
-    devsite-header .devsite-header-upper-tabs .devsite-doc-set-nav {
-        display: none
-    }
-}
-
 devsite-header .devsite-header-billboard {
     background-color: var(--devsite-header-color-lower, var(--devsite-primary-color, #fff));
     -webkit-box-align: center;
@@ -20208,9 +20181,7 @@ devsite-header devsite-tabs.upper-tabs .devsite-tabs-overflow-menu {
     }
 
     devsite-header devsite-tabs.lower-tabs,
-    devsite-header devsite-tabs.upper-tabs {
-        display: none
-    }
+
 }
 
 [dir=ltr] [layout=docs] h2:not(.no-link),

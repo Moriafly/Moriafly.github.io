@@ -728,6 +728,8 @@
     line-height: 1.45;
     overflow: auto;
     padding: 16px;
+    width: 80%;
+    margin-left: 10%;
   }
   
   .markdown-body pre code {
