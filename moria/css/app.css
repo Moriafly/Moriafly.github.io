@@ -1184,6 +1184,10 @@ body[layout=docs] .devsite-main-content[has-book-nav][has-toc] {
     word-wrap: normal
 }
 
+.devsite-icon-arrow-drop-down:before {
+    content: "arrow_drop_down"
+}
+
 .devsite-icon-close:before {
     content: "close"
 }
@@ -20181,8 +20185,11 @@ devsite-header devsite-tabs.upper-tabs .devsite-tabs-overflow-menu {
     }
 
     devsite-header devsite-tabs.lower-tabs,
-
+    devsite-header devsite-tabs.upper-tabs {
+        display: none
+    }
 }
+
 
 [dir=ltr] [layout=docs] h2:not(.no-link),
 [dir=ltr] [layout=docs] h3:not(.no-link),
