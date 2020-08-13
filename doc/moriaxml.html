@@ -15,85 +15,9 @@
 <body>
     <div class="markdown-body">
         <article>
-            
-            <h1><!DOCTYPE html>
-<html>
 
-
-
-<head>
-    <title>Moriaxml | Moriafly</title>
-
-    <link rel="stylesheet" type="text/css" href="../moria/css/github.css">
-    <link rel="stylesheet" href="../moria/css/styles/idea.css">
-    <script src="../moria/highlight.pack.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-</head>
-
-<body>
-    <div class="markdown-body">
-        <article>
-            
-            <h1>MoriaXML 文件单例解析</h1>
             <div>
-                <pre>
-                <code>
-    /**
-    * MoriaXML 文件解析
-    * @文件拓展名 .moriaxml
-    * @编码 UTF-8
-    */
-    object MoriaXML {
-        /**
-        * @author Moriafly
-        * @email moriafly@163.com
-        * @version 1.0.1
-        * @since 2020/8/10 13:11
-        * @param source .moriaxml 文件源数据 source data
-        * @param single .moriaxml 文件要解析的单数据名 single data
-        * @return String 解析出来的字符串
-        */
-    
-        fun getSingleMoriaXML(source: String, single: String): String {
-            val startStr = "<${single}>" // 构造开始标识
-            val endStr = "</${single}>" // 构造结束标识
-            // 获取标识失败，抛出异常
-            if (source.indexOf(startStr) == -1 || source.indexOf(endStr) == -1) {
-                throw Exception("getSingleMoriaXML Error: Can not get the single: \"${single}\".")
-            }
-            val startIndex = source.indexOf(startStr) + startStr.length // 开始读取位置
-            val endIndex = source.indexOf(endStr) // 结束读取位置
-            return source.substring(startIndex, endIndex) // 返回内容
-        }
-    
-        /**
-        * @param source .moriaxml 文件源数据 source data
-        * @param single .moriaxml 文件要解析的单数据名 single data
-        * @param errorString .moriaxml 解析错误返回的数据
-        */
-        fun getSingleMoriaXML(source: String, single: String, errorString: String): String {
-            val startStr = "<${single}>" // 构造开始标识
-            val endStr = "</${single}>" // 构造结束标识
-            // 获取标识失败，返回 errorString
-            if (source.indexOf(startStr) == -1 || source.indexOf(endStr) == -1) {
-                return errorString
-            }
-            val startIndex = source.indexOf(startStr) + startStr.length // 开始读取位置
-            val endIndex = source.indexOf(endStr) // 结束读取位置
-            return source.substring(startIndex, endIndex) // 返回内容
-        }
-    }
-                </code>
-            </pre>
-            </div>
-
-        </article>
-    </div>
-</body>
-
-
-</html></h1>
-            <div>
+                <h1>MoriaXML 文件单例读取</h1>
                 <pre>
                 <code>
     /**
