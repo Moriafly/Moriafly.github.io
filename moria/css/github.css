@@ -718,6 +718,10 @@
     margin-bottom: 0;
     word-break: normal;
   }
+
+  .markdown-body article {
+    margin: 64px;
+  }
   
   .markdown-body .highlight pre,
   .markdown-body pre {
