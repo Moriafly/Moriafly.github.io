@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 
 [theme=android-theme] {
     --devsite-primary-color: #3ddc84;
@@ -28274,40 +28274,10 @@ google-codelab #steps {
     flex-grow: 1
 }
 
-google-codelab google-codelab-step {
-    display: none;
-    width: 100%;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding-top: 32px;
-    overflow-y: auto;
-    overflow-x: hidden
-}
 
-google-codelab google-codelab-step[animating],
-google-codelab google-codelab-step[selected] {
-    display: block;
-    -webkit-transform-origin: 0 50% 0;
-    transform-origin: 0 50% 0;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both
-}
 
-google-codelab google-codelab-step[animating] {
-    pointer-events: none;
-    position: absolute;
-    overflow: hidden
-}
 
-google-codelab #drawer ol li {
-    padding: 0;
-    margin: 0
-}
+
 
 google-codelab {
     height: 100vh;
