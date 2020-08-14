@@ -57,7 +57,7 @@
   .markdown-body {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    color: #24292e;
+    color: #4d4d4d;
     line-height: 1.5;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
     font-size: 16px;
@@ -576,7 +576,7 @@
     font-weight: 600;
     line-height: 1.25;
     margin-bottom: 16px;
-    margin-top: 0px;
+    margin-top: 32px;
   }
   
   .markdown-body h1 {
@@ -678,7 +678,7 @@
   }
   
   .markdown-body img {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
     box-sizing: content-box;
     max-width: 100%;
   }
