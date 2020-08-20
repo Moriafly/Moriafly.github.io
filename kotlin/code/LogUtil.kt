@@ -48,15 +48,12 @@ object LogUtil {
         if (level <= WARN) Log.w(tag, msg)
     }
 
-    /**
-     * Log.e() 将只需登录一个错误日志与优先级错误
-     */
     fun e(tag: String, msg: String) {
         if (level <= ERROR) Log.e(tag, msg)
     }
 
     /**
-     * Log.wtf() 将记录优先级ASSERT错误，并可以（根据系统配置）发送错误报告，并立即终止程序
+     * Log.wtf() 将记录优先级 ASSERT 错误，并可以（根据系统配置）发送错误报告，并立即终止程序
      */
     fun a(tag: String, msg: String) {
         if (level <= ASSERT) Log.wtf(tag, msg)
