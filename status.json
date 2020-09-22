@@ -1,0 +1,32 @@
+{
+    "code": 200,
+    "profile": {
+        "userId": 411311194,
+        "nickname": "Moriafly",
+        "avatarUrl": "http://p4.music.126.net/AUhHOoeXwUB-ySN4FW7tOA==/109951165124752391.jpg",
+        "birthday": "984326400000",
+        "userType": 0,
+        "djStatus": 0
+    },
+    "bindings": [{
+        "expiresIn": 2147483647,
+        "expired": false,
+        "tokenJsonStr": "{\"countrycode\":\"\",\"cellphone\":\"182****8147\",\"hasPassword\":true}",
+        "refreshTime": 1562633561,
+        "id": 6912354672,
+        "type": 1,
+        "userId": 411311194,
+        "bindingTime": 1562633561229,
+        "url": ""
+    }, {
+        "expiresIn": 7776000,
+        "expired": false,
+        "tokenJsonStr": "{\"access_token\":\"2294451AFC9108F280714D37E1B854A9\",\"proxy_code\":\"\",\"code\":\"\",\"openid\":\"2D8CD6338D171DEE4F953881B7885B8B\",\"query_authority_cost\":-433333971,\"nickname\":\"虚而遨游\",\"partnerType\":\"0\",\"expires_in\":7776000,\"login_cost\":138,\"proxy_expires_in\":0,\"authority_cost\":2303}",
+        "refreshTime": 1600076166,
+        "id": 2970066169,
+        "type": 5,
+        "userId": 411311194,
+        "bindingTime": 1485671738220,
+        "url": ""
+    }]
+}
