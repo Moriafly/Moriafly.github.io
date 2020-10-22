@@ -30,6 +30,7 @@ body{
 }
 .search nav .float img {
 	height: 60px;width: 80px;
+	margin-left: 15px;
 }
 .search nav .text {
 	float: right;
@@ -42,7 +43,7 @@ body{
 }
 .se form {
 	float: left;
-	margin: 160px 300px;
+	margin: 250px 350px;
 }
 #input {
 	height: 45px;width: 550px;
