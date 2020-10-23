@@ -1,15 +1,74 @@
 @charset "utf-8";
-/* CSS Document */
-
+/* public*/
 *{
 	margin: 0;
 	padding: 0;
 }
 body{
-	background: #000;
-		
+	margin: 0px;
+	background: rgba(208,215,217,1) url(../images/bg1.jpg) no-repeat center bottom;
+	font-family: "microsoft yahei";
 }
-a{
+/* private */
+
+/* 导航条  */
+.search nav {
+	height: 60px;width: 100%;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.72);
+}
+.search nav .float {
+	float: left;
+}
+.search nav .float a{
+	color: rgb(79,117,156);
+    line-height: 60px;
+    margin: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.search nav .float img {
+	height: 60px;width: 80px;
+	margin-left: 15px;
+}
+.search nav .text {
+	float: right;
+	margin: 0px 3px;
+}
+/* 导航条 */
+/* 搜索框  */
+.se {
+	height: 500px;
+}
+.se form {
+	float: left;
+	margin: 250px 350px;
+}
+#input {
+	height: 45px;width: 550px;
+	margin: 0;
+	border: 2px solid rgb(57, 57, 212);
+	border-radius: 10px;
+}
+.se form .btn {
+	height: 50px;width: 100px;
+	margin-left: -15px;
+	border: 0;
+	border-radius: 10px;
+	color: white;
+	background-color: rgb(87, 87, 201);
+}
+.se form .btn:hover{
+	background-color: rgb(54, 54, 206);
+}
+/* 搜索框  */
+
+.imgbutton {
+    padding: 20px;
+    height: 50px;
+}
+/* a{
 	text-decoration: none;
 	position: absolute;
 	left: 50%;
@@ -51,4 +110,4 @@ a:hover{
 	100%{
 		background-position: -400% 0;
 	}
-}
+} */
