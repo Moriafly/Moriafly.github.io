@@ -1,5 +1,23 @@
 header aside #music-a {
     height: 100px;width: 100px;
     position: fixed;
-    top: 300px;right: 200px;
+    opacity: 0.5;
+    top: 60px;right: 200px;
+}
+header aside #music-a audio {
+    outline: none;
+}
+#btn {
+    border: none;
+    background-color: rgba(208,215,217,1);
+    color: blue;
+    outline: none;
+    position: fixed;
+    top: 160px;right: 120px;
+}
+#btn:hover {
+    cursor: pointer;
+}
+#ttt {
+    width: 300px;
 }

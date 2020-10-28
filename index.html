@@ -42,27 +42,34 @@
 		<!-- music -->
 		<aside>
 			<div id="music-a">
-				<input type="button" value="换个音乐" id="btn">
 				<audio controls autoplay src="source/陈奕迅 - 富士山下.mp3"></audio>
+				<div id="ttt">陈奕迅 - 富士山下</div>
+				<input type="button" value="换个音乐" id="btn">
 			</div>
 		</aside>
 		<script>
 			var oBtn = document.getElementById("btn");
 			var oAudio = document.getElementsByTagName("audio")[0];
+			var oTtt = document.getElementById("ttt");
 			var i = 0;
 			oBtn.onclick = function(){
 				i++;
 				switch(i%4){
 					case 1 : 
 						oAudio.src = "source/栖霞.mp3";
+						oTtt.innerText = "栖霞";
 						break;
 					case 2 : 
 						oAudio.src = "source/叶里 - 无归.mp3";
+						oTtt.innerText= "叶里 - 无归";
 						break;
 					case 3 : 
 						oAudio.src = "source/虚而遨游 - 华胥引（Cover 河图）.mp3";
+						oTtt.innerText = "虚而遨游 - 华胥引（Cover 河图）";
 						break;
-					default: oAudio.src = "source/陈奕迅 - 富士山下.mp3";
+					default: 
+						oAudio.src = "source/陈奕迅 - 富士山下.mp3";
+						oTtt.innerText = "陈奕迅 - 富士山下";
 				}
 			}
 		</script>
