@@ -38,26 +38,39 @@ body{
 }
 /* 导航条 */
 /* 搜索框  */
-.se {
-	height: 500px;
+.se{
+	height: 300px;
 }
-.se form {
-	float: left;
-	margin: 250px 350px;
+.se div{
+	position: relative;top: 200px;
+	width: 900px;
+	height: 55px;
+	margin: auto;
 }
+
 #input {
-	height: 45px;width: 550px;
-	margin: 0;
+	height: 45px;width: 60%;
+	margin: 3px 0px 2px 100px;
 	border: 2px solid rgb(57, 57, 212);
-	border-radius: 10px;
+	border-top-left-radius: 30px;border-bottom-left-radius: 30px;
+	outline: none;
+	font-size: 22px;padding-left: 20px;
 }
-.se form .btn {
-	height: 50px;width: 100px;
-	margin-left: -15px;
-	border: 0;
-	border-radius: 10px;
-	color: white;
-	background-color: rgb(87, 87, 201);
+form .span{
+	background-color: rgb(57, 57, 212);
+	display: inline-block;
+	height: 49px;
+	position: relative;left: -5px;top: -1px;
+	line-height: 49px;text-align: center;
+	border-top-right-radius: 10px;border-bottom-right-radius: 10px;
+	width: 100px;
+	/* border-radius: 10px; */
+	/* color: white; */
+	/* background-color: rgb(87, 87, 201); */
+	outline: none;
+}
+form span a {
+	text-decoration: none;	color: white;
 }
 .se form .btn:hover{
 	background-color: rgb(54, 54, 206);
