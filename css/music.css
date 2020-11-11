@@ -9,15 +9,18 @@ header aside #music-a audio {
 }
 #btn {
     border: none;
-    background-color: rgba(208,215,217,1);
-    color: blue;
+    background-color:  rgba(255, 255, 255, 0.72);
+    color: deepskyblue;
     outline: none;
     position: fixed;
-    top: 160px;right: 120px;
+    top:0;right: 180px;
+    font-size: 16px;line-height: 60px;
 }
 #btn:hover {
     cursor: pointer;
 }
 #ttt {
     width: 300px;
+    text-align: center;
+    
 }
