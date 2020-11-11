@@ -1,6 +1,6 @@
 {
-    "name": "1.0.1",
-    "code": "143",
-    "content": "【BUG 修复】修复了重复打开播放界面歌词缺失的问题",
-    "url": "https://foyou.lanzous.com/ihdvHi9p9lc"
+    "name": "1.0.2",
+    "code": "144",
+    "content": "【功能调整】暂时下线降噪功能\n【优化】增大字号，优化部分 UI\n【BUG 修复】修复了部分音乐因歌词问题造成软件闪退的问题",
+    "url": "https://foyou.lanzous.com/iG4sYia9s7c"
 }
