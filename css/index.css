@@ -64,16 +64,14 @@ form .span{
 	line-height: 49px;text-align: center;
 	border-top-right-radius: 10px;border-bottom-right-radius: 10px;
 	width: 100px;
-	/* border-radius: 10px; */
-	/* color: white; */
-	/* background-color: rgb(87, 87, 201); */
 	outline: none;
 }
 form span a {
 	text-decoration: none;	color: white;
 }
-.se form .btn:hover{
-	background-color: rgb(54, 54, 206);
+form span:hover {
+	cursor: pointer;
+	background-color: blue;
 }
 /* 搜索框  */
 
