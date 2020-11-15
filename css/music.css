@@ -1,11 +1,6 @@
 header aside #music-a {
-    height: 100px;width: 100px;
-    position: fixed;
-    opacity: 0.5;
     top: 60px;right: 200px;
-}
-header aside #music-a audio {
-    outline: none;
+    float: right;
 }
 #btn {
     border: none;
@@ -13,14 +8,10 @@ header aside #music-a audio {
     color: deepskyblue;
     outline: none;
     position: fixed;
-    top:0;right: 180px;
+    top:60px;right: 20px;
     font-size: 16px;line-height: 60px;
-}
-#btn:hover {
-    cursor: pointer;
 }
 #ttt {
     width: 300px;
     text-align: center;
-    
 }

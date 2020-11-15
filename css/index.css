@@ -12,29 +12,13 @@ body{
 /* private */
 
 /* 导航条  */
-.search nav {
-	height: 60px;width: 100%;
-	position: fixed;
-	background-color: rgba(255, 255, 255, 0.72);
+header nav .container .navbar-header .navbar-brand img {
+	height: 80px;width: 80px;
+	margin: -25px 25px 0 -25px;
 }
-.search nav .float {
-	float: left;
-}
-.search nav .float a{
-	color: rgb(79,117,156);
-    line-height: 60px;
-    margin: 25px;
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-}
-.search nav .float img {
-	height: 60px;width: 80px;
-	margin-left: 15px;
-}
-.search nav .text {
-	float: right;
-	margin: 0px 3px;
+header nav .navbar-collapse ul li {
+	font-family: "Adobe Caslon Pro";
+	font-size: 18px;
 }
 /* 导航条 */
 /* 搜索框  */
@@ -46,15 +30,17 @@ body{
 	width: 900px;
 	height: 55px;
 	margin: auto;
+	/* background-color: antiquewhite; */
 }
-
-#input {
+.se div form label #input {
 	height: 45px;width: 60%;
 	margin: 3px 0px 2px 100px;
 	border: 2px solid rgb(57, 57, 212);
 	border-top-left-radius: 30px;border-bottom-left-radius: 30px;
 	outline: none;
-	font-size: 22px;padding-left: 20px;
+	font-size: 22px;
+	padding-left: 20px;
+	/* align-items: center;justify-content: center; */
 }
 form .span{
 	background-color: rgb(57, 57, 212);
@@ -63,11 +49,9 @@ form .span{
 	position: relative;left: -5px;top: -1px;
 	line-height: 49px;text-align: center;
 	border-top-right-radius: 10px;border-bottom-right-radius: 10px;
-	width: 100px;
+	width: 100px;color: white;
+	border: 0;
 	outline: none;
-}
-form span a {
-	text-decoration: none;	color: white;
 }
 form span:hover {
 	cursor: pointer;
