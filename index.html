@@ -93,7 +93,6 @@
 			<form>
 				<label><input type="text" id="input"><input type="button" value="搜索" class="btn1" onclick="search()"
 						target="_blank"></label>
-
 			</form>
 		</div>
 	</div>
@@ -175,12 +174,8 @@
 		搜索按钮
 	 */
 	function search() {
-		location.href = "https://www.baidu.com/s?wd=" + tvSearch.value;
-	}
-
-	function baidu() {
-		var inputword = document.getElementById("baidu").value;
-		location.href = "https://www.baidu.com/s?wd=" + inputword;
+		var url = "https://www.baidu.com/s?wd=" + tvSearch.value;
+		window.open(url);
 	}
 
 </script>
