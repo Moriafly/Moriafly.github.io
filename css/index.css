@@ -1,74 +1,99 @@
 @charset "utf-8";
+
 /* public*/
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
-body{
+
+body {
 	margin: 0px;
-	background: rgba(208,215,217,1) url(../images/bg1.jpg) no-repeat center bottom;
+	background: rgba(208, 215, 217, 1) url(../images/bg1.jpg) no-repeat center bottom;
 	font-family: "microsoft yahei";
 }
+
 /* private */
 
 /* 导航条  */
-header nav .container .navbar-header .navbar-brand img {
-	height: 80px;width: 80px;
-	margin: -25px 25px 0 -25px;
+.FixedTitleBar {
+	width: 100%;
+	position: fixed;
 }
+
+header nav .container .navbar-header .navbar-brand img {
+	height: 50px;
+	width: 50px;
+	margin: 25px 0 25px 0px;
+}
+
 header nav .navbar-collapse ul li {
 	font-family: "Adobe Caslon Pro";
 	font-size: 18px;
 }
+
 /* 导航条 */
 /* 搜索框  */
-.se{
+.se {
 	height: 300px;
 }
-.se div{
+
+.se div {
 	width: 80%;
 	margin: 8% auto;
 	height: 55px;
 	display: flex;
 }
+
 .se form {
 	margin: auto;
-	align-items: center;justify-items: center;
+	align-items: center;
+	justify-items: center;
 }
+
 .se label {
 	height: 55px;
 	display: flex;
 }
+
 #input {
-	width: 100%;margin: 2px 0 2px 50px;
+	width: 100%;
+	margin: 2px 0 2px 50px;
 	border: 2px solid rgb(57, 57, 212);
-	border-top-left-radius: 30px;border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
 	outline: none;
 	font-size: 22px;
 	padding-left: 20px;
-	align-items: center;justify-items: center;
+	align-items: center;
+	justify-items: center;
 }
-form .btn1{
+
+form .btn1 {
 	background-color: rgb(57, 57, 212);
 	margin: 2px 0 2px 0;
-	line-height: 49px;text-align: center;
-	border-top-right-radius: 30px;border-bottom-right-radius: 30px;
+	line-height: 49px;
+	text-align: center;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
 	width: 120px;
 	border: 0;
 	color: white;
 	outline: none;
 	font-size: 14px;
 }
+
 form .btn1:hover {
 	cursor: pointer;
 	background-color: blue;
 }
+
 /* 搜索框  */
 
 .imgbutton {
-    padding: 20px;
-    height: 50px;
+	padding: 20px;
+	height: 50px;
 }
+
 /* a{
 	text-decoration: none;
 	position: absolute;
@@ -112,3 +137,7 @@ a:hover{
 		background-position: -400% 0;
 	}
 } */
+
+#logo {
+	padding-right: 100px;
+}

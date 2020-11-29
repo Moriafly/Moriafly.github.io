@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,25 +16,29 @@
 	<script src="moria/highlight.pack.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
 </head>
+
 <body>
 
-<!-- 导航条 开始 -->
+	<!-- 导航条 开始 -->
+	<div class="FixedTitleBar">
 		<header role="banner">
+
 			<nav role="navigation" class="navbar navbar-static-top navbar-default">
 				<div class="container">
 					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target=".navbar-collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a href="index.html" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
+						<a href="index.html"><img id="logo" height="50px" src="images/logo.png" alt="logo"></a>
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
 							<li><a href="./zsg/index.html">泽世宫</a></li>
-							<li ><a href="#" >Foyou（搭建中）</a></li>
-							<li><a href="#">Dirror 字库（搭建中）</a></li>
+							<li><a href="#">Foyou</a></li>
+							<li><a href="#">Dirror 字库</a></li>
 							<li><a href="./doc/index.html">文档</a></li>
 							<li class="text"><a href="#">注册</a></li>
 							<li class="text"><a href="#">登录</a></li>
@@ -41,56 +46,60 @@
 					</div>
 				</div>
 			</nav>
+
+
 		</header>
-
-		<!-- music -->
-			<aside>
-				<div id="music-a">
-					<audio autoplay src="source/陈奕迅 - 富士山下.mp3"></audio>
-					<div id="ttt">陈奕迅 - 富士山下</div><button id="btn">换个音乐</button>
-				</div>
-			</aside>
-		<script>
-			var oBtn = document.getElementById("btn");
-			var oAudio = document.getElementsByTagName("audio")[0];
-			var oTtt = document.getElementById("ttt");
-			var i = 0;
-			oBtn.onclick = function(){
-				i++;
-				switch(i%4){
-					case 1 : 
-						oAudio.src = "source/栖霞.mp3";
-						oTtt.innerText = "栖霞";
-						break;
-					case 2 : 
-						oAudio.src = "source/叶里 - 无归.mp3";
-						oTtt.innerText= "叶里 - 无归";
-						break;
-					case 3 : 
-						oAudio.src = "source/虚而遨游 - 华胥引（Cover 河图）.mp3";
-						oTtt.innerText = "虚而遨游 - 华胥引（Cover 河图）";
-						break;
-					default: 
-						oAudio.src = "source/陈奕迅 - 富士山下.mp3";
-						oTtt.innerText = "陈奕迅 - 富士山下";
-				}
-			}
-		</script>
-		<!-- music -->
-	</header>
-<!-- 导航条 -->
-<!-- 搜索框 -->
-<div class="se">
-	<div>
-		<form>
-			<label><input type="text" id="input"><input type="button" value="世昊一下~" class="btn1" onclick="search()" target="_blank"></label>
-			
-		</form>
 	</div>
-</div>
-<!-- 搜索框  -->
 
-<!-- 网站导航 -->
+	<!-- music -->
+	<aside>
+		<div id="music-a">
+			<audio autoplay src="source/陈奕迅 - 富士山下.mp3"></audio>
+			<div id="ttt">陈奕迅 - 富士山下</div><button id="btn">换个音乐</button>
+		</div>
+	</aside>
+	<script>
+		var oBtn = document.getElementById("btn");
+		var oAudio = document.getElementsByTagName("audio")[0];
+		var oTtt = document.getElementById("ttt");
+		var i = 0;
+		oBtn.onclick = function () {
+			i++;
+			switch (i % 4) {
+				case 1:
+					oAudio.src = "source/栖霞.mp3";
+					oTtt.innerText = "栖霞";
+					break;
+				case 2:
+					oAudio.src = "source/叶里 - 无归.mp3";
+					oTtt.innerText = "叶里 - 无归";
+					break;
+				case 3:
+					oAudio.src = "source/虚而遨游 - 华胥引（Cover 河图）.mp3";
+					oTtt.innerText = "虚而遨游 - 华胥引（Cover 河图）";
+					break;
+				default:
+					oAudio.src = "source/陈奕迅 - 富士山下.mp3";
+					oTtt.innerText = "陈奕迅 - 富士山下";
+			}
+		}
+	</script>
+	<!-- music -->
+	</header>
+	<!-- 导航条 -->
+	<!-- 搜索框 -->
+	<div class="se">
+		<div>
+			<form>
+				<label><input type="text" id="input"><input type="button" value="搜索" class="btn1" onclick="search()"
+						target="_blank"></label>
+
+			</form>
+		</div>
+	</div>
+	<!-- 搜索框  -->
+
+	<!-- 网站导航 -->
 	<div style="margin-top: 150px; padding: 50px; background-color: rgba(255, 255, 255, 0.5); ">
 		<article class="markdown-body" style="width: 85%;margin:auto">
 			<h2>网站导航</h2>
@@ -101,8 +110,9 @@
 					height="50px" alt="..."></a>
 			<a href="https://www.yutu.cn/popsoft.html" target="_blank" title="羽兔网">
 				<img alt="..." class="imgbutton" src="https://static.yutu.cn/yutu/images/logo.png" height="50px"></a>
-				<a href="https://next.itellyou.cn/" target="_blank" title="itellyou">
-					<img alt="..." class="imgbutton" src="https://next.itellyou.cn/images/logo-footer-small.png" width="200px"></a>
+			<a href="https://next.itellyou.cn/" target="_blank" title="itellyou">
+				<img alt="..." class="imgbutton" src="https://next.itellyou.cn/images/logo-footer-small.png"
+					width="200px"></a>
 
 			<h3>视频</h3>
 			<a href="https://www.bilibili.com/" target="_blank" title="Bilibili">
@@ -112,17 +122,17 @@
 
 			<h3>设计</h3>
 			<a href="https://www.zcool.com.cn/" target="_blank" title="站酷">
-				<img alt="..." class="imgbutton" src="https://static.zcool.cn/git_z/z/common/images/svg/logo.svg" height="50px"
-					width="170px"></a>
+				<img alt="..." class="imgbutton" src="https://static.zcool.cn/git_z/z/common/images/svg/logo.svg"
+					height="50px" width="170px"></a>
 			<a href="http://www.shijue.me/" target="_blank" title="视觉 me">
-				<img alt="..."  class="imgbutton" src="https://cdn.shijue.me/images/icon/visual-me-red.svg" height="50px"
+				<img alt="..." class="imgbutton" src="https://cdn.shijue.me/images/icon/visual-me-red.svg" height="50px"
 					width="170px"></a>
 
 			<h3>开发者</h3>
 			<a href="https://github.com/" target="_blank" title="Github"><img alt="..." class="imgbutton"
 					src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2586243650,1628445668&fm=26&gp=0.jpg"
 					height="50px"></a>
-			<a href="https://juejin.im/" target="_blank" title="掘金社区"><img  alt="..." class="imgbutton"
+			<a href="https://juejin.im/" target="_blank" title="掘金社区"><img alt="..." class="imgbutton"
 					src="https://s3.pstatp.com/toutiao/xitu_juejin_web/img/logo.a7995ad.svg" height="50px"></a>
 			<a href="https://developer.android.google.cn/index.html" target="_blank" title="Android 开发者">
 				<img alt="..." class="imgbutton"
@@ -133,7 +143,8 @@
 					src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3571500589,2589366360&fm=26&gp=0.jpg"
 					height="50px"></a>
 			<a href="https://www.w3.org/" target="_blank" title="W3C 万维网联盟">
-				<img alt="..." class="imgbutton" src="https://www.w3.org/2008/site/images/logo-w3c-mobile-lg" height="50px"></a>
+				<img alt="..." class="imgbutton" src="https://www.w3.org/2008/site/images/logo-w3c-mobile-lg"
+					height="50px"></a>
 
 			<h3>编程语言学习</h3>
 			<a href="https://www.kotlincn.net/" target="_blank" title="Kotlin">
@@ -152,7 +163,7 @@
 		</article>
 	</div>
 
-<!-- 网站导航 -->
+	<!-- 网站导航 -->
 	<!-- <audio src="source/栖霞.mp3" autoplay loop></audio> -->
 
 </body>
@@ -164,7 +175,7 @@
 		搜索按钮
 	 */
 	function search() {
-		location.href = "https://www.baidu.com/s?wd="+ tvSearch.value;
+		location.href = "https://www.baidu.com/s?wd=" + tvSearch.value;
 	}
 
 	function baidu() {
@@ -175,4 +186,5 @@
 </script>
 <script src="js/vendor/jquery.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
+
 </html>
