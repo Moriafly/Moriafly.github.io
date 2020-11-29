@@ -26,34 +26,40 @@ header nav .navbar-collapse ul li {
 	height: 300px;
 }
 .se div{
-	position: relative;top: 200px;
-	width: 900px;
+	width: 80%;
+	margin: 8% auto;
 	height: 55px;
-	margin: auto;
-	/* background-color: antiquewhite; */
+	display: flex;
 }
-.se div form label #input {
-	height: 45px;width: 60%;
-	margin: 3px 0px 2px 100px;
+.se form {
+	margin: auto;
+	align-items: center;justify-items: center;
+}
+.se label {
+	height: 55px;
+	display: flex;
+}
+#input {
+	width: 100%;margin: 2px 0 2px 50px;
 	border: 2px solid rgb(57, 57, 212);
 	border-top-left-radius: 30px;border-bottom-left-radius: 30px;
 	outline: none;
 	font-size: 22px;
 	padding-left: 20px;
-	/* align-items: center;justify-content: center; */
+	align-items: center;justify-items: center;
 }
-form .span{
+form .btn1{
 	background-color: rgb(57, 57, 212);
-	display: inline-block;
-	height: 49px;
-	position: relative;left: -5px;top: -1px;
+	margin: 2px 0 2px 0;
 	line-height: 49px;text-align: center;
-	border-top-right-radius: 10px;border-bottom-right-radius: 10px;
-	width: 100px;color: white;
+	border-top-right-radius: 30px;border-bottom-right-radius: 30px;
+	width: 120px;
 	border: 0;
+	color: white;
 	outline: none;
+	font-size: 14px;
 }
-form span:hover {
+form .btn1:hover {
 	cursor: pointer;
 	background-color: blue;
 }
