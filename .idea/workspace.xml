@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20661b99-7f14-4183-848b-a067a2a46299" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vendor/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vendor/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vendor/modernizr-3.11.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/music.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/music.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +22,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="E:/html/site01_mooc_html5" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -57,7 +48,8 @@
       <workItem from="1605319482050" duration="30000" />
       <workItem from="1605422451745" duration="59000" />
       <workItem from="1605424259511" duration="1803000" />
-      <workItem from="1605426137833" duration="2148000" />
+      <workItem from="1605426137833" duration="2271000" />
+      <workItem from="1605440457144" duration="84000" />
     </task>
     <servers />
   </component>
@@ -65,10 +57,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="192" key="FileChooserDialogImpl" timestamp="1605422510452">
+    <state x="526" y="192" key="FileChooserDialogImpl" timestamp="1605440540039">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="526" y="192" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605422510452" />
+    <state x="526" y="192" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605440540039" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600305562850" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1604989907043">
       <screen x="0" y="0" width="1366" height="728" />
