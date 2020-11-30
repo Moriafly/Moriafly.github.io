@@ -4,21 +4,25 @@ body {
 }
 
 .TitleBar {
+    position: absolute;
     margin-top: 0px;
-    position: fixed;
-    height: 56px;
+    height: 80px;
     background-color: #ffffff00;
     width: 100%;
 }
 
 .Logo {
+    float: left;
     padding-left: 36px;
-    padding-right: 156px;
+    padding-right: 36px;
+    margin: 0px;
+    padding: 0px;
     position: relative;
     display: inline;
 }
 
 .Image {
+    display: inline;
     width: 100%;
 }
 
@@ -38,8 +42,13 @@ body {
     padding: 0 20px;
 }
 
-a {
+.AppHeader-Tabs a {
     color: white;
     text-decoration: none;
     font-weight: 100;
+}
+
+.Logo-a {
+    height: 80px;
+    display: inline-block;
 }
