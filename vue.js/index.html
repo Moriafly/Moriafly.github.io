@@ -1,54 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"> -->
-    <title>Moriafly - 全新</title>
+    <title>Moriafly 泽世宫 - 新生</title>
 
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
 
-    
-    <div class="Page">
-        <div class="TitleBar">
-            <div class="title-bar-wrap-1240">
-                <div class="Logo">
-                    <a class="Logo-a">
-                        <img style="height: 50px; display: inline; padding: 15px 15px;" src="../res/drawable/zsg_logo_white.png">
-                    </a>
-                </div>
-                <ul class="AppHeader-Tabs">
-                    <li>
-                        <a href="../doc/index.html">文档</a>
-                    </li>
-                    <li>
-                        <a href="https://can-dy-jack.github.io/">友情链接</a>
-                    </li>
-                    <li>
-                        <a href="../res/drawable/wsw.png">更多美图</a>
-                    </li>
-                    <li>
-                        <a href="../index.html">经典版</a>
-                    </li>
-                </ul>
+
+
+    <nav class="TitleBar">
+        <div id="app" class="title-bar-wrap-1240">
+            <div class="Logo">
+                <a href="./index.html" class="Logo-a">
+                    <img style="height: 50px; display: inline; padding: 15px 15px;"
+                        src="../res/drawable/zsg_logo_white.png">
+                </a>
             </div>
-            
+            <ul class="AppHeader-Tabs">
+                <li>
+                    <a href="../doc/index.html">开发文档</a>
+                </li>
+                <li>
+                    <a>应用下载</a>
+                </li>
+                <li>
+                    <a href="https://can-dy-jack.github.io/">友情链接</a>
+                </li>
+                <li>
+                    <a id="btn-change-image" @click="changeImage">切换美图</a>
+                </li>
+                <li>
+                    <a href="../index.html">经典版页</a>
+                </li>
+            </ul>
         </div>
-        <div class="Image">
-            <a>
-                <img width="100%" src="../res/drawable/pmy.jpg">
-            </a>
-            
-        </div>
+
+    </nav>
+    <div class="Image">
+        <a>
+            <img id="backgroundImage" src="../res/drawable/pmy.jpg">
+        </a>
 
     </div>
 
-    
+    <footer class="main-footer">
+        <div class="main-footer-warp">
+
+        </div>
+    </footer>
+
     <!-- 开发版 Vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
-
+        var app = new Vue({
+            el:"#app",
+            data: {
+                source:[
+                    "../res/drawable/pmy.jpg",
+                    "../res/drawable/wsw.png"
+                ],
+                index: 0
+            },
+            methods: {
+                changeImage: function () {
+                    var backgroundImage = document.getElementById("backgroundImage");
+                    if (this.index == 0) {
+                        this.index = 1
+                    } else {
+                        this.index = 0
+                    }
+                    backgroundImage.src = this.source[this.index]
+                }
+            }
+        })
     </script>
 </body>
+
 </html>

@@ -33,7 +33,17 @@ body {
     top: 0;
     transform: translateX(-50%);
     display: inline;
+    height: 670px;
     /* width: 100%; */
+}
+
+.Image img {
+    /* position: absolute; */
+    left: 50%;
+    top: 0;
+    /* transform: translateX(-50%); */
+    display: inline;
+    width: 100%;
 }
 
 .AppHeader-Tabs {
@@ -63,4 +73,21 @@ body {
 .Logo-a {
     height: 80px;
     display: inline-block;
+}
+
+/* 底部 */
+.main-footer {
+    /* background-color: wheat; */
+    height: 400px;
+}
+
+.main-footer-warp {
+    width: 1240px;
+    margin: 0 auto;
+    background-color: violet;
+    height: 400px;
+}
+
+#btn-change-image:hover {
+    cursor: not-allowed ;
 }
