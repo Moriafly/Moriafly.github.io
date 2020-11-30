@@ -1,0 +1,10 @@
+.Page {
+
+}
+
+.TitleBar {
+    position: fixed;
+    height: 56px;
+    background-color: #ffffff;
+    width: 100%;
+}

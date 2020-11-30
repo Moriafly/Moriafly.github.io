@@ -17,6 +17,7 @@ body {
 /* 导航条  */
 .FixedTitleBar {
 	width: 100%;
+	height: 50px;
 	position: fixed;
 }
 

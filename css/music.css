@@ -1,17 +1,23 @@
 header aside #music-a {
-    top: 60px;right: 200px;
+    top: 60px;
+    right: 200px;
     float: right;
 }
+
 #btn {
     border: none;
-    background-color:  rgba(255, 255, 255, 0.72);
+    background-color: rgba(255, 255, 255, 0.72);
     color: deepskyblue;
     outline: none;
     position: fixed;
-    top:60px;right: 20px;
-    font-size: 16px;line-height: 60px;
+    top: 60px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 60px;
 }
+
 #ttt {
+    padding-top: 100px;
     width: 300px;
     text-align: center;
 }
