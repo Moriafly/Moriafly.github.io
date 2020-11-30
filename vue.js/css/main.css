@@ -1,4 +1,5 @@
 body {
+    min-width: 1240px;
     padding: 0px;
     margin: 0px;
 }
@@ -9,6 +10,11 @@ body {
     height: 80px;
     background-color: #ffffff00;
     width: 100%;
+}
+
+.title-bar-wrap-1240 {
+    margin: 0 auto;
+    width: 1240px;
 }
 
 .Logo {
@@ -22,11 +28,17 @@ body {
 }
 
 .Image {
+    /* position: absolute; */
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
     display: inline;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .AppHeader-Tabs {
+    position: relative;
+    float: right;
     display: inline-block;
     border-bottom: none;
     padding: 0px;
