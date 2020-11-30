@@ -176,7 +176,11 @@
 	 */
 	function search() {
 		var url = "https://www.baidu.com/s?wd=" + tvSearch.value;
-		window.open(url);
+		if (tvSearch.value == "万仕伟") {
+			window.open("../res/drawable/wsw.png")
+		} else {
+			window.open(url);
+		}
 	}
 
 </script>

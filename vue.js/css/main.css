@@ -84,10 +84,10 @@ body {
 .main-footer-warp {
     width: 1240px;
     margin: 0 auto;
-    background-color: violet;
+    background-color: rgb(240, 240, 240);
     height: 400px;
 }
 
 #btn-change-image:hover {
-    cursor: not-allowed ;
+    cursor: pointer;
 }
