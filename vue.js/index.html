@@ -8,12 +8,13 @@
 
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-    <nav class="TitleBar">
+    <nav class="TitleBar" onselectstart="return false;">
         <div id="app" class="title-bar-wrap-1240">
             <div class="Logo">
                 <a href="./index.html" class="Logo-a">
-                    <img style="height: 50px; display: inline; padding: 15px 15px;"
+                    <img style="height: 50px; display: inline; padding: 15px 0px;"
                         src="../res/drawable/zsg_logo_white.png">
                 </a>
             </div>
@@ -24,14 +25,11 @@
                 <li>
                     <a href="../doc/index.html">开发文档</a>
                 </li>
-                <li>
-                    <a href="https://can-dy-jack.github.io/">友情链接</a>
-                </li>
-                <li>
+                <!-- <li>
                     <a id="btn-change-image" @click="changeImage">切换美图</a>
-                </li>
+                </li> -->
                 <li>
-                    <a href="../index.html">经典版页</a>
+                    <a href="../index.html">经典版</a>
                 </li>
             </ul>
         </div>
@@ -46,16 +44,28 @@
 
     <footer class="main-footer">
         <div class="main-footer-warp">
+            <div>
+                <p class="slogan">竹斋眠听雨，梦里长青苔。</p>
+                <p class="footer-p">友情链接</p>
+                
+                <a href="https://can-dy-jack.github.io/" title="一个女装程序员的网站">can-dy-jack</a>
+            </div>
+            <div>
+                <p class="footer-copyright">Designed by Moriafly 2020</p>
+            </div>
             
         </div>
     </footer>
+
+    <!-- 背景音乐 -->
+    <audio autoplay src="https://api.fczbl.vip/163/?type=url&id=1332121708"></audio>
     <!-- 开发版 Vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
         var app = new Vue({
-            el:"#app",
+            el: "#app",
             data: {
-                source:[
+                source: [
                     "../res/drawable/pmy.jpg",
                     "../res/drawable/pmy2.jpg",
                     "../res/drawable/wsw.png"
@@ -76,7 +86,7 @@
             }
         })
     </script>
-    
+
 </body>
 
 </html>
