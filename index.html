@@ -175,12 +175,13 @@
 		搜索按钮
 	 */
 	function search() {
-		var url = "https://www.baidu.com/s?wd=" + tvSearch.value;
-		if (tvSearch.value == "万仕伟") {
+		var keywords = tvSearch.value;
+		var url = "https://www.baidu.com/s?wd=" + keywords;
+		if (keywords == "万仕伟") {
 			window.open("res/drawable/wsw.png");
-		} else if(tvSearch.value == "吴世昊"){
+		} else if (keywords == "吴世昊") {
 			window.open("res/drawable/wsh.png");
-		}else {
+		} else {
 			window.open(url);
 		}
 	}
