@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body>
+<body >
     <nav class="TitleBar" onselectstart="return false;">
         <div id="app" class="title-bar-wrap-1240">
             <div class="Logo">
@@ -18,7 +18,10 @@
                         src="../res/drawable/zsg_logo_white.png">
                 </a>
             </div>
-            <ul class="AppHeader-Tabs">
+            <ul  class="AppHeader-Tabs">
+                <!-- <li>
+                    <a @click="playMusic">音乐</a>
+                </li> -->
                 <li>
                     <a href="solar/index.html">Solar</a>
                 </li>
@@ -32,14 +35,26 @@
                     <a href="../index.html">经典版</a>
                 </li>
             </ul>
+            <div @click="playMusic" class="audio" >
+                <!-- 背景音乐 -->
+                <audio id="audioPlayer" src="https://api.fczbl.vip/163/?type=url&id=1332121708" loop autoplay></audio>
+                <!-- <img src="../res/drawable/wtcz.jpg"> -->
+            </div>
         </div>
-
+        
     </nav>
     <div class="Image">
         <a>
             <img id="backgroundImage" src="../res/drawable/pmy.jpg">
         </a>
 
+
+    </div>
+
+    <div class="main-warp">
+        <div>
+            <p>Dso Music 立刻下载</p>
+        </div>
     </div>
 
     <footer class="main-footer">
@@ -47,21 +62,23 @@
             <div>
                 <p class="slogan">竹斋眠听雨，梦里长青苔。</p>
                 <p class="footer-p">友情链接</p>
-                
+
                 <a href="https://can-dy-jack.github.io/" title="一个女装程序员的网站">can-dy-jack</a>
             </div>
             <div>
-                <p class="footer-copyright">Designed by Moriafly 2020</p>
+                <p class="footer-copyright">本站由 Moriafly 维护 | Designed by Moriafly 2020</p>
             </div>
-            
+
         </div>
     </footer>
 
-    <!-- 背景音乐 -->
-    <audio autoplay src="https://api.fczbl.vip/163/?type=url&id=1332121708"></audio>
+
     <!-- 开发版 Vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
+
+        var audioPlayer = document.getElementById("audioPlayer")
+
         var app = new Vue({
             el: "#app",
             data: {
@@ -82,9 +99,24 @@
                     }
                     backgroundImage.src = this.source[this.index]
                     // 哈哈
+                },
+                playMusic: function () {
+                    // alert("你好");
+                    audioPlayer.pause()
+                    // if (!audioPlayer.paused) {
+                    //     audioPlayer.play()
+                    // } else {
+                    //     audioPlayer.pause()
+                    // }
+                    
                 }
             }
         })
+
+        
+
+        // audioPlayer.addEventListener("")
+
     </script>
 
 </body>
