@@ -1,0 +1,14 @@
+.web-develop {
+    width: 20em;
+    /* text-align: center; */
+    padding:  0.5em 0 0.5em 2em;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0.5em 0.5em 1.2em hsla(0,0%,70%,0.8);
+}
+.web-develop p {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:dimgray;
+}
