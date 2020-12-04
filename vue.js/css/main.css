@@ -80,7 +80,23 @@ body {
     /* background-color: wheat; */
 }
 
+.audio {
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    margin-top: 80px;
+    background-color: #ffffff00;
+    float: left;
+}
+
 .main-footer-warp {
+    width: 1240px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+}
+
+.main-warp {
     width: 1240px;
     padding-left: 40px;
     padding-right: 40px;
@@ -109,5 +125,6 @@ body {
 
 .footer-copyright {
     margin-top: 56px;
+    font-size: 10px;
     font-weight: 200;
 }
