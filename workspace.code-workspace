@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\C-learn"
+		},
+		{
+			"path": "..\\Rainbow-Fart-MBG"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Moriafly.github.io"
+	}
+}

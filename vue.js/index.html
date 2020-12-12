@@ -7,9 +7,10 @@
     <title>Moriafly 泽世宫 - 新生</title>
 
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="node_modules/aplayer/dist/APlayer.min.css">
 </head>
 
-<body >
+<body>
     <nav class="TitleBar" onselectstart="return false;">
         <div id="app" class="title-bar-wrap-1240">
             <div class="Logo">
@@ -18,7 +19,7 @@
                         src="../res/drawable/zsg_logo_white.png">
                 </a>
             </div>
-            <ul  class="AppHeader-Tabs">
+            <ul class="AppHeader-Tabs">
                 <!-- <li>
                     <a @click="playMusic">音乐</a>
                 </li> -->
@@ -28,24 +29,23 @@
                 <li>
                     <a href="../doc/index.html">开发文档</a>
                 </li>
-                <!-- <li>
-                    <a id="btn-change-image" @click="changeImage">切换美图</a>
-                </li> -->
+                <li>
+                    <a id="btn-change-image" @click="changeImage">切换图片</a>
+                </li>
                 <li>
                     <a href="../index.html">经典版</a>
                 </li>
             </ul>
-            <div @click="playMusic" class="audio" >
-                <!-- 背景音乐 -->
-                <audio id="audioPlayer" src="https://api.fczbl.vip/163/?type=url&id=1332121708" loop autoplay></audio>
-                <!-- <img src="../res/drawable/wtcz.jpg"> -->
+            <div @click="playMusic" class="audio">
+                <div id="aplayer" style="width: 300px;"></div>
+                <script src="node_modules/aplayer/dist/APlayer.min.js"></script>
             </div>
         </div>
-        
+
     </nav>
-    <div class="Image">
-        <a>
-            <img id="backgroundImage" src="../res/drawable/pmy.jpg">
+    <div class="Image" onselectstart="return false;">
+        <a onselectstart="return false;">
+            <img id="backgroundImage" src="../res/drawable/pmy.jpg" onselectstart="return false;">
         </a>
 
 
@@ -62,8 +62,7 @@
             <div>
                 <p class="slogan">竹斋眠听雨，梦里长青苔。</p>
                 <p class="footer-p">友情链接</p>
-
-                <a href="https://can-dy-jack.github.io/" title="一个女装程序员的网站">can-dy-jack</a>
+                <a href="https://kartjim.top/" title="Kart Jim">Kart Jim</a>
             </div>
             <div>
                 <p class="footer-copyright">本站由 Moriafly 维护 | Designed by Moriafly 2020</p>
@@ -73,10 +72,12 @@
     </footer>
 
 
+
+
+
     <!-- 开发版 Vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script>
-
         var audioPlayer = document.getElementById("audioPlayer")
 
         var app = new Vue({
@@ -85,14 +86,14 @@
                 source: [
                     "../res/drawable/pmy.jpg",
                     "../res/drawable/pmy2.jpg",
-                    "../res/drawable/wsw.png"
+                    // "../res/drawable/wsw.png"
                 ],
                 index: 0
             },
             methods: {
                 changeImage: function () {
                     var backgroundImage = document.getElementById("backgroundImage");
-                    if (this.index != 2) {
+                    if (this.index != 1) {
                         this.index++
                     } else {
                         this.index = 0
@@ -108,15 +109,24 @@
                     // } else {
                     //     audioPlayer.pause()
                     // }
-                    
+
                 }
             }
         })
 
-        
+        const ap = new APlayer({
+                        container: document.getElementById('aplayer'),
+                        autoplay: true, // 自动播放
+                        audio: [{
+                            name: '无归',
+                            artist: '叶里',
+                            url: 'https://music.163.com/song/media/outer/url?id=404465743.mp3',
+                            cover: 'https://api.fczbl.vip/163?type=cover&id=404465743'
+                        }]
+                    });
+
 
         // audioPlayer.addEventListener("")
-
     </script>
 
 </body>
