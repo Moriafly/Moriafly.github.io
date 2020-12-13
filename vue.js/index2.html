@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Moriafly</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="//at.alicdn.com/t/font_2266767_nzw1ie3w37e.css" />
@@ -55,11 +55,11 @@
             </div>
         </div>
 
-
+        <!-- 搜索开始 -->
         <div class="search">
             <div class="search-center">
                 <div>
-                    <input type="text" id="edit-text">
+                    <input type="text" id="edit-text" ref="getValue">
                 </div>
                 <div class="search-button" @click="search">
                     <i class="iconfont icon-icon_search"
@@ -67,12 +67,11 @@
                 </div>
             </div>
         </div>
+        <!-- 搜索结束 -->
 
 
     </div>
     <script>
-        var tvSearch = document.getElementById("edit-text");
-
         var app = new Vue({
             el: "#app",
             data: {
@@ -85,12 +84,16 @@
             },
             methods: {
                 search: function () {
+                    // console.log(this.$refs.getValue.value)
                     // alert("你好");
-                    var keywords = tvSearch.value;
-                    if (keywords != "") {
-                        var url = "https://www.baidu.com/s?wd=" + keywords;
+                    var keywords = this.$refs.getValue.value;
+                    // alert(keywords)
+                    var url = "https://www.baidu.com/s?wd=" + keywords;
                         window.open(url);
-                    }
+                    // if (keywords != "") {
+                    //     var url = "https://www.baidu.com/s?wd=" + keywords;
+                    //     window.open(url);
+                    // }
                 },
             }
         })
