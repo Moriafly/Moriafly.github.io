@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Moriafly</title>
     <link rel="stylesheet" href="./css/style.css" />
@@ -11,7 +12,7 @@
     <!-- 开发版 Vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="node_modules/aplayer/dist/APlayer.min.js"></script>
-    
+
 
 </head>
 
@@ -20,7 +21,7 @@
 
 
 
-        <div class="background" >
+        <div class="background">
             <div class="background-center">
                 <img src="../res/drawable/pmy.png" v-bind:style="{height: imgWidth}" />
             </div>
@@ -85,7 +86,7 @@
         var app = new Vue({
             el: "#app",
             data: {
-                imgWidth: (document.body.clientWidth / 2)+'px'
+                imgWidth: (document.body.clientWidth / 2) + 'px'
                 // source: [
                 //     "../res/drawable/pmy.jpg",
                 //     "../res/drawable/pmy2.jpg",
@@ -100,7 +101,7 @@
                     var keywords = this.$refs.getValue.value;
                     // alert(keywords)
                     var url = "https://www.baidu.com/s?wd=" + keywords;
-                        window.open(url);
+                    window.open(url);
                     // if (keywords != "") {
                     //     var url = "https://www.baidu.com/s?wd=" + keywords;
                     //     window.open(url);
@@ -111,16 +112,16 @@
 
 
         const ap = new APlayer({
-                        container: document.getElementById('aplayer'),
-                        autoplay: true, // 自动播放
-                        fixed: true,
-                        audio: [{
-                            name: '无归',
-                            artist: '叶里',
-                            url: 'https://music.163.com/song/media/outer/url?id=404465743.mp3',
-                            cover: 'https://api.fczbl.vip/163?type=cover&id=404465743'
-                        }]
-                    });
+            container: document.getElementById('aplayer'),
+            autoplay: true, // 自动播放
+            fixed: true,
+            audio: [{
+                name: '无归',
+                artist: '叶里',
+                url: 'https://music.163.com/song/media/outer/url?id=404465743.mp3',
+                cover: 'https://api.fczbl.vip/163?type=cover&id=404465743'
+            }]
+        });
     </script>
 
 </body>
