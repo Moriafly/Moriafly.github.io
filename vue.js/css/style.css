@@ -32,7 +32,7 @@ a {
 }
 
 .header-center {
-    width: 1200px;
+    width: 75%;
     height: 80px;
     margin: auto;
     /* background: green; */
@@ -199,9 +199,21 @@ a {
 }
 
 .friend-link {
-    width: 1200px;
+    width: 75%;
     height: 100px;
     margin: auto;
-    background: rgba(206, 206, 206, 0.904);
-    
+    /* background: rgba(206, 206, 206, 0.904); */
+}
+
+.friend-link>div {
+    height: 80px;
+    /* background: blue; */
+    float: left;
+    padding-right: 20px;
+}
+
+.friend-link a {
+    line-height: 80px;
+    color: rgb(0,122,204);
+    font-weight: 400;
 }
