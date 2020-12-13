@@ -1,0 +1,52 @@
+/* 开源项目 css */
+.open-source {
+    height: 290px;
+}
+
+.open-source>p {
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+}
+
+.open-source>div {
+    width: 50%;
+    height: 120px;
+    float: left;
+    border-radius: 5px;
+    /* background: royalblue;
+    border: salmon; */
+}
+
+.open-source>div>img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: seagreen;
+}
+
+.open-source-title {
+    /* float: left; */
+    height: 50px;
+    size: 24px;
+    margin: 0px;
+    line-height: 50px;
+    margin-left: 110px;
+    /* background: red; */
+}
+
+.open-source-link-div {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 110px;
+    /* background: skyblue; */
+}
+
+.open-source-link {
+    font-size: 14px;
+    font-weight: 400;
+    height: 50px;
+    color: rgb(0,122,204);
+    
+    /* background: skyblue; */
+}

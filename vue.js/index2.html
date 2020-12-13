@@ -7,6 +7,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Moriafly</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/opensource.css" />
     <link rel="stylesheet" href="//at.alicdn.com/t/font_2266767_nzw1ie3w37e.css" />
     <link rel="stylesheet" href="node_modules/aplayer/dist/APlayer.min.css">
     <!-- 开发版 Vue.js -->
@@ -75,13 +76,55 @@
         </div>
         <!-- 搜索结束 -->
 
-        <!-- 友情链接开始 -->
-        <div class="friend-link">
-            <div>
-                <a href="https://kartjim.top" target="_blank" title="Kart Jim 博客">Kart Jim</a>
+
+        <div class="page-body">
+            <!-- 开源项目开始 -->
+                <div class="open-source">
+                    <p>开源项目</p>
+                    <div>
+                        <img src="../res/drawable/dso_music_logo.jpg" />
+                        <p class="open-source-title">Dso Muisc</p>
+                        <div class="open-source-link-div">
+                            <a class="open-source-link" href="https://github.com/Moriafly/dirror-music" target="_blank">https://github.com/Moriafly/dirror-music</a>
+                        </div>
+                        
+                    </div>
+                    <div>
+                        <img src="../res/drawable/dso_music_logo.jpg"/>
+                        <p class="open-source-title">Dso Muisc</p>
+                        <div class="open-source-link-div">
+                            <a class="open-source-link" href="https://github.com/Moriafly/dirror-music" target="_blank">https://github.com/Moriafly/dirror-music</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../res/drawable/dso_music_logo.jpg"/>
+                        <p class="open-source-title">Dso Muisc</p>
+                        <div class="open-source-link-div">
+                            <a class="open-source-link" href="https://github.com/Moriafly/dirror-music" target="_blank">https://github.com/Moriafly/dirror-music</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="../res/drawable/dso_music_logo.jpg"/>
+                        <p class="open-source-title">Dso Muisc</p>
+                        <div class="open-source-link-div">
+                            <a class="open-source-link" href="https://github.com/Moriafly/dirror-music" target="_blank">https://github.com/Moriafly/dirror-music</a>
+                        </div>
+                    </div>
+                </div>
+            <!-- 开源项目结束 -->
+
+
+            <!-- 友情链接开始 -->
+            <div class="friend-link">
+                <div>
+                    <a href="https://kartjim.top" target="_blank" title="Kart Jim 博客">Kart Jim</a>
+                </div>
+            </div>
+            <!-- 友情链接结束 -->
+            <div class="about">
+                <p>竹斋眠听雨，梦里长青苔 - 本站由 Moriafly 维护 | Designed by Moriafly 2020</p>
             </div>
         </div>
-        <!-- 友情链接结束 -->
 
         <div @click="playMusic" class="audio">
             <div id="aplayer" style="width: 300px;"></div>
@@ -122,7 +165,7 @@
 
         const ap = new APlayer({
             container: document.getElementById('aplayer'),
-            autoplay: true, // 自动播放
+            autoplay: false, // 自动播放
             fixed: true,
             audio: [{
                 name: '无归',

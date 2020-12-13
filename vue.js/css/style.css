@@ -199,7 +199,6 @@ a {
 }
 
 .friend-link {
-    width: 75%;
     height: 100px;
     margin: auto;
     /* background: rgba(206, 206, 206, 0.904); */
@@ -216,4 +215,21 @@ a {
     line-height: 80px;
     color: rgb(0,122,204);
     font-weight: 400;
+}
+
+.page-body {
+    width: 75%;
+    margin: auto;
+}
+
+.about {
+    height: 40px;
+    line-height: 40px;
+    /* background: rosybrown; */
+}
+
+.about p {
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
 }
