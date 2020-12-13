@@ -69,6 +69,7 @@ a {
     width: 100%;
     height: 1000px;
     display: inline;
+    object-fit: cover;
     /* left: 50%;
     transform: translateX(-50%);
     display: inline; */
@@ -78,6 +79,7 @@ a {
     width: 100%;
     height: 1000px;
     margin: auto;
+    object-fit: cover;
 }
 
 .background img {
@@ -194,4 +196,12 @@ a {
 #aplayer {
     float: left;
     position: absolute;
+}
+
+.friend-link {
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    background: rgba(206, 206, 206, 0.904);
+    
 }

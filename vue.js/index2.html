@@ -23,7 +23,7 @@
 
         <div class="background">
             <div class="background-center">
-                <img src="../res/drawable/pmy.png" v-bind:style="{height: imgWidth}" />
+                <img src="../res/drawable/pmy.jpg" />
             </div>
         </div>
 
@@ -37,7 +37,7 @@
                 </div>
                 <div class="header-right">
                     <div class="github-div">
-                        <a href="https://github.com/Moriafly">
+                        <a href="https://github.com/Moriafly" target="_blank" title="Github - Moriafly">
                             <svg class="github" height="32" viewBox="0 0 16 16" version="1.1" width="32"
                                 aria-hidden="true">
                                 <path fill-rule="evenodd" fill="#FFFFFF"
@@ -75,6 +75,12 @@
         </div>
         <!-- 搜索结束 -->
 
+        <!-- 友情链接开始 -->
+        <div class="friend-link">
+            
+        </div>
+        <!-- 友情链接结束 -->
+
         <div @click="playMusic" class="audio">
             <div id="aplayer" style="width: 300px;"></div>
             <script src="node_modules/aplayer/dist/APlayer.min.js"></script>
@@ -86,7 +92,8 @@
         var app = new Vue({
             el: "#app",
             data: {
-                imgWidth: (document.body.clientWidth / 2) + 'px'
+                imgWidth: (document.body.clientWidth) + 'px',
+                imgHeight: 1000 + 'px'
                 // source: [
                 //     "../res/drawable/pmy.jpg",
                 //     "../res/drawable/pmy2.jpg",
