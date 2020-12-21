@@ -5,19 +5,19 @@ header aside #music-a {
 }
 
 #btn {
-    border: none;
+/*    border: none;
     background-color: rgba(255, 255, 255, 0.72);
     color: deepskyblue;
     outline: none;
-    position: fixed;
     top: 60px;
     right: 20px;
     font-size: 16px;
-    line-height: 60px;
+    line-height: 60px;*/
+    cursor: pointer;
 }
 
 #ttt {
-    padding-top: 100px;
+    padding-top: 50px;
     width: 300px;
     text-align: center;
 }
