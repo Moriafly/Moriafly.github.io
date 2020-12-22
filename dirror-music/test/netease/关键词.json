@@ -1,0 +1,13 @@
+{
+    "code": 200,
+    "message": null,
+    "data": {
+        "showKeyword": "青龙永夜 - 河图",
+        "realkeyword": "青龙永夜",
+        "searchType": 1018,
+        "action": 0,
+        "alg": "alg_a2q_song_bi_v2",
+        "gap": 0,
+        "source": null
+    }
+}
