@@ -1,6 +1,6 @@
 {
-    "name": "2.0.2",
-    "code": "233",
-    "content": "私信上线（测试）\n侧滑菜单调整，相关选项移至设置界面\n首页推荐 12 个歌单\n搜索新增搜索推荐词\n点击歌词界面不再显示时间线，只有滑动才显示\n反馈优化\n\n修复切换 UID 登录不清空 Cookie 的问题",
-    "url": "https://foyou.lanzous.com/itt6rjlfqzg"
+    "name": "2.0.3",
+    "code": "234",
+    "content": "BUG 修复和体验优化",
+    "url": "https://foyou.lanzous.com/idTZojm43ha"
 }
