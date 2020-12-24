@@ -1,6 +1,6 @@
 {
-    "name": "2.0.3",
-    "code": "234",
-    "content": "BUG 修复和体验优化",
-    "url": "https://foyou.lanzous.com/idTZojm43ha"
+    "name": "2.1.0",
+    "code": "242",
+    "content": "歌词上下有了渐淡效果\n播放界面、歌单界面、侧滑栏等 UI 调整\n新增【播放历史（测试）】\n搜索若为空执行推荐关键词搜索\n其他优化\n\n修复了播放界面加载某些过大图片导致的奔溃",
+    "url": "https://foyou.lanzous.com/inDl2jnt8hg"
 }
