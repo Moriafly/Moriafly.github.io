@@ -4,7 +4,7 @@
     "picUrl": "",
     "songs": [
         {
-            "source": 0,
+            "source": 4,
             "id": 0,
             "name": "栖霞",
             "imageUrl": "",
@@ -18,7 +18,7 @@
                 "url": "https://link.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBajFUUjdlaXVuaWRoZzZIenZrc2RxLU5nRGtxP2U9bTlTTmJZ.mp3"
             }
         }, {
-            "source": 0,
+            "source": 4,
             "id": 0,
             "name": "华胥引（Cover 河图）",
             "imageUrl": "",
