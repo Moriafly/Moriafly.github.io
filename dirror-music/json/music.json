@@ -13,7 +13,24 @@
                     "id": 0,
                     "name": "未知"
                 }
-            ]
+            ],
+            "dirrorInfo": {
+                "url": ""
+            }
+        }, {
+            "source": 0,
+            "id": 0,
+            "name": "华胥引（Cover 河图）",
+            "imageUrl": "",
+            "artists": [
+                {
+                    "id": 0,
+                    "name": "虚而遨游"
+                }
+            ],
+            "dirrorInfo": {
+                "url": "https://Moriafly.xyz/source/虚而遨游 - 华胥引（Cover 河图）.mp3"
+            }
         }
     ]
 }
