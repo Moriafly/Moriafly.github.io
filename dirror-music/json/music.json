@@ -1,0 +1,19 @@
+{
+    "name": "Dso Music 曲库",
+    "description": "官方",
+    "picUrl": "",
+    "songs": [
+        {
+            "source": 0,
+            "id": 0,
+            "name": "栖霞",
+            "imageUrl": "",
+            "artists": [
+                {
+                    "id": 0,
+                    "name": "未知"
+                }
+            ]
+        }
+    ]
+}
