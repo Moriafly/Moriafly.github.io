@@ -1,11 +1,3 @@
-
-title: TypeScript入门
-tags: 
-  - 前端
-  - TypeScript
-category: 前端
-date: 2020-12-17 23:04:30
-
  # TypeScript-part01
  ## TypeScript介绍
  ### 写在前面
@@ -18,10 +10,10 @@ date: 2020-12-17 23:04:30
  ### TS与JS区别
  >JavaScript是动态绑定类型；
  >TypeScript是静态绑定类型。
- 
+
  >JavaScript是弱类型语言；
  >TypeScript是渐进式类型语言。
- 
+
  >JavaScript会自动转换类型；
  >TypeScript会检查类型，并报错。
  ## TypeScript配置
@@ -45,10 +37,9 @@ npm install -D ts-node
 npm install -g typescript
 npm install -g ts-node
 ```
-<!--more-->
  ## TypeScript创建一个简单的程序
  1. 在根目录下新建tsconfig.json 文件，写入：
- 
+
 ```json
 {
 	"compilerOptions": {
@@ -99,5 +90,3 @@ console.log('Hello TypeScript!')
 更快编译、运行
 - typescript-node-starter（github上面搜）
 脚手架工具
-<hr>
-文章来自我的CSDN博客：{% link "CSND" "https://blog.csdn.net/qq_46590483/article/details/111345714" %}
