@@ -1,3 +1,4 @@
+
 ---
 title: JavaScript-part2
 tags: [前端,javascript]

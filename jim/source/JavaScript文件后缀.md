@@ -1,3 +1,4 @@
+
 ---
 title: JavaScript文件后缀
 tags: [随笔,前端]
