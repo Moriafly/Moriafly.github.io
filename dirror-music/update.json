@@ -1,6 +1,6 @@
 {
-    "name": "2.2.1 酷我 VIP",
-    "code": "257",
-    "content": "2021 新年快乐！感谢使用 Dso Music\n新版更新内容：\n新增酷我曲库，收听 VIP 曲库\n歌曲长按打开菜单\n首页反馈移除\n界面优化\n\n修复了打开个人界面偶先的闪退问题\n修复了一些图片加载问题",
-    "url": "https://foyou.lanzous.com/irjvPjwt1ta"
+    "name": "2.2.2 酷我 VIP",
+    "code": "261",
+    "content": "播放界面支持拖拽关闭，体验更连贯\n搜索界面搜索框默认获取焦点\n界面优化\n\n修复切换 UID 账号，在线歌单不自动刷新的问题\n修复音乐服务广播注册偶现的空指针问题",
+    "url": "https://foyou.lanzous.com/ig0tsjyjlmf"
 }
