@@ -1,6 +1,6 @@
 {
     "name": "2.3.0 酷我 VIP",
-    "code": "268",
+    "code": "200",
     "content": "新增歌词翻译（暂支持网易云音源）\n新增音量调节\n新增播放错误自动跳过播放下一首\n\nUI 优化\n优化搜索体验\n优化安装包大小，减少约 20 %",
     "url": "https://foyou.lanzous.com/iAGhak4f7ub"
 }
