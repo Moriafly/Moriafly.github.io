@@ -1,6 +1,6 @@
 {
-    "name": "2.3.5 酷我 VIP",
-    "code": "281",
-    "content": "划水~\n视觉优化\n性能优化，减少过渡绘制\n播放菜单可以快捷打开播放历史\n\n修复了评论界面打开软键盘后输入框不悬浮的问题\n\n移除了 READ_LOGS 权限",
-    "url": "https://foyou.lanzous.com/iUhhukjbb4f"
+    "name": "2.3.6 酷我 VIP",
+    "code": "283",
+    "content": "歌单列表有了新的风格\n可以在播放节目歌曲信息快速打开播放历史界面\nUI 优化\n\n修复了切换账号歌单不刷新的问题",
+    "url": "https://foyou.lanzous.com/iumxmkmtqre"
 }
