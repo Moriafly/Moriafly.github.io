@@ -1,6 +1,6 @@
 {
-    "name": "2.3.6 酷我 VIP",
-    "code": "283",
-    "content": "歌单列表有了新的风格\n可以在播放节目歌曲信息快速打开播放历史界面\nUI 优化\n\n修复了切换账号歌单不刷新的问题",
-    "url": "https://foyou.lanzous.com/iumxmkmtqre"
+    "name": "2.4.0 酷我 VIP",
+    "code": "291",
+    "content": "新功能\n【添加到本地我喜欢】可以将网易云、QQ、酷我和本地歌曲一起收藏到本地我喜欢，方便听歌~（支持添加和移除）\n视觉更新，下沉式对话框\n代码优化\n\n修复了首页可能崩溃的问题",
+    "url": "https://foyou.lanzous.com/iJvXXkrls2d"
 }
