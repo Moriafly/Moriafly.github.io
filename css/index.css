@@ -3,21 +3,31 @@
 /* public*/
 * {
 	margin: 0;
-	padding: 0;font-family: "microsoft yahei";
+	padding: 0;
+	font-family: "microsoft yahei";
 }
-.m-title{
-    width: 100%;height: 80px;line-height: 80px;text-align: center;font-size: 30px;
-    font-weight: 400;
-    background: url(../images/redline.png) no-repeat center;
+
+.m-title {
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	background: url(../images/redline.png) no-repeat center;
 }
-.m-list a{
-    border-radius: 10px;overflow: hidden;
+
+.m-list a {
+	border-radius: 10px;
+	overflow: hidden;
 }
-.m-list a:hover{
-    filter: alpha(opacity=60);
-    -moz-opacity:0.6;
-    opacity:0.6;
+
+.m-list a:hover {
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
 }
+
 /* private */
 
 
@@ -27,6 +37,7 @@
 	float: left;
 	margin: 40px;
 }
+
 .FixedTitleBar {
 	width: 100%;
 	height: 50px;
@@ -63,9 +74,14 @@ header nav .navbar-collapse ul li {
 	justify-items: center;
 }
 
-.se label {
+.se form label {
 	height: 55px;
 	display: flex;
+
+	/* border-radius: 147px;
+    background: #e0e0e0;
+    box-shadow:  -19px -19px 55px #a8a8a8,
+             19px 19px 55px #ffffff; */
 }
 
 #input {
@@ -79,6 +95,8 @@ header nav .navbar-collapse ul li {
 	padding-left: 20px;
 	align-items: center;
 	justify-items: center;
+	box-shadow: 5px 5px 10px #bebebe,
+		-5px -5px 10px #ffffff;
 }
 
 form .btn1 {
@@ -93,6 +111,8 @@ form .btn1 {
 	color: white;
 	outline: none;
 	font-size: 14px;
+	box-shadow: 5px 5px 10px #bebebe,
+		-5px -5px 10px #ffffff;
 }
 
 form .btn1:hover {
