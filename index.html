@@ -53,7 +53,7 @@
 		</header>
 	</div>
 
-	<!-- music -->
+		<!-- music -->
 	<aside>
 		<div id="music-a">
 			<audio autoplay src="source/陈奕迅 - 富士山下.mp3"></audio>
@@ -86,14 +86,14 @@
 			}
 		}
 	</script>
-	<!-- music -->
+		<!-- music -->
 	</header>
 	<!-- 导航条 -->
 	<!-- 搜索框 -->
 	<div class="se">
 		<div>
 			<form>
-				<label><input type="text" id="input"><input type="button" value="搜索" class="btn1" onclick="search()"
+				<label><input type="text" id="input" placeholder="搜索一下"><input type="button" value="搜索" class="btn1" onclick="search()"
 						target="_blank"></label>
 			</form>
 		</div>
@@ -105,7 +105,7 @@
 		<article class="markdown-body" style="width: 90%;margin: 100px auto;padding: 50px 0;">
 			<h2 class="m-title">网站导航</h2>
 			
-			<div class="web-develop m-list">
+			<div class="web-develop m-list skeleton-1">
 				<h3>常用</h3>
 				<div class="web-box">
 				<p>
@@ -234,12 +234,14 @@
 	function search() {
 		var keywords = tvSearch.value;
 		var url = "https://www.baidu.com/s?wd=" + keywords;
-		if (keywords == "万仕伟") {
-			window.open("res/drawable/wsw.png");
-		} else if (keywords == "吴世昊") {
-			window.open("res/drawable/wsh.png");
-		} else {
-			window.open(url);
+		if (keywords != ""){
+			if (keywords == "万仕伟") {
+				window.open("res/drawable/wsw.png");
+			} else if (keywords == "吴世昊") {
+				window.open("res/drawable/wsh.png");
+			} else {
+				window.open(url);
+			}
 		}
 	}
 </script>
