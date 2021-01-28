@@ -1,6 +1,6 @@
 {
-    "name": "2.4.1 酷我 VIP",
-    "code": "293",
-    "content": "支持有线耳机暂停 / 播放歌曲（切歌出了点问题还没完成，蓝牙耳机未做测试）\n音高调整移动至音效选项\n界面优化\n优化切歌速度\n关于界面可以查看媒体编解码器",
-    "url": "https://foyou.lanzous.com/i4uQtkv52ng"
+    "name": "2.5.0 酷我 VIP",
+    "code": "296",
+    "content": "新版【我的】界面，上三栏仿 MIUI 12 风格\n在线歌单变为一列\n【首页】移除 Banner，简单点~\n歌单、播放界面优化\n\n修复偶现耳机切歌失效的问题\n修复获取网络歌词偶现的奔溃问题",
+    "url": "https://foyou.lanzous.com/iBSZhkyj4yb"
 }
