@@ -36,7 +36,6 @@
 /* 导航条  */
 .markdown-body .web-develop {
 	display: inline-block;
-	float: left;
 	margin: 40px;
 }
 
@@ -79,11 +78,6 @@ header nav .navbar-collapse ul li {
 .se form label {
 	height: 55px;
 	display: flex;
-
-	/* border-radius: 147px;
-    background: #e0e0e0;
-    box-shadow:  -19px -19px 55px #a8a8a8,
-             19px 19px 55px #ffffff; */
 }
 
 #input {

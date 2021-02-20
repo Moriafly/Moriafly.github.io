@@ -4,10 +4,15 @@
     padding: 0.5em 0 0.5em 2em;
     border-radius: 30px;
     background-color: white;
-    box-shadow: 21px 21px 41px #c1c1c1,
-        -21px -21px 41px #ffffff;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2),
+        -20px -20px 30px rgb(255, 255, 255);
+    transition: all 0.2s ease-out;
+    cursor: pointer;
 }
-
+.web-develop .web-box:hover{
+    background-color: white;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.4), 0 0 0 rgba(255, 255, 255, 0.4);
+}
 .web-develop .web-box p {
     font-size: 25px;
     font-family: sans-serif;
