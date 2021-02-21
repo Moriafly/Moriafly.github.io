@@ -19,25 +19,21 @@
 	background: url(../images/redline.png) no-repeat center;
 }
 
-.m-list a {
-	border-radius: 10px;
-	overflow: hidden;
-}
-
 .m-list a:hover {
 	filter: alpha(opacity=60);
 	-moz-opacity: 0.6;
 	opacity: 0.6;
 }
-
-/* private */
-
-
+.web-develop .web-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	/* align-items: center; */
+}
 /* 导航条  */
 .markdown-body .web-develop {
 	display: inline-block;
-	float: left;
-	margin: 40px;
+	margin: 10px 40px;
 }
 
 .FixedTitleBar {
@@ -58,71 +54,6 @@ header nav .navbar-collapse ul li {
 }
 
 /* 导航条 */
-/* 搜索框  */
-.se {
-	height: 300px;
-}
-
-.se div {
-	width: 80%;
-	margin: 8% auto;
-	height: 55px;
-	display: flex;
-}
-
-.se form {
-	margin: auto;
-	align-items: center;
-	justify-items: center;
-}
-
-.se form label {
-	height: 55px;
-	display: flex;
-
-	/* border-radius: 147px;
-    background: #e0e0e0;
-    box-shadow:  -19px -19px 55px #a8a8a8,
-             19px 19px 55px #ffffff; */
-}
-
-#input {
-	width: 100%;
-	margin: 2px 0 2px 50px;
-	border: 2px solid rgb(57, 57, 212);
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
-	outline: none;
-	font-size: 22px;
-	padding-left: 20px;
-	align-items: center;
-	justify-items: center;
-	box-shadow: 5px 5px 10px #bebebe,
-		-5px -5px 10px #ffffff;
-}
-
-form .btn1 {
-	background-color: rgb(57, 57, 212);
-	margin: 2px 0 2px 0;
-	line-height: 49px;
-	text-align: center;
-	border-top-right-radius: 30px;
-	border-bottom-right-radius: 30px;
-	width: 120px;
-	border: 0;
-	color: white;
-	outline: none;
-	font-size: 14px;
-	box-shadow: 5px 5px 10px #bebebe,
-		-5px -5px 10px #ffffff;
-}
-
-form .btn1:hover {
-	cursor: pointer;
-	background-color: blue;
-}
-
-/* 搜索框  */
 .imgbutton {
 	padding: 20px;
 	height: 50px;
