@@ -1,7 +1,7 @@
 .web-develop .web-box {
     width: 20em;
-    /* text-align: center; */
-    padding: 0.5em 0 0.5em 2em;
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
     border-radius: 30px;
     background-color: white;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2),
@@ -10,12 +10,8 @@
     cursor: pointer;
 }
 .web-develop .web-box:hover{
-    background-color: white;
-    box-shadow: 0 0 0 rgba(0, 0, 0, 0.4), 0 0 0 rgba(255, 255, 255, 0.4);
-}
-.web-develop .web-box p {
-    font-size: 25px;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: #e0e0e0;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.4), 0 0 0 rgba(255, 255, 255, 0.4),
+        inset 18px 18px 30px rgba(0, 0, 0, 0.1),
+        inset -18px -18px 30px rgb(255, 255, 255);
 }

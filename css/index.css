@@ -19,20 +19,21 @@
 	background: url(../images/redline.png) no-repeat center;
 }
 
-.m-list a {
-	border-radius: 10px;
-	overflow: hidden;
-}
-
 .m-list a:hover {
 	filter: alpha(opacity=60);
 	-moz-opacity: 0.6;
 	opacity: 0.6;
 }
+.web-develop .web-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	/* align-items: center; */
+}
 /* 导航条  */
 .markdown-body .web-develop {
 	display: inline-block;
-	margin: 40px;
+	margin: 10px 40px;
 }
 
 .FixedTitleBar {
