@@ -1,6 +1,6 @@
 {
-    "name": "来自开发者",
-    "code": "0",
-    "content": "十分抱歉 2.7.1 版本的手机号登录无法成功的问题。\n问题已经修复，还有很多新功能，但是最近不会推出正式版，因为遇到了一些问题，让我不得不重新看待这款软件。\n这可能是一个很影响体验的弹窗（不会存在太久）。点击【下载】阅读详细信息。",
-    "url": "https://moriafly.gitee.io/dso-page/page/notice.html"
+    "name": "2.8.0",
+    "code": "670",
+    "content": "感谢一路支持，Dso Music 进入低维护状态。本次更新：修复排行榜无法打开。开源地址：https://github.com/Moriafly/DsoMusic，有兴趣的可以 Fork / star 继续开发呀~",
+    "url": "https://foyou.lanzous.com/idrh4mciujg"
 }
