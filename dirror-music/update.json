@@ -1,6 +1,6 @@
 {
-    "name": "2.8.0",
-    "code": "670",
-    "content": "感谢一路支持，Dso Music 进入低维护状态。本次更新：修复排行榜无法打开。开源地址：https://github.com/Moriafly/DsoMusic，有兴趣的可以 Fork / star 继续开发呀~",
-    "url": "https://foyou.lanzous.com/idrh4mciujg"
+    "name": "春江潮水连海平",
+    "code": "671",
+    "content": "感谢 can-dy-jack 等对开源库的继续维护支持。本次更新开放自定义背景（测试性），修复一些 UI 界面，特别修复：优化随机播放逻辑。",
+    "url": "https://foyou.lanzous.com/id3gOmfjwjc"
 }
