@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.moriaxml": "xml",
+        "iostream": "cpp"
+    }
+}
