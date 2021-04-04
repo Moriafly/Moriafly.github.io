@@ -1,6 +1,6 @@
 {
-    "name": "3.0.0",
-    "code": "705",
-    "content": "软件严禁传播，软件不支持 VIP 和下载。\n移除激活码校验、手机号登录、云盘和每日推荐，包含界面优化。",
-    "url": "https://foyou.lanzous.com/ifAHmnl7rxg"
+    "name": "3.1.0",
+    "code": "710",
+    "content": "软件严禁传播，软件不支持 VIP 和下载。\n新增自定义配置 NeteaseCloudMusicApi 服务，使用手机号登录、云盘和每日推荐\n修复播放界面重复监听导致闪退的问题\n修复音频焦点无法关闭问题\n以及一些优化",
+    "url": "https://foyou.lanzous.com/iW65Xnnkude"
 }
