@@ -1,6 +1,7 @@
 {
-    "name": "3.1.0",
-    "code": "710",
-    "content": "软件严禁传播，软件不支持 VIP 和下载。\n新增自定义配置 NeteaseCloudMusicApi 服务，使用手机号登录、云盘和每日推荐\n修复播放界面重复监听导致闪退的问题\n修复音频焦点无法关闭问题\n以及一些优化",
-    "url": "https://foyou.lanzous.com/iW65Xnnkude"
+    "name": "汀上白沙看不见",
+    "code": "716",
+    "content": "新增私人 FM，一些功能调整以及问题修复。",
+    "url": "https://foyou.lanzous.com/ix4MRnu0qnc",
+    "tagVersion": "710"
 }
