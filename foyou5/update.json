@@ -14,7 +14,7 @@
     "alpha": {
         "name": "5.0.0-alpha",
         "code": 38,
-        "content": "内测版更新测试。",
+        "content": "优化深色模式显示效果\n桌面小部件支持颜色设置\n一些样式的调整\n修复一些闪退问题\n修复一些源无法解析的问题",
         "url": "https://foyou.lanzous.com/ix4MRnu0qnc"
     }
 }
