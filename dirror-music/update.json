@@ -1,7 +1,7 @@
 {
-    "name": "人生代代无穷已",
-    "code": "726",
-    "content": "修复 UID 登录失败。",
-    "url": "https://foyou.lanzous.com/iRs7soos48d",
+    "name": "3.3.0",
+    "code": "730",
+    "content": "优化主页【我的】加载，感受滑动的流畅感\n优化播放界面显示效果\n性能优化，提升软件加载速度\n修复歌单显示不全问题",
+    "url": "https://foyou.lanzous.com/iMaBCov6lna",
     "tagVersion": "712"
 }
