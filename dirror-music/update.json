@@ -1,7 +1,7 @@
 {
-    "name": "3.4.0",
-    "code": "731",
-    "content": "包含音源升级和界面、性能优化",
-    "url": "https://foyou.lanzoui.com/iqQtXp1bcrg",
-    "tagVersion": "712"
+    "name": "3.5.0",
+    "code": "732",
+    "content": "自动适配导航栏\n界面优化\n优化歌单界面图片加载的网络数据消耗\n修复加载高码率音频闪退问题",
+    "url": "https://foyou.lanzoui.com/ix7BPph8e9i",
+    "tagVersion": "713"
 }
