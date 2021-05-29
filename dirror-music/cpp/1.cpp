@@ -1,67 +1,53 @@
-#include <cstring>
 #include <iostream>
-using namespace std;
+#include <cstring>
 
-static int STUDENT_COUNTS = 10;
+class Person {
+    public:
+        Person() {
+            id = 0;
 
-class Student {
-   public:
-    int id;
-    string name;
-    int score;
-    Student(int id, string name, int score) {
-        this->id = id;
-        this->name = name;
-        this->score = score;
-    }
+        }
+        ~Person() {
 
-   private:
+        }
+
+        
+        
+        int id;
+        char *name;
+        void disp() {
+
+        }
 };
 
-int main() {
-    Student student(0, "bob", 90);
+class Student: public Person {
+    public:
+        Student() {
+            sid = 0;
+        }
+        Student(int sid, char *name, char *subject) {
+            this->sid = sid;
+            this->name = new char[strlen(name) + 1];
+            this->subject = new char[strlen(subject) + 1];
+        }
+        Student(const Student &student) {
 
-    return 0;
-}
+        }
+        ~Student() {
 
-class M {
-    int A;
-    static int B;
-
-   public:
-    M(int a) {
-        A = a;
-        B += a;
-        cout << "Constructing" << endl;
-    }
-    static void f1(M m);
-    ~M() { cout << "Destructing\n"; }
-};
-
-void start() {}
-
-void M::f1(M m) {
-    cout << "A=" << m.A << endl;
-    cout << "B=" << B << endl;
-}
-int M::B = 0;
-
-int main() {
+        }
     
-	int a = 0;
-	
+        int sid;
+        char* subject;
+        void disp() {
+            std::cout << "sid: " << sid << " name: " << name << " subject: " << subject << std::endl;
+        };
 
-	return 0;
-}
+};
 
-int slite_number(int a, int b) {
-	int sum = 0;
-	for (int i = 0; i < a; i++) {
-		for (int j = 0; j < b; j++) {
-			
+int main() {
 
-		}
-	}
+    Student student(5, (char*)"wsh", (char*)"chinese");
+    student.disp();
 
-	return 0;
 }
