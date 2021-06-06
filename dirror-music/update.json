@@ -1,7 +1,7 @@
 {
-    "name": "3.5.0",
-    "code": "732",
-    "content": "自动适配导航栏\n界面优化\n优化歌单界面图片加载的网络数据消耗\n修复加载高码率音频闪退问题",
-    "url": "https://foyou.lanzoui.com/ix7BPph8e9i",
+    "name": "3.6.0",
+    "code": "733",
+    "content": "播放界面 UI 更新~\n播放界面自动适配导航栏高度\n修复特殊情况下被唤醒播放的问题\n优化歌词滚动效果",
+    "url": "https://foyou.lanzoui.com/i3IHgpvc0zi",
     "tagVersion": "713"
 }
