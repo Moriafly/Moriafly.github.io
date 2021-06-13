@@ -1,7 +1,7 @@
 {
-    "name": "3.6.0",
-    "code": "733",
-    "content": "播放界面 UI 更新~\n播放界面自动适配导航栏高度\n修复特殊情况下被唤醒播放的问题\n优化歌词滚动效果",
-    "url": "https://foyou.lanzoui.com/i3IHgpvc0zi",
+    "name": "3.7.0",
+    "code": "736",
+    "content": "适配耳机线控\n播放界面调整\n歌词动画优化\n修复我喜欢音乐无法获取\n关注微信公众号【遇荐】获取更多相关信息",
+    "url": "https://foyou.lanzoui.com/imDHOq5d52b",
     "tagVersion": "713"
 }
