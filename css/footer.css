@@ -11,7 +11,7 @@ footer .foot{
 footer .foot div {
 	display: inline;
 	position: relative;
-	color: blue;
+	color: rgb(36, 36, 36);
 }
 footer .foot div:first-child {
 	left: 140px;
