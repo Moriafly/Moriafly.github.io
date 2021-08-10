@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.salt.music",
+    "sha256_cert_fingerprints":
+    ["B1:07:7B:B3:D3:57:D2:3B:33:68:22:2F:E3:80:79:46:44:6D:3A:8B:D2:9B:05:51:3C:F0:E2:0F:FC:83:8C:D7"]
+  }
+}]
