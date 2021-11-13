@@ -1,7 +1,7 @@
 {
-    "name": "3.11.2",
-    "code": "749",
-    "content": "3.11.2 2021年10月13日\n自动换源改为取串时进行，在获取播放串失败时自动播放下一首\n移除自动换源提示 toast\n修复一些闪退问题",
-    "url": "https://foyou.lanzoui.com/iqkk3vaushg",
+    "name": "3.11.3",
+    "code": "750",
+    "content": "3.11.3 2021年11月13日\n修复本地歌曲播放失败问题，感谢 kqwyf 的反馈\n更新 Kotlin 版本至 1.5.31\n修复 room 数据库一些字段问题",
+    "url": "https://foyou.lanzoui.com/ibrAIwh3kah",
     "tagVersion": "713"
 }
