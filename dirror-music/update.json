@@ -1,7 +1,7 @@
 {
-    "name": "3.11.3",
-    "code": "750",
-    "content": "3.11.3 2021年11月13日\n修复本地歌曲播放失败问题，感谢 kqwyf 的反馈\n更新 Kotlin 版本至 1.5.31\n修复 room 数据库一些字段问题",
-    "url": "https://foyou.lanzoui.com/ibrAIwh3kah",
+    "name": "3.11.4",
+    "code": "751",
+    "content": "3.11.4 2021年11月18日\n修复 API 失效引起的拉取歌单 / 搜索失败的问题\n当用户配置了网易云 API 时, 这些接口也会使用这个配置\n优化横屏状态栏、导航栏显示区域适配\n优化加载歌单失败提示语",
+    "url": "https://foyou.lanzoui.com/iVehbwn3fcf",
     "tagVersion": "713"
 }
