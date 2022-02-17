@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- 自动跳转 -->
+	<meta http-equiv="refresh" content="0;url=http://moriafly.xyz/HiMoriafly">
+	<title>Moriafly的网站</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/music.css">
+	<link rel="stylesheet" href="css/web.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/search.css">
+	<link rel="stylesheet" type="text/css" href="moria/css/github.css">
+	<link rel="icon" href="images/logo.png">
+
+	<link rel="stylesheet" href="js/bootstrap.css">
+	<script src="moria/highlight.pack.js"></script>
+
+	<!-- icon - iconfont 链接 - js -->
+	<script src="js/icon.js"></script>
+	<!-- iconfont - css通用 -->
+	<style>
+		.icon {
+		width: 120px; height: 120px;
+		vertical-align: -0.15em;
+		fill: currentColor;
+		overflow: hidden;
+		}
+	</style>
+	<script>
+		window.onload = function () {
+			hljs.initHighlightingOnLoad();
+
+			var oBtn = document.getElementById("btn");
+			var oAudio = document.getElementsByTagName("audio")[0];
+			var oTtt = document.getElementById("ttt");
+			var i = 0;
+			oBtn.onclick = function () {
+				i++;
+				switch (i % 4) {
+					case 1:
+						oAudio.src = "source/栖霞.mp3";
+						oTtt.innerText = "栖霞";
+						break;
+					case 2:
+						oAudio.src = "source/叶里 - 无归.mp3";
+						oTtt.innerText = "叶里 - 无归";
+						break;
+					case 3:
+						oAudio.src = "source/虚而遨游 - 华胥引（Cover 河图）.mp3";
+						oTtt.innerText = "虚而遨游 - 华胥引（Cover 河图）";
+						break;
+					default:
+						oAudio.src = "source/陈奕迅 - 富士山下.mp3";
+						oTtt.innerText = "陈奕迅 - 富士山下";
+				}
+			}
+		}
+	</script>
+</head>
+
+<body>
+	<!-- 导航条 开始 -->
+	<div class="FixedTitleBar">
+		<header role="banner">
+
+			<nav role="navigation" class="navbar navbar-static-top navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse"
+							data-target=".navbar-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="index.html"><img id="logo" height="50px" src="images/logo.png" alt="logo"></a>
+					</div>
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="./zsg/index.html">泽世宫</a></li>
+							<li><a href="#">Foyou</a></li>
+							<li><a href="#">Dirror 字库</a></li>
+							<li><a href="./doc/index.html">文档</a></li>
+							<li class="text"><a href="#">注册</a></li>
+							<li class="text"><a href="#">登录</a></li>
+							<li><a href="vue.js/index2.html">新生版</a></li>
+							<li><a id="btn">换个音乐</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+		</header>
+	</div>
+	<!-- music -->
+	<aside>
+		<div id="music-a">
+			<audio autoplay src="source/陈奕迅 - 富士山下.mp3"></audio>
+			<div>
+				<div id="ttt">陈奕迅 - 富士山下</div>
+			</div>
+		</div>
+	</aside>
+
+	<!-- music -->
+	</header>
+	<!-- 导航条 -->
+	<!-- 搜索框 -->
+	<div class="search-wrap">
+		<div class="search">
+			<input type="text" class="search-txt" name="search" placeholder="搜一下">
+			<span class="search-btn" onclick="search()">
+				<img src="images/search.svg" alt="search" height="25" width="25" />
+			</span>
+		</div>
+	</div>
+	<!-- 搜索框  -->
+
+	<!-- 网站导航 -->
+	<div style="background-color: #F8F8F8">
+		<article class="markdown-body" style="width: 90%;margin: auto;padding: 50px 0;">
+			<h2 class="m-title">网站导航</h2>
+
+			<div class="web-develop m-list">
+				<h3>开发者</h3>
+				<div class="web-box">
+					<p>
+						<a href="https://github.com/" target="_blank" title="Github">
+								<svg class="icon" aria-hidden="true">
+									<use xlink:href="#icon-huaban88"></use>
+								</svg>
+						</a>
+					</p>
+					<p>
+						<a href="https://juejin.im/" target="_blank" title="掘金社区">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-logoa7995ad"></use>
+							</svg>
+							</a>
+					</p>
+					<p>
+						<a href="https://developer.android.google.cn/index.html" target="_blank" title="Android 开发者">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-android"></use>
+							</svg>
+						</a>
+					</p>
+
+				</div>
+			</div>
+
+			<div class="web-develop m-list">
+				<h3>开发者</h3>
+				<div class="web-box">
+					<p>
+						<a href="https://www.csdn.net/" target="_blank" title="CSDN">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-csdn"></use>
+							</svg>
+						</a>
+					</p>
+					<p>
+						<a href="https://www.w3.org/" target="_blank" title="W3C 万维网联盟">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-wc"></use>
+							</svg>
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="web-develop m-list skeleton-1">
+				<h3>常用</h3>
+				<div class="web-box">
+					<p>
+						<a href="https://www.zhihu.com/signin?next=%2F" target="_blank" title="知乎">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-zhihu"></use>
+							</svg>
+						</a>
+					</p>
+					<p>
+						<a href="https://www.yutu.cn/popsoft.html" target="_blank" title="羽兔网">
+							<img alt="羽兔网" class="imgbutton" src="https://static.yutu.cn/yutu/images/logo.png"
+								height="50px">
+						</a>
+					</p>
+					<p>
+						<a href="https://next.itellyou.cn/" target="_blank" title="itellyou">
+							<img alt="itellyou" class="imgbutton"
+								src="https://next.itellyou.cn/images/logo-footer-small.png" width="150px">
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="web-develop m-list">
+				<h3>视频</h3>
+				<div class="web-box">
+					<p>
+						<a href="https://www.bilibili.com/" target="_blank" title="Bilibili">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-BILIBILI_LOGO"></use>
+							</svg>
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="web-develop m-list">
+				<h3>设计</h3>
+				<div class="web-box">
+					<p>
+						<a href="https://www.zcool.com.cn/" target="_blank" title="站酷">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-zcool1"></use>
+							</svg>
+						</a>
+					</p>
+					<p><a href="http://www.shijue.me/" target="_blank" title="视觉 me">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-shijueme"></use>
+						</svg>
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="web-develop m-list">
+				<h3>编程语言学习</h3>
+				<div class="web-box">
+					<p>
+						<a href="https://www.kotlincn.net/" target="_blank" title="Kotlin">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-kotlin"></use>
+							</svg>
+						</a>
+					</p>
+					<p>
+						<a href="https://docs.microsoft.com/zh-cn/" target="_blank" title="Microsoft Docs">
+							<svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-microsofticon"></use>
+							</svg>
+						</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="web-develop m-list">
+				<h3>游戏</h3>
+				<div class="web-box">
+					<p>
+						<a href="https://swd7.cn/?ADTAG=act.outer.bd.bdguang" target="_blank" title="轩辕剑柒">
+							<img alt="轩辕剑柒" class="imgbutton"
+								src="https://wegame.gtimg.com/tgp_act/release/swd7/swd720200312/images/logo.png">
+						</a>
+					</p>
+					<p>
+						<a href="http://gjqt3.wangyuan.com/index.html" target="_blank" title="古剑奇谭三">
+							<img alt="古剑奇谭三" class="imgbutton" src="http://i1.gbimg.cn/zt/2018/09/25/gw/logo.png">
+						</a>
+					</p>
+				</div>
+			</div>
+
+		</article>
+	</div>
+
+	<!-- 网站导航 -->
+	<script>
+		var tvSearch = document.getElementsByClassName("search-txt")[0];
+		/*
+			搜索按钮
+		 */
+		function search() {
+			var keywords = tvSearch.value;
+			var url = "https://www.baidu.com/s?wd=" + keywords;
+			if (keywords != "") {
+				if (keywords == "万仕伟") {
+					window.open("res/drawable/wsw.png");
+				} else if (keywords == "吴世昊") {
+					window.open("res/drawable/wsh.png");
+				} else {
+					window.open(url);
+				}
+			}
+		}
+	</script>
+	<script src="js/vendor/jquery.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+
+	<footer>
+		<div class="foot">
+			<div><small>© 2021 </small></div>
+			<div><small>Moriafly</small></div>
+		</div>
+	</footer>
+</body>
+
+</html>
