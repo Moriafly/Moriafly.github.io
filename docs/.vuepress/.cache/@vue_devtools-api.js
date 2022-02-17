@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-WXEG7VDF.js";
+} from "./chunk-BVLAKTIL.js";
 import {
   init_define_EXTERNAL_LINK_ICON_LOCALES,
   init_define_MZ_ZOOM_OPTIONS

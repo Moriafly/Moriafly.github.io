@@ -7,8 +7,14 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1645080210000,
+    "contributors": [
+      {
+        "name": "Moriafly",
+        "email": "62319450+Moriafly@users.noreply.github.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "salt-player/OPEN.md"
 }
