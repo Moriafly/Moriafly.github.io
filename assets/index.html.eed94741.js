@@ -1,0 +1,1 @@
+const e={key:"v-665df470",path:"/salt-player/",title:"\u4ECB\u7ECD",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1645080682e3,contributors:[{name:"Moriafly",email:"62319450+Moriafly@users.noreply.github.com",commits:2}]},filePathRelative:"salt-player/README.md"};export{e as data};

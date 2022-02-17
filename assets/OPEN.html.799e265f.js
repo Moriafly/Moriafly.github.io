@@ -1,0 +1,1 @@
+const t={key:"v-53938a5f",path:"/salt-player/OPEN.html",title:"\u5F00\u653E\u6587\u6863",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:164508021e4,contributors:[{name:"Moriafly",email:"62319450+Moriafly@users.noreply.github.com",commits:1}]},filePathRelative:"salt-player/OPEN.md"};export{t as data};
