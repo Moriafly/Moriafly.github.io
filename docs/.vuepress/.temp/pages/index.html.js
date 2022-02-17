@@ -38,14 +38,8 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1645075843000,
-    "contributors": [
-      {
-        "name": "Moriafly",
-        "email": "62319450+Moriafly@users.noreply.github.com",
-        "commits": 3
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   },
   "filePathRelative": "README.md"
 }
