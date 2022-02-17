@@ -6,43 +6,31 @@ export const data = {
   "frontmatter": {
     "home": true,
     "title": "首页",
-    "heroImage": "/images/hero.png",
+    "heroImage": "/images/ic_moriafly.png",
     "actions": [
       {
-        "text": "快速开始",
-        "link": "/guide/getting-started.html",
+        "text": "椒盐音乐",
+        "link": "/salt-player/",
         "type": "primary"
       },
       {
-        "text": "介绍",
-        "link": "/guide/",
+        "text": "Github",
+        "link": "https://github.com/Moriafly",
         "type": "secondary"
       }
     ],
     "features": [
       {
-        "title": "Simplicity First",
-        "details": "Minimal setup with markdown-centered project structure helps you focus on writing."
+        "title": "作者介绍",
+        "details": "一条没有梦想的咸鱼"
       },
       {
-        "title": "Vue-Powered",
-        "details": "Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue."
+        "title": "邮箱",
+        "details": "业务来往请通过邮箱 Moriafly@163.com ~ 作者会尽快与你取得联系"
       },
       {
-        "title": "Performant",
-        "details": "VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded."
-      },
-      {
-        "title": "Themes",
-        "details": "Providing a default theme out of the box. You can also choose a community theme or create your own one."
-      },
-      {
-        "title": "Plugins",
-        "details": "Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site."
-      },
-      {
-        "title": "Bundlers",
-        "details": "Default bundler is Vite, while Webpack is also supported. Choose the one you like!"
+        "title": "QQ",
+        "details": "偶尔断线的作者 QQ 2456860197"
       }
     ],
     "footer": "Copyright © 2020-2022 Moriafly"
@@ -50,12 +38,12 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1600773657000,
+    "updatedTime": 1645075843000,
     "contributors": [
       {
         "name": "Moriafly",
         "email": "62319450+Moriafly@users.noreply.github.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   },

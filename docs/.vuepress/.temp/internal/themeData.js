@@ -1,16 +1,40 @@
 export const themeData = {
+  "logo": "/images/ic_moriafly.png",
+  "navbar": [
+    {
+      "text": "椒盐音乐",
+      "link": "/salt-player/"
+    }
+  ],
+  "sidebar": {
+    "/salt-player/": [
+      {
+        "text": "椒盐音乐",
+        "children": [
+          "/salt-player/README.md",
+          "/salt-player/OPEN.md"
+        ]
+      }
+    ],
+    "/reference/": [
+      {
+        "text": "Reference",
+        "children": [
+          "/reference/cli.md",
+          "/reference/config.md"
+        ]
+      }
+    ]
+  },
   "locales": {
     "/": {
       "selectLanguageName": "English"
     }
   },
-  "navbar": [],
-  "logo": null,
   "darkMode": true,
   "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
-  "sidebar": "auto",
   "sidebarDepth": 2,
   "editLink": true,
   "editLinkText": "Edit this page",
