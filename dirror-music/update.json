@@ -1,7 +1,7 @@
 {
-    "name": "3.11.4",
-    "code": "751",
-    "content": "3.11.4 2021年11月18日\n修复 API 失效引起的拉取歌单 / 搜索失败的问题\n当用户配置了网易云 API 时, 这些接口也会使用这个配置\n优化横屏状态栏、导航栏显示区域适配\n优化加载歌单失败提示语",
-    "url": "https://foyou.lanzoui.com/iVehbwn3fcf",
+    "name": "3.12.3",
+    "code": "756",
+    "content": "3.12.3 2022年3月5日 Android 12 适配，酷我音源修复",
+    "url": "https://foyou.lanzouf.com/iEfKT011011a",
     "tagVersion": "713"
 }
