@@ -1,7 +1,7 @@
 {
-    "name": "3.13.0",
-    "code": "758",
-    "content": "3.13.0 2022年5月31日 支持查看自己不公开的歌单，修复了一些问题",
-    "url": "https://foyou.lanzouf.com/irc3S05oegqb",
+    "name": "3.14.0",
+    "code": "759",
+    "content": "3.14.0 2022年6月13日 新增 Bilibili 源，修复 VPN 白屏问题，添加精准音量调节",
+    "url": "https://foyou.lanzouf.com/icqY806cf2of",
     "tagVersion": "713"
 }
