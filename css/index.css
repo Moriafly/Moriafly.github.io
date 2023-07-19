@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/* public*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "microsoft yahei";
+}
+.FixedTitleBar{
+	opacity: 0.75;
+}
+.m-title {
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	background: url(../images/redline.png) no-repeat center;
+}
+
+.m-list a:hover {
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+.web-develop .web-box{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	/* align-items: center; */
+}
+/* 导航条  */
+.markdown-body .web-develop {
+	display: inline-block;
+	margin: 10px 40px;
+}
+
+.FixedTitleBar {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+}
+
+header nav .container .navbar-header .navbar-brand img {
+	height: 50px;
+	width: 50px;
+	margin: 25px 0 25px 0px;
+}
+
+header nav .navbar-collapse ul li {
+	font-family: "Adobe Caslon Pro";
+	font-size: 18px;
+}
+
+/* 导航条 */
+.imgbutton {
+	padding: 20px;
+	height: 50px;
+}
+
+
+/* a{
+	text-decoration: none;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 40px;
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size: 400%;
+	width: 400px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	color:#fff;
+	
+	border-radius: 50px;
+	
+	z-index: 1;
+}
+a::before{
+	content: "";
+	position: absolute;
+	left:-5px;
+	right:-5px;
+	top: -5px;
+	bottom: -5px;
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size: 400%;
+	border-radius: 50px;
+	filter: blur(20px);
+	z-index: -1;
+}
+a:hover::before{
+	animation: sun 8s infinite;
+}
+a:hover{
+	animation: sun 8s infinite;
+}
+@keyframes sun{
+	100%{
+		background-position: -400% 0;
+	}
+} */
+
+#logo {
+	padding-right: 100px;
+}

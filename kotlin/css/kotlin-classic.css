@@ -1,0 +1,26 @@
+/* CSS Document */
+.bar-link, .barLink {
+    align-items: center;
+    border-left: 6px solid hsla(0,0%,89%,1);
+    border-left: 6px solid var(--border);
+    display: flex;
+    font-size: 1.125rem;
+    line-height: 28px;
+    margin-top: .25rem!important;
+    min-height: 36px;
+    padding-left: .75rem!important;
+    padding-right: .75rem!important;
+}
+
+.titlebg {
+	align-content: center;
+	font-size: 40px;
+	width: 1000px;
+	height: 100px;
+	background-color: antiquewhite;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+}

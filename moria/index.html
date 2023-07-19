@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+
+
+<head>
+    <title>帮助</title>
+
+    <meta http-equiv="Cache-Control" content="max-age=60" />
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <link rel="stylesheet" type="text/css" href="css/github.css">
+    <link rel="stylesheet" href="css/styles/idea.css">
+    <link rel="stylesheet" href="css/app2.css">
+    <script src="highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <devsite-header top-row--height="48" bottom-row--height="104" bottom-tabs--height="48" fixed="" offset="56">
+
+        <div class="devsite-top-logo-row-wrapper">
+            <div class="devsite-top-logo-row">
+                <div class="devsite-product-name-wrapper">
+                    <a href="/" class="devsite-site-logo-link gc-analytics-event">
+                        <img src="https://www.gstatic.cn/devrel-devsite/prod/v1241c04ebcb2127897d6c18221acbd64e7ed5c46e5217fd83dd808e592c47bf6/android/images/lockup.svg"
+                            class="devsite-site-logo" alt="Android Developers">
+                    </a>
+                </div>
+                <devsite-tabs class="upper-tabs" connected="">
+
+                    <nav class="devsite-tabs-wrapper">
+                        <tab>
+                            <a href="/about" class="gc-analytics-event ">平台</a>
+                        </tab>
+                        <tab>
+                            <a href="/studio" class="gc-analytics-event ">安卓工作室</a>
+                        </tab>
+                        <tab>
+                            <a href="vb6" class="gc-analytics-event ">文档</a>
+                        </tab>
+                    </nav>
+                </devsite-tabs>
+            </div>
+        </div>
+    </devsite-header>
+
+    <article class="markdown-body">
+        <div>
+            <pre>
+                <code>
+    /**
+    * MoriaXML 文件解析
+    * @文件拓展名 .moriaxml
+    * @编码 UTF-8
+    */
+    object MoriaXML {
+        /**
+        * @author Moriafly
+        * @email moriafly@163.com
+        * @version 1.0.1
+        * @since 2020/8/10 13:11
+        * @param source .moriaxml 文件源数据 source data
+        * @param single .moriaxml 文件要解析的单数据名 single data
+        * @return String 解析出来的字符串
+        */
+    
+        fun getSingleMoriaXML(source: String, single: String): String {
+            val startStr = "<${single}>" // 构造开始标识
+            val endStr = "</${single}>" // 构造结束标识
+            // 获取标识失败，抛出异常
+            if (source.indexOf(startStr) == -1 || source.indexOf(endStr) == -1) {
+                throw Exception("getSingleMoriaXML Error: Can not get the single: \"${single}\".")
+            }
+            val startIndex = source.indexOf(startStr) + startStr.length // 开始读取位置
+            val endIndex = source.indexOf(endStr) // 结束读取位置
+            return source.substring(startIndex, endIndex) // 返回内容
+        }
+    
+        /**
+        * @param source .moriaxml 文件源数据 source data
+        * @param single .moriaxml 文件要解析的单数据名 single data
+        * @param errorString .moriaxml 解析错误返回的数据
+        */
+        fun getSingleMoriaXML(source: String, single: String, errorString: String): String {
+            val startStr = "<${single}>" // 构造开始标识
+            val endStr = "</${single}>" // 构造结束标识
+            // 获取标识失败，返回 errorString
+            if (source.indexOf(startStr) == -1 || source.indexOf(endStr) == -1) {
+                return errorString
+            }
+            val startIndex = source.indexOf(startStr) + startStr.length // 开始读取位置
+            val endIndex = source.indexOf(endStr) // 结束读取位置
+            return source.substring(startIndex, endIndex) // 返回内容
+        }
+    }
+                </code>
+            </pre>
+        </div>
+
+    </article>
+
+    <script>
+		(function (d, e, v, s, i, t, E) {
+			d['GoogleDevelopersObject'] = i;
+			t = e.createElement(v); t.async = 1; t.src = s; E = e.getElementsByTagName(v)[0];
+			E.parentNode.insertBefore(t, E);
+		})(window, document, 'script',
+			'https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/js/app_loader.js', '[3,"zh_cn",null,"/js/devsite_app.js","https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68","https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/android","https://android-dot-google-developers.gonglchuangl.net",1,null,["/_pwa/android/manifest.json","/_static/images/video-placeholder.svg","https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/android/images/favicon.png","https://www.gstatic.cn/devrel-devsite/prod/va2f579f943e40687d02fe75a771878e054c901286ea550f8e49c5efb402dac68/android/images/lockup.svg","https://fonts.googleapis.com/css?family=Roboto:300,400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Material+Icons"],1]')
+	</script>
+</body>
+
+
+</html>

@@ -1,0 +1,36 @@
+{
+    "name": "Dso Music 曲库",
+    "description": "官方",
+    "picUrl": "",
+    "songs": [
+        {
+            "source": 4,
+            "id": 0,
+            "name": "栖霞",
+            "imageUrl": "",
+            "artists": [
+                {
+                    "id": 0,
+                    "name": "《古剑奇谭三》"
+                }
+            ],
+            "dirrorInfo": {
+                "url": "https://link.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBajFUUjdlaXVuaWRoZzZIenZrc2RxLU5nRGtxP2U9bTlTTmJZ.mp3"
+            }
+        }, {
+            "source": 4,
+            "id": 0,
+            "name": "华胥引（Cover 河图）",
+            "imageUrl": "",
+            "artists": [
+                {
+                    "id": 0,
+                    "name": "虚而遨游"
+                }
+            ],
+            "dirrorInfo": {
+                "url": "https://link.gimhoy.com/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBajFUUjdlaXVuaWRoZzFrMGs0YTFYQk0wX3RjP2U9d2ptU2hz.mp3"
+            }
+        }
+    ]
+}

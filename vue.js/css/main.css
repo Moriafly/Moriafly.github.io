@@ -1,0 +1,131 @@
+body {
+    min-width: 1240px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.TitleBar {
+    position: absolute;
+    margin-top: 0px;
+    height: 80px;
+    background-color: #ffffff00;
+    width: 100%;
+}
+
+.title-bar-wrap-1240 {
+    margin: 0 auto;
+    width: 1240px;
+}
+
+.Logo {
+    float: left;
+    padding-left: 0px;
+    padding-right: 36px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    display: inline;
+}
+
+.Image {
+    /* position: absolute; */
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    transform: translateX(-50%);
+    display: inline;
+    height: 670px;
+    /* width: 100%; */
+}
+
+.Image img {
+    /* position: absolute; */
+    left: 50%;
+    top: 0;
+    /* transform: translateX(-50%); */
+    display: inline;
+    width: 100%;
+}
+
+.AppHeader-Tabs {
+    position: relative;
+    float: right;
+    display: inline-block;
+    border-bottom: none;
+    padding: 0px;
+    height: 80px;
+    margin: 0px;
+}
+
+.AppHeader-Tabs>li {
+    display: inline-block;
+    position: relative;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+}
+
+.AppHeader-Tabs a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.Logo-a {
+    height: 80px;
+    display: inline-block;
+}
+
+/* 底部 */
+.main-footer {
+    /* background-color: wheat; */
+}
+
+.audio {
+    position: absolute;
+    height: 80px;
+    width: 160px;
+    margin-top: 80px;
+    background-color: #ffffff00;
+    float: left;
+}
+
+.main-footer-warp {
+    width: 1240px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+}
+
+.main-warp {
+    width: 1240px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+}
+
+.main-footer-warp a {
+    color: dodgerblue;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+#btn-change-image:hover {
+    cursor: pointer;
+}
+
+.slogan {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.footer-p {
+    
+    font-weight: 200;
+}
+
+.footer-copyright {
+    margin-top: 56px;
+    font-size: 10px;
+    font-weight: 200;
+}

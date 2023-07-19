@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.titlebg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	height: 100px;
+	background: rgba(217,217,217,1.00)
+}
+.mainbg {
+	position: absolute;
+	left: 50px;
+	top: 100px;
+	width: 1000px;
+	height: 1000px;
+	background:rgba(255,255,255,1.00)
+}
+
+.footbg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1100px;
+	margin: auto;
+	height: 100px;
+	background: rgba(217,217,217,1.00)
+}
+.foottext {
+	position: absolute;
+	left: 50px;
+	top: 10px;
+	margin: auto;
+	font-family: "微软雅黑";
+	
+	height: 80px;
+}
+.titletext {
+	margin-left: 50px;
+	margin-top: 30px;
+	font-size: 36px;
+	width: 400px;
+	height: 40px;
+	font-family: "微软雅黑";
+}

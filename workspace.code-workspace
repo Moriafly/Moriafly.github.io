@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\C-learn"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Moriafly.github.io"
+	}
+}

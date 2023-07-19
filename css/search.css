@@ -1,0 +1,52 @@
+/* 搜索框  */
+.search-wrap{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/bg1.jpg");
+}
+.search-wrap .search {
+    background-color: #2f3640;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.search-wrap .search:hover .search-txt {
+    width: 240px;
+    padding-left: 15px;
+}
+
+.search-wrap .search:hover .search-btn {
+    left: 200px;
+}
+.search-wrap .search .search-btn {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -40px;
+    left: -5px;
+    border-radius: 30px;
+    background-color: rgb(47, 54, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-wrap .search .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    transition: 0.4s;
+    width: 0;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    width: 0px;
+}

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.moriaxml": "xml",
+        "iostream": "cpp"
+    },
+    "python.pythonPath": "C:\\Python35\\python.exe"
+}

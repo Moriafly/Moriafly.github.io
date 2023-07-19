@@ -1,0 +1,24 @@
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #F8F8F8;
+}
+footer .foot{
+	width: 400px;
+	height: 50px;
+	margin: auto;
+}
+footer .foot div {
+	display: inline;
+	position: relative;
+	color: rgb(36, 36, 36);
+}
+footer .foot div:first-child {
+	left: 140px;
+}
+footer .foot div:last-child {
+	left: 200px;
+}
+footer .foot div small {
+	font-size: 16px;
+}

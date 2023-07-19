@@ -1,0 +1,18 @@
+header aside #music-a {
+    top: 60px;
+    right: 200px;
+    float: right;
+}
+
+#btn {
+    cursor: pointer;
+}
+#music-a div{
+	width: 100%;
+	margin: auto;
+}
+#ttt {
+    padding-top: 50px;
+    width: 300px;
+    text-align: center;
+}
