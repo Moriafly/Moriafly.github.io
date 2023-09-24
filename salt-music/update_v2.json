@@ -2,11 +2,11 @@
     "configs": [
         {
             "name": "8.16.0-beta02",
-            "code": 2023092401,
-            "title": "测试版本，选择更新。\n此版本重点改进了动态染色，以及其他优化和问题修复",
-            "sub": "完整更新内容详见更新日志",
+            "code": 2023092402,
+            "title": "测试版本，选择更新",
+            "sub": "此版本重点改进了动态染色，以及其他优化和问题修复\n完整更新内容详见更新日志",
             "type": 2,
-            "url": "https://foyou.lanzouq.com/iz1bq19sal3i"
+            "url": "https://foyou.lanzouq.com/i28jM19sgoqf"
         }
     ]
 }
