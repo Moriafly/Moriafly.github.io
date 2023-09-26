@@ -1,6 +1,14 @@
 {
     "configs": [
         {
+            "name": "8.16.0-beta03",
+            "code": 2023092601,
+            "title": "测试版本，选择更新",
+            "sub": "此版本修复了一些问题\n完整更新内容详见更新日志",
+            "type": 2,
+            "url": "https://foyou.lanzouq.com/iyWne19xzjbe"
+        },
+        {
             "name": "8.16.0-beta02",
             "code": 2023092402,
             "title": "测试版本，选择更新",
