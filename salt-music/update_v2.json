@@ -1,6 +1,14 @@
 {
     "configs": [
         {
+            "name": "8.16.0",
+            "code": 2023100201,
+            "title": "正式版本（稳定性检测）",
+            "sub": "立体歌词效果、动态歌词主题，以及针对 WSA 的改进等等\n完整更新内容详见更新日志",
+            "type": 1,
+            "url": "https://foyou.lanzouq.com/i57Nd1afw3vi"
+        },
+        {
             "name": "8.16.0-beta03",
             "code": 2023092601,
             "title": "测试版本，选择更新",
