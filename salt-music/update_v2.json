@@ -1,6 +1,14 @@
 {
     "configs": [
         {
+            "name": "8.16.4",
+            "code": 2023101002,
+            "title": "正式版本（稳定性检测）",
+            "sub": "8.16 的补丁版本\n此版本将目标平台提升至 Android 14\n一些问题修复和优化\n完整更新内容详见更新日志",
+            "type": 1,
+            "url": "https://foyou.lanzouq.com/i0pcr1bdv4ne"
+        },
+        {
             "name": "8.16.2",
             "code": 2023100801,
             "title": "正式版本（稳定性检测）",
@@ -23,14 +31,6 @@
             "sub": "立体歌词效果、动态歌词主题，以及针对 WSA 的改进等等\n完整更新内容详见更新日志",
             "type": 1,
             "url": "https://foyou.lanzouq.com/i57Nd1afw3vi"
-        },
-        {
-            "name": "8.16.0-beta03",
-            "code": 2023092601,
-            "title": "测试版本，选择更新",
-            "sub": "此版本修复了一些问题\n完整更新内容详见更新日志",
-            "type": 2,
-            "url": "https://foyou.lanzouq.com/iyWne19xzjbe"
         }
     ]
 }
